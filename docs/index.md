@@ -1,4 +1,5 @@
 ---
+title: Ultimate Investigator
 description: A bot made to help automate investigations during Danganronpa roleplays.
 ---
 
