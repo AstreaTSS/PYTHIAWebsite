@@ -7,6 +7,7 @@ theme:
   favicon: assets/ui_favicon.ico
 
   icon:
+    logo: material/book-search
     repo: fontawesome/brands/github
 
   palette:
