@@ -2,7 +2,7 @@
 description: How to set up the bot for your roleplay server.
 ---
 
-# Setting Up the Bot
+# Server Setup Guide
 
 Setting up Ultimate Investigator is a relatively simple affair. Let's break it down by steps:
 
@@ -16,7 +16,9 @@ Note: the bot currently requires administrator privileges to work correctly. Thi
 
 It's worth running `/config info` first when you set up the bot. This gives you a pretty good idea about what options there are to use for the configuration (admittedly, not many):
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure markdown>
+  ![An empty server /config info.](assets/guild_config.png)
+</figure>
 
 Your first priority should be _setting up the player role and Truth Bullet channel._ This can be done pretty easily:
 
@@ -34,11 +36,15 @@ And you're technically ready! However, there are other commands worth noting:
 
 There are many, _many_ commands you can use to set up Truth Bullets. Let's get started by adding Truth Bullets - use `/add-bullets` and select a channel to, well, add a Truth Bullet to a specific channel. This'll pop out a little button that can be used _at any time to add Truth Bullets to that channel._
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure markdown>
+  ![An example of said button.](assets/add_bullets_button.png){ loading="lazy" }
+</figure>
 
 Once you click that button, a little pop-up will appear, asking you the name/key phrase and a description (supports Discord markdown!) for the Truth Bullet you're adding.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure markdown>
+  ![The pop-up that appears while adding Truth Bullets.](assets/add_bullet_modal.png){ loading="lazy" }
+</figure>
 
 Specify those and press send - you should get a message able how that was done successfully!
 
@@ -48,13 +54,17 @@ Truth Bullets are unique _by their name by channel_, so while multiple channels 
 
 After adding Truth Bullets, you probably want to get a good overview of them. Let's use `/list-bullets` to list out the ones we've made so far:
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure markdown>
+  ![An example of /list-bullets.](assets/list_bullets.png){ loading="lazy" }
+</figure>
 
 As you can see, it already has a Truth Bullet in it. This command will list out Truth Bullets for every single channel and if they were found - this is a useful reference to have as you make Truth Bullets or even watch over an investigation.
 
 To see a specific Truth Bullet's information, let's look at `/bullet-info`. This allows us to give the channel and name for the Truth Bullet.
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure markdown>
+  ![An example of /bullet-info.](assets/bullet_info.png){ loading="lazy" }
+</figure>
 
 As you can see, it's pretty basic, but it does list everything you would need to know. Most of these fields are empty (as expected), but we can always reference these later.
 
@@ -62,13 +72,17 @@ As you can see, it's pretty basic, but it does list everything you would need to
 
 Editing a Truth Bullet is as simple as using `/edit-bullet` and specifying the channel and name of the Truth Bullet you wish to edit. A little pop-up will appear:
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure markdown>
+  ![The pop-up that appears while editing Truth Bullets.](assets/edit_bullet_modal.png){ loading="lazy" }
+</figure>
 
 As you can see, it already has the old description in it - you'll be able to edit it from there (though you may want to temporarily move the contents to a proper text editor to edit things better). When you press submit, the Truth Bullet will be edited with the new description.
 
 To remove a Truth Bullet, it's as simple as using `/remove-bullet` with the channel and name of the Truth Bullet you want to delete:
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure markdown>
+  ![An example of removing a Truth Bullet.](assets/remove_bullet.png){ loading="lazy" }
+</figure>
 
 Removing _all_ Truth Bullets is as simple as running `/clear-bullets`. _This action is irreverable!_
 
