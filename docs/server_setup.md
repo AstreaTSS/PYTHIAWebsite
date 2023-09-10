@@ -8,9 +8,7 @@ Setting up Ultimate Investigator is a relatively simple affair. Let's break it d
 
 ### Invite the Bot
 
-This is probably the most simple step. Simply use [this link](https://discord.com/api/oauth2/authorize?client\_id=229350299909881876\&permissions=8\&scope=bot%20applications.commands) or use the "Invite Bot" option to the side to do so.
-
-Note: the bot currently requires administrator privileges to work correctly. This will be removed, and eventually the bot will be able to work on more minimal privileges.
+This is probably the most simple step. Simply use [this invite link](https://discord.com/api/oauth2/authorize?client_id=843994199187914753&permissions=532576332864&scope=bot%20applications.commands) or use the "Invite Bot" option to the side to do so.
 
 ### Setting Up the Config
 
