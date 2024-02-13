@@ -6,9 +6,11 @@ description: How to use the bot as a user of it.
 
 ## Introduction
 
-(TW for standard Danganronpa BDA topics, like gore and blood.)
+!!! warning "Content Warning"
+    This guide will contain content warnings for standard Danganronpa/Killing Game topics, like gore and blood. These are very frequent in the series, and as such, are frequent in roleplays based on it. If you're not comfortable with these topics, it's best to avoid roleplays based on Danganronpa.
 
-You're probably here because a server you're using is using this bot, and you're a bit confused on how to use it for an investigation, and that's okay! The bot essentially automates what a "traditional" investigation done by the staff of a server would do, but this'll guide you on how that works.
+
+You're probably here because a server you're in is using Ultimate Investigator, and you're a bit confused (or just curious) on how to use it for an investigation. Basically, the bot essentially automates what a "traditional" investigation done by the staff of a server would do, but this'll guide you on what that means.
 
 Typically, the mods will give you some sort of starting message for an investigation. Let's look at a real world example:
 
