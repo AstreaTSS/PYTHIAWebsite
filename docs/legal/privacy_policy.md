@@ -42,6 +42,7 @@ The following data may be collected and temporarily stored when intentionally pr
 This data may be collected automatically by some Services. This data is used to facilitate critical functionality of Services, and are vital to its operation.
 
 -   Any data needed for standard operation of the Bot. This typically includes channel data and roles.
+  -   Notably, this includes messages and message content, but only in the context of the Bot's operation. This data is quickly processed and is not permanently stored.
 
 ## Why We Collect Data
 
