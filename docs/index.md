@@ -45,7 +45,7 @@ Then, when Truth Bullet discovery is enabled, users can trigger a Truth Bullet b
   <figcaption>Notice how the trigger is "ink", as represented by the underline and the word in codeblocks in the embed.</figcaption>
 </figure>
 
-And the bot, as seen above, will reply with the Truth Bullet in the same channel and in a separate channel "Truth Bullets" channel.
+And the bot, as seen above, will reply with the Truth Bullet in the same channel and (not shown) in a separate channel of your choosing (to show them all in one place).
 
 To see more information, you can either look at:
 - [Using the Bot as a User](using_the_bot.md)
