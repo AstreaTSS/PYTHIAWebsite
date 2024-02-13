@@ -7,10 +7,10 @@ description: How to use the bot as a user of it.
 ## Introduction
 
 !!! warning "Content Warning"
-    This guide will contain content warnings for standard Danganronpa/Killing Game topics, like gore and blood. These are very frequent in the series, and as such, are frequent in roleplays based on it. If you're not comfortable with these topics, it's best to avoid roleplays based on Danganronpa.
+    This guide will mention standard Danganronpa/Killing Game topics, like gore and blood. These are very frequent in the series, and as such, are frequent in roleplays based on it. If you're not comfortable with these topics, it's best to avoid roleplays based on Danganronpa.
 
 
-You're probably here because a server you're in is using Ultimate Investigator, and you're a bit confused (or just curious) on how to use it for an investigation. Basically, the bot essentially automates what a "traditional" investigation done by the staff of a server would do, but this'll guide you on what that means.
+You're likely here because a server you're in is using Ultimate Investigator, and you're a bit confused (or just curious) on how to use it for an investigation. Basically, the bot essentially automates what a "traditional" investigation done by the staff of a server would do, but this'll guide you on what that means.
 
 Typically, the mods will give you some sort of starting message for an investigation. Let's look at a real world example:
 
@@ -34,23 +34,23 @@ All you need to do is send a message with the word "ink" (case-insensitive) some
 >
 > "You know, that _ink_ is kind of weird, huh?"
 >
-> "I got an *ink*ling that something's suspicious here."  (OOC Note: Pun aside, this is meant to demonstrate how the trigger does not have to be a standalone word.)
+> "I got an *ink*ling that something's suspicious here."  (OOC Note: Pun aside, this is meant to show how the trigger does not have to be a standalone word.)
 > 
 > Ink (OOC Note: Yes, this simple example works - after all, it does have the word "ink." Try not to do this though - it ruins the fun of investigating for everyone.)
 
 <figure markdown>
   ![Example of a message triggering a Truth Bullet.](assets/trigger_example.png)
-  <figcaption>The message that actually triggered the Bullet, in this case.</figcaption>
+  <figcaption>The message that triggered the Bullet, in this case.</figcaption>
 </figure>
 
 Usually, a staff member would step in to show a Truth Bullet related to the ink, but in this case, the bot will reply instead with something like this in both the channel you're in and your Truth Bullets channel:
 
-And that's it - you've investigated the ink! The trigger here was "ink" - the staff set it up so that the bot would do this with that phrase. You can attempt to say multiple triggers, but the bot will only do one (decided essentially at random) - best to space them out, or even let other players do them for you.
+And that's it - you've investigated the ink! The trigger here was "ink" - the staff set it up so that the bot would do this with that phrase. You can try to say multiple triggers, but the bot will only do one (decided essentially at random) - best to space them out, or even let other players do them for you.
 
 You could investigate the rest of the suspicious things in the same way. Things like "\[My OC] started to look at the _blood_." would trigger a new Truth Bullet, and there are some triggers in the above example image to find even more of them. The idea is to keep following the little hints about triggers/important things to investigate until you've found them all, which the bot will note if you've done so in the Truth Bullets channel.
 
 ## Notes
 
-* It's worth noting that depending on who set up the Truth Bullets, you may be able to get away with using _alternative phrases_ to trigger a Truth Bullet. These are called _aliases_, and they're handy in case, for example, you have to face the differences between American and British English.
-* There can only be one Truth Bullet with a specific triggers _per channel._ You may need to look around in other channels to find everything!
+* It's worth noting that depending on who sets up the Truth Bullets, you may be able to get away with using _alternative phrases_ to trigger a Truth Bullet. These are called _aliases_, and they're handy in case, for example, you have to face the differences between American and British English.
+* There can only be one Truth Bullet with a specific trigger _per channel._ You may need to look around in other channels to find everything!
 * The final "All Truth Bullets have been found" message will also include who found the most Truth Bullets, and if your staff members set it up, it'll also give a special role to them.
