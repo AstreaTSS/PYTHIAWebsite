@@ -15,16 +15,24 @@ For example, moderators can:
 
 - Set up Truth Bullets for users to find in specific channels:
 <figure markdown>
-  ![The pop-up that appears while adding Truth Bullets.](assets/add_bullet_modal.png){ loading="lazy" }
+  ![The pop-up that appears while adding Truth Bullets.](assets/add_bullet_modal.png)
 </figure>
 
 - Manage Truth Bullets, including editing and removing them:
-<figure markdown>
-  ![An example of /list-bullets.](assets/list_bullets.png){ loading="lazy" }
-</figure>
-<figure markdown>
-  ![An example of /bullet-info.](assets/bullet_info.png){ loading="lazy" }
-</figure>
+=== "Listing Truth Bullets"
+    <figure markdown>
+      ![An example of /list-bullets.](assets/list_bullets.png)
+    </figure>
+
+=== "Editing Truth Bullets"
+    <figure markdown>
+      ![The pop-up that appears while editing Truth Bullets.](assets/edit_bullet_modal.png)
+    </figure>
+
+=== "Removing Truth Bullets"
+    <figure markdown>
+      ![An example of removing a Truth Bullet.](assets/remove_bullet.png)
+    </figure>
 
 - Adjust other settings, like who can trigger Truth Bullets and if a role is awarded to the person who finds the most Truth Bullets:
 <figure markdown>
