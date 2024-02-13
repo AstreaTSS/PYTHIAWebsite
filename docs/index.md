@@ -1,6 +1,6 @@
 ---
 title: Ultimate Investigator
-description: A bot made to help automate investigations during Danganronpa roleplays.
+description: A bot made to help automate investigations during Danganronpa/Killing Game roleplays.
 ---
 
 # Ultimate Investigator
@@ -9,7 +9,7 @@ description: A bot made to help automate investigations during Danganronpa rolep
   ![Ultimate Investigator's Banner](assets/ui_banner.jpg)
 </figure>
 
-Ultimate Investigator is a bot meant to help out investigations with Danganronpa roleplays. More specifically, this helps out with "typical" investigations: investigations where users are expected to find key words to get Truth Bullets.
+Ultimate Investigator is a bot meant to help out investigations with Danganronpa/Killing Game roleplays. More specifically, this helps out with "typical" investigations: investigations where users are expected to find key words to get Truth Bullets.
 
 For example, moderators can:
 
