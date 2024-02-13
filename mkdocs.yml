@@ -57,8 +57,8 @@ nav:
   - using_the_bot.md
   - server_setup.md
   - Legal:
-    - Privacy Policy: legal/privacy_policy.md
     - Terms of Service: legal/tos.md
+    - Privacy Policy: legal/privacy_policy.md
   - External Links:
     - Invite Bot: https://discord.com/api/oauth2/authorize?client_id=843994199187914753&permissions=532576332864&scope=bot%20applications.commands
     - Support Server: https://discord.gg/NSdetwGjpK
