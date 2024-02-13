@@ -59,7 +59,8 @@ nav:
   - External Links:
     - Invite Bot: https://discord.com/api/oauth2/authorize?client_id=843994199187914753&permissions=532576332864&scope=bot%20applications.commands
     - Support Server: https://discord.gg/NSdetwGjpK
-    - Source Code: https://github.com/AstreaTSS/UltimateInvestigator
+    - Bot Source Code: https://github.com/AstreaTSS/UltimateInvestigator
+    - Website Source Code: https://github.com/AstreaTSS/UIWebsite
 
 copyright: >
   &copy Copyright 2022-2024 AstreaTSS
