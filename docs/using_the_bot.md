@@ -18,11 +18,11 @@ Typically, the mods will give you some sort of starting message for an investiga
 >
 > \[OC], the Ultimate Mime. The body was discovered in the dripstone caverns, with a stalagmite piercing through the victim's heart in a cruel twist of fate. The body is positioned in a way that makes you think it could have been an accident... Ink and blood stains their body, maybe it's a good idea to look at those a little closer.
 
-As you can see, this is a pretty typical BDA message. However, in it contains hints about **key phrases** - phrases that are needed to trigger a new Truth Bullet.
+As you can see, this is a pretty typical BDA message. However, in it contains hints about a **trigger** - words/phrases that are needed to trigger a new Truth Bullet.
 
-## Key Phrases
+## Triggers
 
-Key phrases can be a lot of things - it can be a body, a piece of paper, the trash can, etc. That may sound vague, but it'll make sense once we take a closer look at this message.
+Trigger can be a lot of things - it can be a body, a piece of paper, the trash can, etc. That may sound vague, but it'll make sense once we take a closer look at this message.
 
 Well, we already know we're in the dripstone caverns (I mean, we had to walk here), so we can ignore that, but the _ink_ and _blood_ is definitely something to look into (the stalagmite has no Truth Bullet associated with it in this case).
 
@@ -34,6 +34,8 @@ All you need to do is send a message with the word "ink" (case-insensitive) some
 >
 > "You know, that _ink_ is kind of weird, huh?"
 >
+> "I got an *ink*ling that something's suspicious here."  (OOC Note: Pun aside, this is meant to demonstrate how the trigger does not have to be a standalone word.)
+> 
 > Ink (OOC Note: Yes, this simple example works - after all, it does have the word "ink." Try not to do this though - it ruins the fun of investigating for everyone.)
 
 <figure markdown>
@@ -43,12 +45,12 @@ All you need to do is send a message with the word "ink" (case-insensitive) some
 
 Usually, a staff member would step in to show a Truth Bullet related to the ink, but in this case, the bot will reply instead with something like this in both the channel you're in and your Truth Bullets channel:
 
-And that's it - you've investigated the ink! The key phrase here was "ink" - the staff set it up so that the bot would do this with that phrase. You can attempt to say multiple phrases, but the bot will only do one - best to space them out, or even let other players do them for you.
+And that's it - you've investigated the ink! The trigger here was "ink" - the staff set it up so that the bot would do this with that phrase. You can attempt to say multiple triggers, but the bot will only do one (decided essentially at random) - best to space them out, or even let other players do them for you.
 
-You could investigate the rest of the suspicious things in the same way. Things like "\[My OC] started to look at the _blood_." would trigger a new Truth Bullet, and there are some key phrases in the above example image to find even more of them. The idea is to keep following the little hints about key phrases/important things to investigate until you've found them all, which the bot will note if you've done so in the Truth Bullets channel.
+You could investigate the rest of the suspicious things in the same way. Things like "\[My OC] started to look at the _blood_." would trigger a new Truth Bullet, and there are some triggers in the above example image to find even more of them. The idea is to keep following the little hints about triggers/important things to investigate until you've found them all, which the bot will note if you've done so in the Truth Bullets channel.
 
 ## Notes
 
 * It's worth noting that depending on who set up the Truth Bullets, you may be able to get away with using _alternative phrases_ to trigger a Truth Bullet. These are called _aliases_, and they're handy in case, for example, you have to face the differences between American and British English.
-* There can only be one Truth Bullet with a specific key phrase _per channel._ You may need to look around in other channels to find everything!
+* There can only be one Truth Bullet with a specific triggers _per channel._ You may need to look around in other channels to find everything!
 * The final "All Truth Bullets have been found" message will also include who found the most Truth Bullets, and if your staff members set it up, it'll also give a special role to them.

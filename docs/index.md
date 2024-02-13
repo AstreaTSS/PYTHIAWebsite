@@ -39,7 +39,7 @@ For example, moderators can:
   ![An empty server /config info.](assets/guild_config.png)
 </figure>
 
-Then, when Truth Bullet discovery is enabled, users can trigger a Truth Bullet by saying a specific phrase in a channel:
+Then, when Truth Bullet discovery is enabled, users can trigger a Truth Bullet by saying a specific phrase (a "trigger") in a channel:
 <figure markdown>
   ![Example of a message triggering a Truth Bullet.](assets/trigger_example_clean.png)
   <figcaption>Notice how the trigger is "oven", as represented by the red underline.</figcaption>
