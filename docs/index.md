@@ -41,8 +41,8 @@ For example, moderators can:
 
 Then, when Truth Bullet discovery is enabled, users can trigger a Truth Bullet by saying a specific phrase in a channel:
 <figure markdown>
-  ![Example of a message triggering a Truth Bullet.](assets/trigger_example.png)
-  <figcaption>Notice how the trigger is "ink", as represented by the underline and the word in codeblocks in the embed.</figcaption>
+  ![Example of a message triggering a Truth Bullet.](assets/trigger_example_clean.png)
+  <figcaption>Notice how the trigger is "oven", as represented by the red underline.</figcaption>
 </figure>
 
 And the bot, as seen above, will reply with the Truth Bullet in the same channel and (not shown) in a separate channel of your choosing (to show them all in one place).
