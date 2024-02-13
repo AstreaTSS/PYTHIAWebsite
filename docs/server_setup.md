@@ -99,7 +99,7 @@ Removing _all_ Truth Bullets is as simple as running `/clear-bullets`. _This act
 
 ### Starting an Investigation
 
-To start off an investigation with all your Truth Bullets, simply run`/config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them. It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
+To start off an investigation with all your Truth Bullets, simply run `/config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them. It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
 
 An investigation ends when _all Truth Bullets currently defined has been found_. Till then, keep an eye on your player's progress through `/list-bullets` and give hints as needed. Once all have been found, _the bot will automatically disable triggering bullets._ You'll need to turn on `/config toggle` again if you add a Truth Bullet for people to find them.
 
