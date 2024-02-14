@@ -9,6 +9,12 @@ description: A bot made to help automate investigations during Danganronpa/Killi
   ![Ultimate Investigator's Banner](assets/ui_banner.jpg)
 </figure>
 
+<p align="center" markdown="1">
+  [![Server Setup Guide](https://img.shields.io/badge/Server_Setup_Guide-Link-f64b50?style=for-the-badge&logo=bookstack&logoColor=f64b50)](wiki/server_setup.md)
+  [![Support Server Link](https://img.shields.io/badge/Support_Server-Link-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/NSdetwGjpK)
+  [![Ko-Fi Link](https://img.shields.io/badge/Donate_on_Ko--Fi-Link-ff5f5f?style=for-the-badge&logo=ko-fi&logoColor=FFFFFF)](wiki/premium.md#how-to-get-playerlist-premium)
+</p>
+
 Ultimate Investigator is a bot meant to help out investigations with Danganronpa/Killing Game roleplays. More specifically, this helps out with "typical" investigations: investigations where users are expected to find key words to get Truth Bullets.
 
 For example, moderators can:

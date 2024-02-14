@@ -49,6 +49,9 @@ theme:
     - content.tabs.link
     - content.tooltips
 
+extra_css:
+  - assets/custom.css
+
 repo_url: https://github.com/AstreaTSS/UltimateInvestigator
 repo_name: AstreaTSS/UltimateInvestigator
 
@@ -60,8 +63,8 @@ nav:
     - Terms of Service: legal/tos.md
     - Privacy Policy: legal/privacy_policy.md
   - External Links:
-    - Invite Bot: https://discord.com/api/oauth2/authorize?client_id=843994199187914753&permissions=532576332864&scope=bot%20applications.commands
     - Support Server: https://discord.gg/NSdetwGjpK
+    - Top.gg Page: https://top.gg/bot/843994199187914753
     - Bot Source Code: https://github.com/AstreaTSS/UltimateInvestigator
     - Website Source Code: https://github.com/AstreaTSS/UIWebsite
 
@@ -96,7 +99,7 @@ extra:
 plugins:
   - search
   - offline
-  - privacy
+  # - privacy
   - custom-cards:
       cards_layout_options:
         background_color: "#000000"
