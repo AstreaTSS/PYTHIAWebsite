@@ -99,7 +99,7 @@ extra:
 plugins:
   - search
   - offline
-  # - privacy
+  - privacy
   - custom-cards:
       cards_layout_options:
         background_color: "#000000"
