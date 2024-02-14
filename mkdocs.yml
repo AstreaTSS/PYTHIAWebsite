@@ -64,7 +64,7 @@ nav:
     - Privacy Policy: legal/privacy_policy.md
   - External Links:
     - Support Server: https://discord.gg/NSdetwGjpK
-    - Top.gg Page: https://top.gg/bot/843994199187914753
+    - Ko-Fi Link: https://ko-fi.com/astreatss
     - Bot Source Code: https://github.com/AstreaTSS/UltimateInvestigator
     - Website Source Code: https://github.com/AstreaTSS/UIWebsite
 
@@ -75,6 +75,9 @@ extra:
     - icon: fontawesome/solid/cookie
       link: "#__consent"
       name: Change Cookie Settings
+    - icon: custom/topgg
+      link: https://top.gg/bot/843994199187914753
+      name: Top.gg Page
     - icon: fontawesome/brands/discord
       link: https://discord.gg/NSdetwGjpK
       name: Support Server
