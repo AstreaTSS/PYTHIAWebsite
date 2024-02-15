@@ -48,7 +48,8 @@ jobs:
     - name: Build the documentation
       run: mkdocs build
       env:
-        CF_ANALYTICS_TOKEN: ${{ vars.CF_ANALYTICS_TOKEN }}
+        UMAMI_SCRIPT_URL: ${{ vars.UMAMI_SCRIPT_URL }}
+        UMAMI_WEBSITE_ID: ${{ vars.UMAMI_WEBSITE_ID }}
 
     - name: Publish to Cloudflare Pages
       uses: cloudflare/pages-action@1
