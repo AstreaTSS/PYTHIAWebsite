@@ -26,6 +26,7 @@ Your priority should be _setting up the player role and Truth Bullet channel._ T
 And you're technically ready! However, there are other commands worth noting:
 
 * `/config best-truth-bullet-finder` can be used to set roles given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most, though as of right now, a message for who sent the most is still sent.
+* `/config investigation-mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/investigate`, but you can change this so that only `/investigate` works.
 * `/config toggle` turns on or off triggering Truth Bullets. This'll be important later.
 
 ### Setting Up Truth Bullets
@@ -38,18 +39,23 @@ Let's get started by adding Truth Bullets - use `/add-bullets` and select a chan
   ![An example of said button.](assets/add_bullets_button.png){ loading="lazy" }
 </figure>
 
-Once you click that button, a little pop-up will appear, asking you the trigger and a description (supports Discord markdown!) for the Truth Bullet you're adding.
+Once you click that button, a little pop-up will appear, asking you the trigger, if to make this Truth Bullet hidden, and a description (supports Discord markdown!) for the Truth Bullet you're adding.
 
 <figure markdown>
   ![The pop-up that appears while adding Truth Bullets.](assets/add_bullet_modal.png){ loading="lazy" }
 </figure>
 
-!!! tip "Flexibility with Triggers"
+???+ tip "Flexibility with Triggers"
     The trigger is designed to be flexible, so here are a few notes about what you can get away with:
     - You can use multiple words or a single word as a trigger.
     - Triggers are case-insensitive in terms of how they're triggered, so "oven" and "Oven" will act the same.
     - Trigger detection is _not_ word-bound, so "book" trigger will trigger on messages containing "*book*", "*book*s", "*book*shelf", "*book*!", etc., since they all have "book" in them.
     - If you need multiple triggers, look at aliases, described later.
+
+???+ tip "Hiding Truth Bullets"
+    If you want to hide a Truth Bullet, you can do so by making the second question a "yes" instead of a no. This makes it so only the finder of the Truth Bullet sees it, instead of the Truth Bullet being published to a public channel. This is useful for secrets or other things you don't want everyone to know about.
+
+    Doing this requires the bot to DM the user if investigating Truth Bullets through messages. If you use this, you may want to warn ahead of time that you should have DMs enabled with the server and/or the bot.
 
 Specify those and press send - you should get a message able how that was done successfully!
 

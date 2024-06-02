@@ -38,16 +38,29 @@ All you need to do is send a message with the word "ink" (case-insensitive) some
 > 
 > Ink (OOC Note: Yes, this simple example works - after all, it does have the word "ink." Try not to do this though - it ruins the fun of investigating for everyone.)
 
+Usually, a staff member would step in to show a Truth Bullet related to the ink, but in this case, the bot will reply instead with something like this in both the channel you're in and your Truth Bullets channel:
+
 <figure markdown>
   ![Example of a message triggering a Truth Bullet.](assets/trigger_example.png)
   <figcaption>The message that triggered the Bullet, in this case.</figcaption>
 </figure>
 
-Usually, a staff member would step in to show a Truth Bullet related to the ink, but in this case, the bot will reply instead with something like this in both the channel you're in and your Truth Bullets channel:
 
 And that's it - you've investigated the ink! The trigger here was "ink" - the staff set it up so that the bot would do this with that phrase. You can try to say multiple triggers, but the bot will only do one (decided essentially at random) - best to space them out, or even let other players do them for you.
 
 You could investigate the rest of the suspicious things in the same way. Things like "\[My OC] started to look at the _blood_." would trigger a new Truth Bullet, and there are some triggers in the above example image to find even more of them. The idea is to keep following the little hints about triggers/important things to investigate until you've found them all, which the bot will note if you've done so in the Truth Bullets channel.
+
+### Alternate Investigation Method
+
+As a solution matching a certain other bot, if you don't wish to send a whole message, you can use `/investigate` with the *exact trigger* (case insentiive) to trigger a Truth Bullet. For example, `/investigate ink` would trigger the same Truth Bullet as the examples above.
+
+Some servers may require only this method, so it's good to know about it.
+
+### Hidden Truth Bullets
+
+Some Truth Bullets may be marked as hidden - this means that only you, the finder of the Truth Bullet, will see it. The bot will DM you if you sent a message with the trigger, or send a response only visible to you if you use `/investigate`, to show you the Truth Bullet. The staff will likely want you to keep them secret until a certain point, so be careful with them!
+
+This does require DMs with the bot to be enabled. Hopefully, the staff will warn you ahead of time if they're planning on using hidden Truth Bullets.
 
 ## Notes
 
