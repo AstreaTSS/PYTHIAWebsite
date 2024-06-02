@@ -48,6 +48,8 @@ theme:
     - toc.follow
     - content.tabs.link
     - content.tooltips
+    - header.autohide
+    - announce.dismiss
 
 extra_css:
   - assets/custom.css
@@ -62,6 +64,8 @@ nav:
   - Legal:
     - Terms of Service: legal/tos.md
     - Privacy Policy: legal/privacy_policy.md
+  - Updates:
+    - updates/index.md
   - External Links:
     - Support Server: https://discord.gg/NSdetwGjpK
     - Ko-Fi Link: https://ko-fi.com/astreatss
@@ -103,7 +107,6 @@ extra:
 plugins:
   - search
   - offline
-  - privacy
   - custom-cards:
       cards_layout_options:
         background_color: "#000000"
@@ -119,6 +122,14 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
+  - blog:
+      blog_dir: updates
+      archive: false
+      categories: false
+      draft_if_future_date: true
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 markdown_extensions:
   - admonition
