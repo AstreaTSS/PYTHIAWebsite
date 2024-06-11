@@ -21,7 +21,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      primary: deep purple  # TODO: make color more PYTHIA-y
+      primary: deep purple
       accent: deep purple
       scheme: default 
       toggle:

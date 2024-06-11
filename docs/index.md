@@ -10,9 +10,9 @@ description: A bot meant to assist with Danganronpa/Killing Game RPs.
 </figure>
 
 <p align="center" markdown="1">
-  [![Server Setup Guide](https://img.shields.io/badge/Server_Setup_Guide-Link-f64b50?style=for-the-badge&logo=bookstack&logoColor=f64b50)](server_setup.md)
+  [![Server Setup Guides](https://img.shields.io/badge/Server_Setup_Guide-Link-874bd1?style=for-the-badge&logo=bookstack&logoColor=874bd1)](setup/index.md)
   [![Support Server Link](https://img.shields.io/badge/Support_Server-Link-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/NSdetwGjpK)
-  [![Donate on Ko-Fi](https://img.shields.io/badge/Donate_on_Ko--Fi-Link-ff5f5f?style=for-the-badge&logo=ko-fi&logoColor=FFFFFF)](https://ko-fi.com/astreatss)
+  [![Donate on Ko-Fi](https://img.shields.io/badge/Donate_on_Ko--Fi-Link-DEDEDE?style=for-the-badge&logo=ko-fi&logoColor=DEDEDE)](https://ko-fi.com/astreatss)
 </p>
 
 PYTHIA is a Discord bot meant to assist with Danganronpa/Killing Game RPs. Currently, it automates parts of investigating that would otherwise take time and energy to make it easier to run RPs. More specifically, it allows for staff to define 'key phrases'/triggers that players can later activate through the bot.
