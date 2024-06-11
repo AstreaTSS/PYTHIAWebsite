@@ -4,7 +4,7 @@ site_url: https://pythia.astrea.cc
 theme:
   name: material
   custom_dir: overrides
-  favicon: assets/thia_favicon.ico
+  favicon: assets/pythia_favicon.ico
 
   icon:
     logo: material/book-search
@@ -100,7 +100,7 @@ plugins:
   - custom-cards:
       cards_layout_options:
         background_color: "#000000"
-        logo: assets/thia_icon.jpg
+        logo: assets/pythia_icon.jpg
   - autorefs
   - autolinks
   - awesome-pages
