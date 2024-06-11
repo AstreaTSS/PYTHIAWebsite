@@ -6,7 +6,7 @@ description: A bot meant to assist with Danganronpa/Killing Game RPs.
 # PYTHIA
 
 <figure markdown>
-  ![PYTHIA's Banner](thia_banner.jpg)
+  ![PYTHIA's Banner](pythia_banner.jpg)
 </figure>
 
 <p align="center" markdown="1">
