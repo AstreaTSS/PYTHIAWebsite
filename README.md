@@ -1,5 +1,5 @@
-# Ultimate Investigator Website
+# PYTHIA Website
 
-A basic website for information about the [Ultimate Investigator Bot](https://github.com/AstreaTSS/UltimateInvestigator).
+A basic website for information about [PYTHIA](https://github.com/AstreaTSS/PYTHIA).
 
-[View it here.](https://ui.astrea.cc)
+[View it here.](https://pythia.astrea.cc)

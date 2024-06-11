@@ -1,10 +1,10 @@
-site_name: Ultimate Investigator
-site_description: "A bot made to help automate investigations during Danganronpa roleplays."
-site_url: https://ui.astrea.cc
+site_name: PYTHIA
+site_description: "A Discord bot meant to assist with Danganronpa/Killing Game RPs."
+site_url: https://pythia.astrea.cc
 theme:
   name: material
   custom_dir: overrides
-  favicon: assets/ui_favicon.ico
+  favicon: assets/thia_favicon.ico
 
   icon:
     logo: material/book-search
@@ -13,16 +13,16 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
-      primary: red
-      accent: red
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      primary: red
-      accent: red
+      primary: deep purple  # TODO: make color more PYTHIA-y
+      accent: deep purple
       scheme: default 
       toggle:
         icon: material/brightness-7
@@ -30,8 +30,8 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: red
-      accent: red
+      primary: deep purple
+      accent: deep purple
       scheme: slate
       toggle:
         icon: material/brightness-4
@@ -39,10 +39,12 @@ theme:
 
   features:
     - navigation.instant
+    - navigation.instant.progress
     - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.footer
+    - navigation.indexes
     - search.highlight
     - search.share
     - toc.follow
@@ -54,23 +56,8 @@ theme:
 extra_css:
   - assets/custom.css
 
-repo_url: https://github.com/AstreaTSS/UltimateInvestigator
-repo_name: AstreaTSS/UltimateInvestigator
-
-nav:
-  - Home: index.md
-  - using_the_bot.md
-  - server_setup.md
-  - Legal:
-    - Terms of Service: legal/tos.md
-    - Privacy Policy: legal/privacy_policy.md
-  - Updates:
-    - updates/index.md
-  - External Links:
-    - Support Server: https://discord.gg/NSdetwGjpK
-    - Ko-Fi Link: https://ko-fi.com/astreatss
-    - Bot Source Code: https://github.com/AstreaTSS/UltimateInvestigator
-    - Website Source Code: https://github.com/AstreaTSS/UIWebsite
+repo_url: https://github.com/AstreaTSS/PYTHIA
+repo_name: AstreaTSS/PYTHIA
 
 copyright: >
   &copy Copyright 2021-2024 AstreaTSS
@@ -89,7 +76,7 @@ extra:
       link: https://ko-fi.com/astreatss
       name: Ko-Fi Page
     - icon: fontawesome/brands/github
-      link: https://github.com/AstreaTSS/UIWebsite
+      link: https://github.com/AstreaTSS/PYTHIAWebsite
       name: Website Source
     
   consent:
@@ -113,9 +100,10 @@ plugins:
   - custom-cards:
       cards_layout_options:
         background_color: "#000000"
-        logo: assets/ui_icon.jpg
+        logo: assets/thia_icon.jpg
   - autorefs
   - autolinks
+  - awesome-pages
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -133,6 +121,10 @@ plugins:
       post_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
+  - redirects:
+      redirect_maps:
+        "server_setup.md": "setup/index.md"
+        "using_the_bot.md": "usage/index.md"
 
 markdown_extensions:
   - admonition

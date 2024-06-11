@@ -1,10 +1,10 @@
 ---
-description: The privacy policy for Ultimate Investigator.
+description: The privacy policy for PYTHIA.
 ---
 
 # Privacy Policy
 
-*Last updated: 2024-02-13 (YYYY-MM-DD).*
+*Last updated: 2024-06-11 (YYYY-MM-DD).*
 
 This document contains the privacy policy and agreement you accept when adding the below mentioned Bot to a server, or use them as a member of a Server. This document does not supersede any of the terms laid out by Discord.
 
@@ -18,13 +18,13 @@ This document contains the privacy policy and agreement you accept when adding t
 -   **Server Member** – Anyone who is a member of Server to which one of the bots has been added.
 -   **Server Manager** – A Server Member that has the ability to add Bots to a Server and/or configure a Bot for a Server.
 -   **Bot** – An automated User on Discord denominated by the "BOT" tag.
--   **Truth Bullet** - Formatted Messages made by Server Managers through Ultimate Investigator that respond to a keyword/phrase in a Channel.
+-   **Truth Bullet** - Formatted Messages made by Server Managers through PYTHIA that respond to a keyword/phrase in a Channel.
 -   **Associated Service** – A service hosted outside Discord to offer additional functionality to a Bot.
 
 ### Bots and Services
 
 This privacy policy applies to the following Bots.
--   **Ultimate Investigator**#3565 (843994199187914753)
+-   **PYTHIA**#3565 (843994199187914753)
 
 ## What Data We Collect
 

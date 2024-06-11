@@ -2,7 +2,7 @@
 description: How to use the bot as a user of it.
 ---
 
-# Using the Bot as a User
+# Investigations 
 
 ## Introduction
 
@@ -10,7 +10,7 @@ description: How to use the bot as a user of it.
     This guide will mention standard Danganronpa/Killing Game topics, like gore and blood. These are very frequent in the series, and as such, are frequent in roleplays based on it. If you're not comfortable with these topics, it's best to avoid roleplays based on Danganronpa.
 
 
-You're likely here because a server you're in is using Ultimate Investigator, and you're a bit confused (or just curious) on how to use it for an investigation. Basically, the bot essentially automates what a "traditional" investigation done by the staff of a server would do, but this'll guide you on what that means.
+You're likely here because a server you're in is using PYTHIA, and you're a bit confused (or just curious) on how to use it for an investigation. Basically, the bot essentially automates what a "traditional" investigation done by the staff of a server would do, but this'll guide you on what that means.
 
 Typically, the mods will give you some sort of starting message for an investigation. Let's look at a real world example:
 
@@ -41,7 +41,7 @@ All you need to do is send a message with the word "ink" (case-insensitive) some
 Usually, a staff member would step in to show a Truth Bullet related to the ink, but in this case, the bot will reply instead with something like this in both the channel you're in and your Truth Bullets channel:
 
 <figure markdown>
-  ![Example of a message triggering a Truth Bullet.](assets/trigger_example.png)
+  ![Example of a message triggering a Truth Bullet.](trigger_example.png)
   <figcaption>The message that triggered the Bullet, in this case.</figcaption>
 </figure>
 

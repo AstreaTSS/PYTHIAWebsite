@@ -1,15 +1,15 @@
 ---
-description: The Terms of Service for Ultimate Investigator.
+description: The Terms of Service for PYTHIA.
 ---
 
 # Terms of Service
 
-*Last updated: 2024-02-13 (YYYY-MM-DD).*
+*Last updated: 2024-06-11 (YYYY-MM-DD).*
 
 * You may not use the bot against Discord's TOS.
 * You may not spam the bot's requests/servers.
 * You may not use the bot for illegal activity.
-* You may not steal assets linked to Ultimate Investigator.
+* You may not steal assets linked to PYTHIA.
 * When modifying and distributing the bot, you must follow the license of the bot's source code, [as seen here](https://raw.githubusercontent.com/AstreaTSS/UltimateInvestigator/main/LICENSE).
 * The bot has no control over certain user data inputted by moderators/server managers on Discord servers. The owner takes no responsibility for any damages or issues that may arise from this.
 
