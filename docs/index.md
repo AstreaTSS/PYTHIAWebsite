@@ -12,7 +12,7 @@ hide:
 </figure>
 
 <p align="center" markdown="1">
-  [![Server Setup Guides](https://img.shields.io/badge/Server_Setup_Guide-Link-874bd1?style=for-the-badge&logo=bookstack&logoColor=874bd1)](setup/index.md)
+  [![Server Setup Guides](https://img.shields.io/badge/Server_Setup_Guides-Link-874bd1?style=for-the-badge&logo=bookstack&logoColor=874bd1)](setup/index.md)
   [![Support Server Link](https://img.shields.io/badge/Support_Server-Link-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/NSdetwGjpK)
   [![Donate on Ko-Fi](https://img.shields.io/badge/Donate_on_Ko--Fi-Link-DEDEDE?style=for-the-badge&logo=ko-fi&logoColor=DEDEDE)](https://ko-fi.com/astreatss)
 </p>
