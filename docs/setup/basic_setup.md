@@ -1,5 +1,5 @@
 ---
-description: How to  set up the bot for your roleplay server.
+description: How to set up PYTHIA for your roleplay server.
 ---
 
 # Basic Setup
