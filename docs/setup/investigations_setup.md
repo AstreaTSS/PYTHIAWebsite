@@ -1,5 +1,5 @@
 ---
-description: How to set up investigations.
+description: How to set up investigations with PYTHIA.
 ---
 
 # Investigations Setup
@@ -9,19 +9,20 @@ description: How to set up investigations.
 
 ## Setting Up the Config
 
-To use the investigations feature, you need to establish a Truth Bullets (or whatever your RP calls them) channel, so that the bot knows where to send publicly discoverable Truth Bullets. To do that, select the `/config bullet-channel` command, _use the channel option_, and select the channel you want Truth Bullets to go in.
+To use the investigations feature, you need to establish a Truth Bullets (or whatever your RP calls them) channel, so that the bot knows where to send publicly discoverable Truth Bullets. To do that, select the `/bullet-config channel` command, _use the channel option_, and select the channel you want Truth Bullets to go in.
 
 And you're technically ready! However, there are other commands worth noting:
 
-* `/config best-truth-bullet-finder` can be used to set roles given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most, though as of right now, a message for who sent the most is still sent.
-* `/config investigation-mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/investigate`, but you can change this so that only `/investigate` works.
-* `/config toggle` turns on or off triggering Truth Bullets. This'll be important later.
+* `/bullet-config best-finder` can be used to set a roll given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most, though as of right now, a message for who sent the most is still sent.
+* `/bullet-config mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/investigate`, but you can change this so that only `/investigate` works.
+* `/bullet-config names` allows you to change how Truth Bullets (and the Best Finder) are named in *public-facing* messages. 
+* `/bullet-config toggle` turns on or off triggering Truth Bullets. This'll be important later.
 
 ## Setting Up Truth Bullets
 
 ### Adding Truth Bullets
 
-Let's get started by adding Truth Bullets - use `/add-bullets` and select a channel to, well, add a Truth Bullet to a specific channel. This'll pop out a little button that can be used _at any time to add Truth Bullets to that channel._
+Let's get started by adding Truth Bullets - use `/bullet-manage add` and select a channel to, well, add a Truth Bullet to a specific channel. This'll pop out a little button that can be used _at any time to add Truth Bullets to that channel._
 
 <figure markdown>
   ![An example of said button.](add_bullets_button.png){ loading="lazy" }
@@ -51,25 +52,25 @@ Truth Bullets are unique _by their trigger by channel_, so while *multiple* chan
 
 ### Seeing Current Truth Bullets
 
-After adding Truth Bullets, you probably want to get a good overview of them. Let's use `/list-bullets` to list out the ones we've made so far:
+After adding Truth Bullets, you probably want to get a good overview of them. Let's use `/bullet-manage list` to list out the ones we've made so far:
 
 <figure markdown>
-  ![An example of /list-bullets.](list_bullets.png){ loading="lazy" }
+  ![An example of /bullet-manage list.](list_bullets.png){ loading="lazy" }
 </figure>
 
 As you can see, it already has a Truth Bullet in it. This command will list out Truth Bullets for every single channel and if they were found - this is a useful reference to have as you make Truth Bullets or even watch over an investigation (Truth Bullets that have been found will be marked as such).
 
-To see a specific Truth Bullet's information, you can use `/bullet-info` with the channel and trigger of the Truth Bullet you want to see:
+To see a specific Truth Bullet's information, you can use `/bullet-manage info` with the channel and trigger of the Truth Bullet you want to see:
 
 <figure markdown>
-  ![An example of /bullet-info.](bullet_info.png){ loading="lazy" }
+  ![An example of /bullet-manage info.](bullet_info.png){ loading="lazy" }
 </figure>
 
 As you can see, it's pretty basic, but it does list everything you would need to know. Most of these fields are empty (as expected), but we can always reference these later.
 
 ### Editing and Removing Truth Bullets
 
-Editing a Truth Bullet is as simple as using `/edit-bullet` and specifying the channel and trigger of the Truth Bullet you wish to edit. A little pop-up will appear:
+Editing a Truth Bullet is as simple as using `/bullet-manage edit` and specifying the channel and trigger of the Truth Bullet you wish to edit. A little pop-up will appear:
 
 <figure markdown>
   ![The pop-up that appears while editing Truth Bullets.](edit_bullet_modal.png){ loading="lazy" }
@@ -77,24 +78,24 @@ Editing a Truth Bullet is as simple as using `/edit-bullet` and specifying the c
 
 As you can see, it already has the old trigger and description in it - you'll be able to edit them from there (though you may want to temporarily move the contents to a proper text editor to edit things better). When you press submit, the Truth Bullet will be edited with the new trigger and description.
 
-To remove a Truth Bullet, it's as simple as using `/remove-bullet` with the channel and trigger of the Truth Bullet you want to delete:
+To remove a Truth Bullet, it's as simple as using `/bullet-manage remove` with the channel and trigger of the Truth Bullet you want to delete:
 
 <figure markdown>
   ![An example of removing a Truth Bullet.](remove_bullet.png){ loading="lazy" }
 </figure>
 
-Removing _all_ Truth Bullets is as simple as running `/clear-bullets`. _This action is irreversible!_
+Removing _all_ Truth Bullets is as simple as running `/bullet-manage clear`. _This action is irreversible!_
 
 ### Other Commands
 
-* To add an alias (an alternative trigger to trigger the same Truth Bullet), simply use the `/add-alias` command with the channel, trigger of the Truth Bullet, and the alias you wish to add to the Bullet. As you can imagine, `/remove-alias` follows a similar process.
-* `/override-bullet` and `/unfind-bullet` are more useful _during_ investigations, as you can imagine, but they simply allow you to either re-define who found a Truth Bullet or un-discover it so its trigger can be triggered once again.
+* To add an alias (an alternative trigger to trigger the same Truth Bullet), simply use the `/bullet-manage add-alias` command with the channel, trigger of the Truth Bullet, and the alias you wish to add to the Bullet. As you can imagine, `/bullet-manage remove-alias` follows a similar process.
+* `/bullet-manage override` and `/bullet-manage unfind` are more useful _during_ investigations, as you can imagine, but they simply allow you to either re-define who found a Truth Bullet or un-discover it so its trigger can be triggered once again.
 * `/help` is your friend! Use it to find more commands that could be useful to you!
 
 ## Starting an Investigation
 
-To start off an investigation with all your Truth Bullets, simply run `/config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them, as seen in the [investigations usage guide](investigations.md). It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
+To start off an investigation with all your Truth Bullets, simply run `/bullet-config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them, as seen in the [investigations usage guide](investigations.md). It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
 
-An investigation ends when _all Truth Bullets currently defined has been found_. Till then, keep an eye on your player's progress through `/list-bullets` and give hints as needed. Once all have been found, _the bot will automatically disable triggering bullets._ You'll need to turn on `/config toggle` again if you add a Truth Bullet for people to find them.
+An investigation ends when _all Truth Bullets currently defined has been found_. Till then, keep an eye on your player's progress through `/bullet-manage list` and give hints as needed. Once all have been found, _the bot will automatically disable triggering bullets._ You'll need to turn on `/bullet-config toggle` again if you add a Truth Bullet for people to find them.
 
-_**Truth Bullets are not deleted after an investigation. You MUST do this manually by using `/clear-bullets`!**_  Don't forget to do this - not doing so turns your Truth Bullets into a confusing mess of found and unfound Bullets. If you don't know if you've done it, use `/list-bullets` to verify it.
+_**Truth Bullets are not deleted after an investigation. You MUST do this manually by using `/bullet-manage clear`!**_  Don't forget to do this - not doing so turns your Truth Bullets into a confusing mess of found and unfound Bullets. If you don't know if you've done it, use `/bullet-manage list` to verify it.

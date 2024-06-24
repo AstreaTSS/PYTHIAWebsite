@@ -4,10 +4,10 @@ site_url: https://pythia.astrea.cc
 theme:
   name: material
   custom_dir: overrides
+  logo: assets/pythia_icon_white.png
   favicon: assets/pythia_favicon.ico
 
   icon:
-    logo: material/book-search
     repo: fontawesome/brands/github
 
   palette:
