@@ -4,7 +4,7 @@ description: The privacy policy for PYTHIA.
 
 # Privacy Policy
 
-*Last updated: 2024-06-11 (YYYY-MM-DD).*
+*Last updated: 2024-06-24 (YYYY-MM-DD).*
 
 This document contains the privacy policy and agreement you accept when adding the below mentioned Bot to a server, or use them as a member of a Server. This document does not supersede any of the terms laid out by Discord.
 
@@ -19,6 +19,7 @@ This document contains the privacy policy and agreement you accept when adding t
 -   **Server Manager** – A Server Member that has the ability to add Bots to a Server and/or configure a Bot for a Server.
 -   **Bot** – An automated User on Discord denominated by the "BOT" tag.
 -   **Truth Bullet** - Formatted Messages made by Server Managers through PYTHIA that respond to a keyword/phrase in a Channel.
+-   **Gacha Item** - Items that can be drawn from the Gacha system present in the bot.
 -   **Associated Service** – A service hosted outside Discord to offer additional functionality to a Bot.
 
 ### Bots and Services
@@ -36,13 +37,15 @@ The following data may be collected and temporarily stored when intentionally pr
 
 -   Server specific configuration settings.
 -   Information about Truth Bullets, including the content of the Truth Bullet, the channel it is meant to be sent in, the keyword/phrase that triggers it, and the triggering user.
+-   Information about Gacha Items, including the contents of each item and who owns the item.
+-   Information of a User's Gacha profile, including their currency amount and the items they own.
 
 #### Automatically Collected
 
 This data may be collected automatically by some Services. This data is used to facilitate critical functionality of Services, and are vital to its operation.
 
 -   Any data needed for standard operation of the Bot. This typically includes channel data and roles.
-  -   Notably, this includes messages and message content, but only in the context of the Bot's operation. This data is quickly processed and is not permanently stored.
+  -   Notably, this includes messages, message content, and members. However, this is only in the context of the Bot's operation - this data is quickly processed and is not permanently stored.
 
 ## Why We Collect Data
 
