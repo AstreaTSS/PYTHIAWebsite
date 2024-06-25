@@ -38,7 +38,7 @@ Guides:
 PYTHIA also supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
 
 <figure markdown>
-  ![Example of a user drawing an item from the gacha.](gacha_example.png)
+  ![Example of a user drawing an item from the gacha.](gacha_draw.png)
 </figure>
 
 Guides:
