@@ -1,5 +1,5 @@
 ---
-date: 2024-06-12
+date: 2024-06-25
 authors:
   - astrea
 categories:
@@ -15,14 +15,13 @@ Hello! As hinted at in the previous post, a rebrand will come soon! This means a
 
 <!-- more -->
 
-The bot will be renamed to **PYTHIA**, named so after my OC who's the Ultimate Robotic Assistant. The bot will also have a new icon, but that's in the works.
-
-!!! warning
-    To clarify, the rebrand isn't happening now, and none of the changes have happened *yet*. This is just to prepare you for what will come in a week or two.
+Importantly:
+- The bot will be renamed to **PYTHIA**, named so after my OC who's the Ultimate Robotic Assistant. The bot will also have a new icon, but that's in the works.
+- The bot (and this website) will be rebranded on **July 6th, 2024**. This is more than a week from now, so be prepared for the changes!
 
 ## Breaking Changes
 
-Many commands are getting moved over to make room for other features. Don't worry, the original investigation features will continue to be supported, but they'll just be put into this own section.
+Many commands are getting moved over to make room for other features. Don't worry, the original investigation features will continue to be supported, but they'll just be put into their own section.
 
 The changes are below:
 
@@ -35,7 +34,7 @@ The changes are below:
   - `/bullet-info` will become `/bullet-manage info`.
   - `/edit-bullet` will become `/bullet-manage edit`.
   - `/unfind-bullet` will become `/bullet-manage unfind`.
-  - `/override-bullet` will become `/bullet-manage override`.
+  - `/override-bullet` will become `/bullet-manage override-finder`.
   - `/add-alias` will become `/bullet-manage add-alias`.
   - `/remove-alias` will become `/bullet-manage remove-alias`.
 - Truth Bullet Configuration:
@@ -59,3 +58,4 @@ The changes are below:
 ## What To Expect
 - You may have noticed `/config names` being a thing. That's currently usable in Ultimate Investigator to edit the display name for Truth Bullets and the like, but it'll get a proper announcement alongside the rebrand.
 - Gacha is coming along with the rebrand! It'll be a bit different from Ultimate Assistant's, but it'll be there.
+- Truth Bullets also got a bit of love! There's a couple of changes there.
