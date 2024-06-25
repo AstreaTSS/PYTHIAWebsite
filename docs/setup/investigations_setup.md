@@ -18,6 +18,13 @@ And you're technically ready! However, there are other commands worth noting:
 * `/bullet-config names` allows you to change how Truth Bullets (and the Best Finder) are named in *public-facing* messages. 
 * `/bullet-config toggle` turns on or off triggering Truth Bullets. This'll be important later.
 
+Saving the most important of the `/bullet-config` commands for last, to take a look at all of your configration settings for investigations, you can use `/bullet-config info`:
+
+<figure markdown>
+  ![An example of an investigation configuration](bullet_config.png)
+</figure>
+
+
 ## Setting Up Truth Bullets
 
 ### Adding Truth Bullets
