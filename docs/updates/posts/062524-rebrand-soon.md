@@ -17,7 +17,7 @@ Hello! As hinted at in the previous post, a rebrand will come soon! This means a
 
 Importantly:
 - The bot will be renamed to **PYTHIA**, named so after my OC who's the Ultimate Robotic Assistant. The bot will also have a new icon, but that's in the works.
-- The bot (and this website) will be rebranded on **July 6th, 2024**. This is more than a week from now, so be prepared for the changes!
+- The bot (and this website) will be rebranded on **July 6th, 2024**. This is more than a week from now (as of the date of publishing), so be prepared for the changes!
 
 ## Breaking Changes
 
