@@ -17,7 +17,7 @@ hide:
   [![Donate on Ko-Fi](https://img.shields.io/badge/Donate_on_Ko--Fi-Link-DEDEDE?style=for-the-badge&logo=ko-fi&logoColor=DEDEDE)](https://ko-fi.com/astreatss)
 </p>
 
-PYTHIA is a Discord bot meant to assist with various parts of running Danganronpa/Killing Game RPs. It plans to eventually serve as a replacement to Ultimate Assistant.
+PYTHIA is a Discord bot meant to assist with various parts of running Danganronpa/Killing Game RPs. The various features can be seen below.
 
 ## Investigations
 
