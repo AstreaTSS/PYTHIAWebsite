@@ -4,7 +4,7 @@ description: The privacy policy for PYTHIA.
 
 # Privacy Policy
 
-*Last updated: 2024-06-24 (YYYY-MM-DD).*
+*Last updated: 2024-07-09 (YYYY-MM-DD).*
 
 This document contains the privacy policy and agreement you accept when adding the below mentioned Bot to a server, or use them as a member of a Server. This document does not supersede any of the terms laid out by Discord.
 

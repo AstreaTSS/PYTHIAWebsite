@@ -16,9 +16,7 @@ Hello! The rebrand from Ultimate Investigator to **PYTHIA** is here! This means 
 <!-- more -->
 
 !!! note
-    If you see this, the renaming is mostly completely, but the bot's name on Discord is still Ultimate Investigator. This will be fixed soon!
-
-    More importantly, the renamings are the same as the ones mentioned in the previous post - check that out [right here](062524-rebrand-soon.md).
+    The renamings are the same as the ones mentioned in the previous post - check that out [right here](062524-rebrand-soon.md).
 
 ## New Look
 

@@ -4,7 +4,7 @@ description: The Terms of Service for PYTHIA.
 
 # Terms of Service
 
-*Last updated: 2024-06-24 (YYYY-MM-DD).*
+*Last updated: 2024-07-09 (YYYY-MM-DD).*
 
 * You may not use the bot against Discord's TOS.
 * You may not spam the bot's requests/servers.
