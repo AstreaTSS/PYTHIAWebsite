@@ -18,4 +18,4 @@ It's worth running `/config info` first when you set up the bot. This gives you 
   ![An example of /config info.](config_info.png)
 </figure>
 
-Your priority should be _setting up the player role._ This can be done pretty easily: select the `/config player` command, _use the role option_, and use the role you wish to be able to be treated as players and discover Truth Bullets (or your RP's equivalent). It's worth noting that _no other role will be able to use them, not even admins._
+Your priority should be _setting up the player role._ This can be done pretty easily: select the `/config player` command, _use the role option_, and use the role you wish to be able to use the various features of PYTHIA. It's worth noting that _no other role will be able to use features, not even staff_ (though staff will still be able to set up and manage features).
