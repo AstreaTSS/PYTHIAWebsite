@@ -35,7 +35,7 @@ Guides:
 
 ## Gacha
 
-PYTHIA also supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
+PYTHIA supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
 
 <figure markdown>
   ![Example of a user drawing an item from the gacha.](gacha_draw.png)
@@ -44,6 +44,18 @@ PYTHIA also supports the setup and management of a gacha system, where users can
 Guides:
 - [Gacha as a User](usage/gacha.md)
 - [Setting Up Gacha](setup/gacha_setup.md)
+
+## Messaging
+
+PYTHIA supports a messaging system, where users can send messages to each other through the bot.
+
+<figure markdown>
+  ![An example of a message.](message_to_user.png)
+</figure>
+
+Guides:
+- [Messaging as a User](usage/messaging.md)
+- [Setting Up Messaging](setup/messaging_setup.md)
 
 ## More Information
 

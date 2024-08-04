@@ -9,3 +9,4 @@ Hello! Below are a handful of guides to teach you how to use features of PYTHIA.
 ## Guides
 - [Investigations](investigations.md)
 - [Gacha](gacha.md)
+- [Messaging](messaging.md)

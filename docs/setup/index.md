@@ -10,3 +10,4 @@ Hello! Below are a handful of guides to teach you how to set up the features of 
 - [Basic Setup](basic_setup.md)
 - [Investigations Setup](investigations_setup.md)
 - [Gacha Setup](gacha_setup.md)
+- [Messaging Setup](messaging_setup.md)
