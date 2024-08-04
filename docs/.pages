@@ -3,8 +3,8 @@ nav:
   - Using the Bot: usage
   - Server Setup Guides: setup
   - Legal:
-    - Terms of Service: legal/tos.md
-    - Privacy Policy: legal/privacy_policy.md
+    - Terms of Service: legal/tos.html
+    - Privacy Policy: legal/privacy_policy.html
   - Updates:
     - Posts: updates
   - External Links:

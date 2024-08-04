@@ -25,5 +25,5 @@ Here are some snippets of the messaging system in action:
 </div>
 
 Of course, there's new guides to go along with this new feature. Check them out below!
-- [Messaging as a User](usage/messaging.md)
-- [Setting Up Messaging](setup/messaging_setup.md)
+- [Messaging as a User](messaging.md)
+- [Setting Up Messaging](messaging_setup.md)
