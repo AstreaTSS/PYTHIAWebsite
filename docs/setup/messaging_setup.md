@@ -5,7 +5,9 @@ description: How to set up the messaging system with PYTHIA.
 # Messaging Setup
 
 !!! note
-    You must invite the bot and set up the basic settings before setting up the messaging system - check [the basic setup page](basic_setup.md) for more information.
+    You must invite the bot to your server to set up the messaging system. However, you do *not* need to set the player role for this system.
+
+    Still, you should read up [the basic setup page](basic_setup.md) for more information on setting up the bot.
 
 ## Configuration
 
