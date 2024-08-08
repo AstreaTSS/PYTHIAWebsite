@@ -92,7 +92,7 @@ That being said, the recommended process is:
     ```
 5. Set up the database by running `docker compose run --env DB_URL="postgresql://postgres:YOUR_POSTGRES_PASSWORD_FROM_THE_LAST_STEP@db:5432/postgres" bot python -m prisma migrate deploy`.
 6. Use `docker compose up -d` to start the bot. You can use `docker compose logs -f` to view the logs of the bot.
-  a. To sync slash commands, run `@BOT_MENTION debug sync` in Discord (replace `BOT_MENTION` with the bot's mention, like `@PYTHIA`).'
+  - To sync slash commands, run `@BOT_MENTION debug sync` in Discord (replace `BOT_MENTION` with the bot's mention, like `@PYTHIA`).'
 
 #### Non-Docker Setup
 
