@@ -90,8 +90,7 @@ That being said, the recommended process is:
     DOCKER_MODE="true"
     POSTGRES_PASSWORD="A_STRONG_PASSWORD"
     ```
-5. Set up the database by running `docker compose run --env DB_URL="postgresql://postgres:YOUR_POSTGRES_PASSWORD_FROM_THE_LAST_STEP@db:5432/postgres" bot python -m prisma migrate deploy`.
-6. Use `docker compose up -d` to start the bot. You can use `docker compose logs -f` to view the logs of the bot.
+5. Use `docker compose up -d` to start the bot. You can use `docker compose logs -f` to view the logs of the bot.
   - To sync slash commands, run `@BOT_MENTION debug sync` in Discord (replace `BOT_MENTION` with the bot's mention, like `@PYTHIA`).'
 
 #### Non-Docker Setup
@@ -119,5 +118,5 @@ To update the bot, you can:
   - `docker compose build` for Docker setups.
   - `pip install -U -r requirements.txt` and `python -m prisma generate` for non-Docker setups.
 3. If there are any database changes (visible as a new migration in `migrations`), you can run the following command to apply them:
-   - `docker compose run --env DB_URL="postgresql://postgres:YOUR_POSTGRES_PASSWORD_FROM_YOUR_ENV@db:5432/postgres" bot python -m prisma migrate deploy` for Docker setups.
+   - Migrations are applied automatically in Docker setups on bot startup unless the `DO_NOT_MIGRATE` variable is set to `true` in `.env` (or as an environmental variable).
    - `python -m prisma migrate deploy` for non-Docker setups.
