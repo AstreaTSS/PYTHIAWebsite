@@ -43,15 +43,31 @@ For now, for alternatives to the missing features, you can check out:
 
 Just because features are in the above list does not mean they will not be added to PYTHIA in the future.
 
+### How do I make it so only certain users can use certain commands?
+
+Discord has this feature built-in for slash commands! Check out [this page Discord made](https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) for more information.
+
+Note:
+- All management/configuration commands require "Manage Server" permissions by default.
+- Subcommands cannot be individually controlled - only the base command can. This is a Discord limitation.
+
 ### Where can I find information about updates/new features?
 
 There are two places you can find updates - the [updates page](updates/index.md) and the [support server](https://discord.gg/NSdetwGjpK). The updates page always will contain new features and major adjustments, but the support server will also contain bug fixes and other miscellaneous announcements (IE downtime announcements) that you may find useful.
+
+### So why PYTHIA, anyways? And who's the figure in the bot's icon?
+
+PYTHIA is actually one of my Danganronpa OCs! She's the Ultimate Robotic Assitant (and indeed a robot - a humanoid robot, specifically), which... well, is quite a good fit for this Discord bot. As you may expect, the head in the icon is the character's head, ponytail and all. Also, purple is her (the character's) primary color, and so it became the bot's primary color.
+
+Cute naming scheme aside, it was also not frequently used as a Discord bot name and is very memorable. It gives the Discord bot a lot more character than, say, a name like "Ultimate Helper", which is always nice.
+
+As for the character - yes, she's named after the historical Pythia from ancient Greece.
 
 ### I want to suggest a feature. Where can I suggest it?
 
 In the [support server](https://discord.gg/NSdetwGjpK), of course!
 
-### There's another problem not answered here. Where can I ask about it?
+### There's another question I have that's not answered here. Where can I ask about it?
 
 Also in the [support server](https://discord.gg/NSdetwGjpK), of course!
 
