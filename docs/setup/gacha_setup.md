@@ -32,6 +32,15 @@ A gacha system isn't a gacha system without items! To add items, you can use the
   ![An example of the prompt to add an item.](add_gacha_item_modal.png)
 </figure>
 
+???+ note "Is Using Slash Commands Repeatedly Too Slow?"
+    If you find that using slash commands is too slow for you while adding items, you can use the `send_button` option for `/gacha-manage add-item` to send a button. The button, every time it's clicked, will send the (above) prompt to add an item. While this may seem unorthodox, it can really help, so try it!
+
+    <figure markdown>
+      ![An example of the button for adding gacha items.](add_gacha_button.png)
+    </figure>
+
+    At some point in the future, this may be made the default behavior for adding items.
+
 You get a number of customization options here:
 - The name and description are, well, exactly what you expect. Names must be unique across different items. Both of these fields are required.
 - The quantity is, well, how many of this item you want to add to the gacha system. By default, there will be infinite amounts of this item - otherwise, for each time someone draws the item, its quantity decreases until it reaches 0 and can no longer be drawn for.
@@ -66,6 +75,23 @@ Editing an item is as simple as using `/gacha-manage edit-item` and specifying t
 As you can see, it already has the old fields populated in it - you'll be able to edit any property you want (including the name!). When you press submit, the item will be edited with the new properties.
 
 To remove an item, it's as simple as using `/bullet-manage remove-item` with the name of the item you want to delete. Notably, this removes it from all player's item lists, so be careful!
+
+### Adding Items To/Removing Items From Players
+
+If needed, you can manually add or remove items from a player's inventory.
+
+To add an item to a player, you can use `/gacha-manage add-item-to` and specify the user, the item, and optionally, the quantity you want to add (if not specified, it defaults to 1):
+
+<figure markdown>
+  ![An example of /gacha-manage add-item-to.](gacha_add_item_to.png)
+</figure>
+
+To remove an item from a player, you can use `/gacha-manage remove-item-from` and specify similar properties. For quantity, if not specified, it defaults to *however many of the item the player has*.
+
+!!! note
+    By default, `/gacha-manage add-item-to` and `/gacha-manage remove-item-from` will not adjust the quantity of the item in the gacha system. To do so, use the option:
+    - `remove_amount_from_gacha` for `/gacha-manage add-item-to`.
+    - `replenish_gacha` for `/gacha-manage remove-item-from`.
 
 ## Currency
 
