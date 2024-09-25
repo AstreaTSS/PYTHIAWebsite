@@ -7,6 +7,11 @@ description: How to set up investigations with PYTHIA.
 !!! note
     You must invite the bot and set up the basic settings before enabling investigations - check [the basic setup page](basic_setup.md) for more information.
 
+!!! warning
+    The investigation system present in PYTHIA is *vastly different* from the one present in Ultimate Assistant - this system is meant more for murder investigations. It is suggested you read the respective ["Using the Bot" guide](investigations.md) to understand the flow of this system compared to Ultimate Assistant.
+    
+    If you want a bot that has a more general purpose investigation/inventory system, you may want to check out [Chiaki Nanami](https://discord.com/application-directory/781034602533879838) (not affiliated).
+
 ## Setting Up the Config
 
 To use the investigations feature, you need to establish a Truth Bullets (or whatever your RP calls them) channel, so that the bot knows where to send publicly discoverable Truth Bullets. To do that, select the `/bullet-config channel` command, _use the channel option_, and select the channel you want Truth Bullets to go in.
