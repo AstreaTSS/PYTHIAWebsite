@@ -52,10 +52,8 @@ jobs:
         UMAMI_WEBSITE_ID: ${{ vars.UMAMI_WEBSITE_ID }}
 
     - name: Publish to Cloudflare Pages
-      uses: cloudflare/pages-action@1
+      uses: cloudflare/wrangler-action@v3
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        projectName: pythia
-        directory: site
-        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        command: pages deploy site --project-name=pythia
