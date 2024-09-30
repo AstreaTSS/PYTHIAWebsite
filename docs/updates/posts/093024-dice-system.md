@@ -27,3 +27,8 @@ Here are some snippets of the dice system in action:
 Of course, there's new guides to go along with this new feature. Check them out below!
 - [Dice as a User](dice.md)
 - [Dice Management](dice_management.md)
+
+## Privacy Policy
+
+The privacy policy has been updated to reflect the new feature, and was rewriten to be clearer in language. You can view the updated version here:
+- [Privacy Policy](privacy_policy.md)
