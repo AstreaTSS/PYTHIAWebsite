@@ -35,7 +35,6 @@ Maybe. I tend not to like developing things that are already done (well) by othe
 For now, for alternatives to the missing features, you can check out:
 - [Carl-bot's Autofeeds](https://docs.carl.gg/#/feeds?id=autofeeds) for the announcement system.
 - [Chiaki Nanami](https://discord.com/application-directory/781034602533879838) for a general purpose investigation/inventory system. Notably, PYTHIA *can* be used as a general purpose system, but it's meant more for murder investigations.
-- Any dice bot, including (but not limited to) [Avrae](https://avrae.io/), [Dice Maiden](https://discord.com/application-directory/572301609305112596), and [Rollem](https://rollem.rocks/), for the dice system. Notably, most of these bots do not allow you to set up dice rolls specific to your character - Avrae does.
 - I do not know of any alternative for the profile system Ultimate Assistant had.
 
 !!! note

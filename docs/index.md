@@ -19,6 +19,30 @@ hide:
 
 PYTHIA is a Discord bot meant to assist with various parts of running Danganronpa/Killing Game RPs. The various features can be seen below.
 
+## Gacha
+
+PYTHIA supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
+
+<figure markdown>
+  ![Example of a user drawing an item from the gacha.](gacha_draw.png)
+</figure>
+
+Guides:
+- [Gacha as a User](usage/gacha.md)
+- [Setting Up Gacha](setup/gacha_setup.md)
+
+## Dice
+
+PYTHIA supports using and managing dice through the bot (for both players and staff), allowing for convenient dice rolling and management. The system supports standard dice notation
+
+<figure markdown>
+  ![An example of a dice roll.](dice_roll.png)
+</figure>
+
+Guides:
+- [Dice as a User](dice.md)
+- [Dice Management](dice_management.md)
+
 ## Investigations
 
 PYTHIA supports a unique system for discovering Truth Bullets, where by saying a specific phrase/trigger in a channel, a Truth Bullet gets triggered.
@@ -32,18 +56,6 @@ This servers to automate the usual flow for Truth Bullets in many KGs.
 Guides:
 - [Investigations as a User](usage/investigations.md)
 - [Setting Up Investigations](setup/investigations_setup.md)
-
-## Gacha
-
-PYTHIA supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
-
-<figure markdown>
-  ![Example of a user drawing an item from the gacha.](gacha_draw.png)
-</figure>
-
-Guides:
-- [Gacha as a User](usage/gacha.md)
-- [Setting Up Gacha](setup/gacha_setup.md)
 
 ## Messaging
 
