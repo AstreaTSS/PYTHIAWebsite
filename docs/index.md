@@ -21,6 +21,20 @@ hide:
 
 PYTHIA is a Discord bot meant to assist with various parts of running Danganronpa/Killing Game RPs. The various features can be seen below.
 
+## BDA Investigations
+
+PYTHIA supports a unique system for discovering Truth Bullets, where by saying a specific phrase/trigger in a channel, a Truth Bullet gets triggered.
+<figure markdown>
+  ![Example of a message triggering a Truth Bullet.](trigger_example_clean.png)
+  <figcaption>Notice how the trigger is "oven", as represented by the red underline.</figcaption>
+</figure>
+
+This servers to automate the usual flow for Truth Bullets in many KGs. 
+
+Guides:
+- [BDA Investigations as a User](usage/bda_investigations.md)
+- [Setting Up BDA Investigations](setup/bda_investigations_setup.md)
+
 ## Gacha
 
 PYTHIA supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
@@ -44,20 +58,6 @@ PYTHIA supports using and managing dice through the bot (for both players and st
 Guides:
 - [Dice as a User](dice.md)
 - [Dice Management](dice_management.md)
-
-## Investigations
-
-PYTHIA supports a unique system for discovering Truth Bullets, where by saying a specific phrase/trigger in a channel, a Truth Bullet gets triggered.
-<figure markdown>
-  ![Example of a message triggering a Truth Bullet.](trigger_example_clean.png)
-  <figcaption>Notice how the trigger is "oven", as represented by the red underline.</figcaption>
-</figure>
-
-This servers to automate the usual flow for Truth Bullets in many KGs. 
-
-Guides:
-- [Investigations as a User](usage/investigations.md)
-- [Setting Up Investigations](setup/investigations_setup.md)
 
 ## Messaging
 

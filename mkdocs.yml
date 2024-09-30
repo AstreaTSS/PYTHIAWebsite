@@ -125,6 +125,8 @@ plugins:
       redirect_maps:
         "server_setup.md": "setup/index.md"
         "using_the_bot.md": "usage/index.md"
+        "usage/investigations.md": "usage/bda_investigations.md"
+        "setup/investigations_setup.md": "setup/bda_investigations_setup.md"
 
 markdown_extensions:
   - admonition

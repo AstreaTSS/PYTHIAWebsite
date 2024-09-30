@@ -1,20 +1,20 @@
 ---
-description: How to set up investigations with PYTHIA.
+description: How to set up BDA investigations with PYTHIA.
 ---
 
-# Investigations Setup
+# BDA Investigations Setup
 
 !!! note
-    You must invite the bot and set up the basic settings before enabling investigations - check [the basic setup page](basic_setup.md) for more information.
+    You must invite the bot and set up the basic settings before enabling BDA investigations - check [the basic setup page](basic_setup.md) for more information.
 
 !!! warning
-    The investigation system present in PYTHIA is *vastly different* from the one present in Ultimate Assistant - this system is meant more for murder investigations. It is suggested you read the respective ["Using the Bot" guide](investigations.md) to understand the flow of this system compared to Ultimate Assistant.
+    The BDA investigation system present in PYTHIA is *vastly different* from the investigation system present in Ultimate Assistant - this system is meant more for murder investigations. It is suggested you read the respective ["Using the Bot" guide](bda_investigations.md) to understand the flow of this system compared to Ultimate Assistant.
 
     A general purpose investigation system is planned but may not come for a while; for now, you may want to check out [Chiaki Nanami](https://discord.com/application-directory/781034602533879838) (not affiliated), which has some (but not all) investigation features.
 
 ## Setting Up the Config
 
-To use the investigations feature, you need to establish a Truth Bullets (or whatever your RP calls them) channel, so that the bot knows where to send publicly discoverable Truth Bullets. To do that, select the `/bullet-config channel` command, _use the channel option_, and select the channel you want Truth Bullets to go in.
+To use the BDA investigations feature, you need to establish a Truth Bullets (or whatever your RP calls them) channel, so that the bot knows where to send publicly discoverable Truth Bullets. To do that, select the `/bullet-config channel` command, _use the channel option_, and select the channel you want Truth Bullets to go in.
 
 And you're technically ready! However, there are other commands worth noting:
 
@@ -23,10 +23,10 @@ And you're technically ready! However, there are other commands worth noting:
 * `/bullet-config names` allows you to change how Truth Bullets (and the Best Finder) are named in *public-facing* messages. 
 * `/bullet-config toggle` turns on or off triggering Truth Bullets. This'll be important later.
 
-Saving the most important of the `/bullet-config` commands for last, to take a look at all of your configration settings for investigations, you can use `/bullet-config info`:
+Saving the most important of the `/bullet-config` commands for last, to take a look at all of your configration settings for BDA investigations, you can use `/bullet-config info`:
 
 <figure markdown>
-  ![An example of an investigation configuration.](bullet_config.png)
+  ![An example of a BDA investigation configuration.](bullet_config.png)
 </figure>
 
 
@@ -104,10 +104,10 @@ Removing _all_ Truth Bullets is as simple as running `/bullet-manage clear`. _Th
 * `/bullet-manage override` and `/bullet-manage unfind` are more useful _during_ investigations, as you can imagine, but they simply allow you to either re-define who found a Truth Bullet or un-discover it so its trigger can be triggered once again.
 * `/help` is your friend! Use it to find more commands that could be useful to you!
 
-## Starting an Investigation
+## Starting a BDA Investigation
 
-To start off an investigation with all your Truth Bullets, simply run `/bullet-config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them, as seen in the [investigations usage guide](investigations.md). It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
+To start off a BDA investigation with all your Truth Bullets, simply run `/bullet-config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them, as seen in the [BDA investigations usage guide](bda_investigations.md). It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
 
-An investigation ends when _all Truth Bullets currently defined has been found_. Till then, keep an eye on your player's progress through `/bullet-manage list` and give hints as needed. Once all have been found, _the bot will automatically disable triggering bullets._ You'll need to turn on `/bullet-config toggle` again if you add a Truth Bullet for people to find them.
+A BDA investigation ends when _all Truth Bullets currently defined has been found_. Till then, keep an eye on your player's progress through `/bullet-manage list` and give hints as needed. Once all have been found, _the bot will automatically disable triggering bullets._ You'll need to turn on `/bullet-config toggle` again if you add a Truth Bullet for people to find them.
 
 _**Truth Bullets are not deleted after an investigation. You MUST do this manually by using `/bullet-manage clear`!**_  Don't forget to do this - not doing so turns your Truth Bullets into a confusing mess of found and unfound Bullets. If you don't know if you've done it, use `/bullet-manage list` to verify it.

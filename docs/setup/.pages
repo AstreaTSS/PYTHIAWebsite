@@ -1,7 +1,7 @@
 nav:
     - index.md
     - basic_setup.md
+    - bda_investigations_setup.md
     - dice_management.md
     - gacha_setup.md
-    - investigations_setup.md
     - messaging_setup.md
