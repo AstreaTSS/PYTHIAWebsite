@@ -49,7 +49,7 @@ Guides:
 
 ## Dice
 
-PYTHIA supports using and managing dice through the bot (for both players and staff), allowing for convenient dice rolling and management. The system supports standard dice notation
+PYTHIA supports using and managing dice through the bot (for both players and staff), allowing for convenient dice rolling and management. The system supports standard dice notation.
 
 <figure markdown>
   ![An example of a dice roll.](dice_roll.png)
