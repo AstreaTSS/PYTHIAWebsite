@@ -9,8 +9,8 @@ description: How to set up investigations with PYTHIA.
 
 !!! warning
     The investigation system present in PYTHIA is *vastly different* from the one present in Ultimate Assistant - this system is meant more for murder investigations. It is suggested you read the respective ["Using the Bot" guide](investigations.md) to understand the flow of this system compared to Ultimate Assistant.
-    
-    If you want a bot that has a more general purpose investigation/inventory system, you may want to check out [Chiaki Nanami](https://discord.com/application-directory/781034602533879838) (not affiliated).
+
+    A general purpose investigation system is planned but may not come for a while; for now, you may want to check out [Chiaki Nanami](https://discord.com/application-directory/781034602533879838) (not affiliated), which has some (but not all) investigation features.
 
 ## Setting Up the Config
 
