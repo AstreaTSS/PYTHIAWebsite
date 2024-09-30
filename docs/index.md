@@ -17,6 +17,8 @@ hide:
   [![Donate on Ko-Fi](https://img.shields.io/badge/Donate_on_Ko--Fi-Link-DEDEDE?style=for-the-badge&logo=ko-fi&logoColor=DEDEDE)](https://ko-fi.com/astreatss)
 </p>
 
+> "Hello. I am PYTHIA, the Ultimate Robotic Assistant. I look forward to assisting you in whatever tasks you may have."
+
 PYTHIA is a Discord bot meant to assist with various parts of running Danganronpa/Killing Game RPs. The various features can be seen below.
 
 ## Gacha
