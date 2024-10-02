@@ -54,6 +54,9 @@ You could investigate the rest of the suspicious things in the same way. Things 
 
 As a solution matching a certain other bot, if you don't wish to send a whole message, you can use `/investigate` with the *exact trigger* (case insentiive) to trigger a Truth Bullet. For example, `/investigate ink` would trigger the same Truth Bullet as the examples above.
 
+!!! warning "`/investigate` rename"
+    Around Saturday, October 12th, 2024, at 12:00 AM UTC, the `/investigate` command will be renamed to `/bda-investigate` to make way for new features. The command will still work as expected, however.
+
 Some servers may require only this method, so it's good to know about it.
 
 ### Hidden Truth Bullets
