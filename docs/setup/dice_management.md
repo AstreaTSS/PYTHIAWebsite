@@ -31,7 +31,7 @@ Noticably, there is only one option here: `/dice-config visibility`. This comman
       ![An example of rolling dice while visibility is set to public.](dice_roll.png)
     </figure>
 
-This does mean the dice system *cannot be disabled through the bot* - this is purposeful, because at worst, the system will not create messages in the server proper anyways. That being said, you can disable the `/dice` command through [Discord's application command permissions](https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions).
+This does mean the dice system *cannot be disabled through the bot* - this is purposeful, because at worst, the system will not create messages in the server proper anyways. That being said, you can disable the `/dice` command through [Discord's application command permissions](https://web.archive.org/web/20240519053816/https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) (links to archive.org as page has been deleted).
 
 ## Management
 

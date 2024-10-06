@@ -44,7 +44,7 @@ Just because features are in the above list does not mean they will not be added
 
 ### How do I make it so only certain users can use certain commands?
 
-Discord has this feature built-in for slash commands! Check out [this page Discord made](https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) for more information.
+Discord has this feature built-in for slash commands! Check out [this page Discord made](https://web.archive.org/web/20240519053816/https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) (links to archive.org as page has been deleted) for more information.
 
 Note:
 - All management/configuration commands require "Manage Server" permissions by default.
