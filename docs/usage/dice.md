@@ -43,6 +43,8 @@ To see what die are currently registered, you can use `/dice list`:
 
 To remove a registered die, you can use `/dice remove`.
 
+To remove all registered dice, you can use `/dice clear`.
+
 ### Rolling Registered Die
 
 To roll a registered dice, you can use `/dice roll-registered`:

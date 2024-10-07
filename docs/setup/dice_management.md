@@ -64,6 +64,8 @@ To see what dice are currently registered for a user, you can use `/dice-manage 
 
 To remove a die from a user, you can use `/dice-manage remove-from`. This will remove the die from the user's set of die.
 
+To clear all registered dice for a user, you can use `/dice-manage clear-for`. To clear *every registered die for every user*, you can use `/dice-manage clear-everyone`.
+
 ### Rolling Users' Registered Die
 
 To roll a user's die, you can use `/dice-manage roll-registered-for`:

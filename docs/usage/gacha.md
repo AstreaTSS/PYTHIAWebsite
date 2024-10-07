@@ -19,13 +19,16 @@ Before drawing, you'll probably want to know how much coins/currency you have. T
 
 Currency, of course, is your way of being able to roll in the gacha system. *Staff* will give you currency to use, usually depending on a number of situations in the game, so please refer to them for the ways you can gain currency.
 
-## Rolling/Pulling
+## Rolling/Pulling/Drawing
 
-The main event! To roll/pull from the gacha, you can use `/gacha roll`. This will give you a random item from the gacha pool, and it'll be added to your gacha item inventory. Here's an example of what that looks like:
+The main event! To roll from the gacha, you can use `/gacha roll`. This will give you a random item from the gacha pool, and it'll be added to your gacha item inventory. Here's an example of what that looks like:
 
 <figure markdown>
   ![An example of /gacha roll.](gacha_draw.png)
 </figure>
+
+!!! note "Aliases"
+    You can also use `/gacha draw` or `/gacha pull` as aliases for `/gacha roll`.
 
 Each roll costs a certain amount of currency (dependent on the staff - the bot will tell you how much each roll costs if you do not have enough), so be sure to check how much you have before you draw!
 
