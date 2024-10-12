@@ -19,12 +19,9 @@ To use the BDA investigations feature, you need to establish a Truth Bullets (or
 And you're technically ready! However, there are other commands worth noting:
 
 * `/bullet-config best-finder` can be used to set a roll given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most, though as of right now, a message for who sent the most is still sent.
-* `/bullet-config mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/investigate`, but you can change this so that only `/investigate` works.
+* `/bullet-config mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/bda-investigate`, but you can change this so that only `/bda-investigate` works.
 * `/bullet-config names` allows you to change how Truth Bullets (and the Best Finder) are named in *public-facing* messages. 
 * `/bullet-config toggle` turns on or off triggering Truth Bullets. This'll be important later.
-
-!!! warning "`/investigate` rename"
-    Around Saturday, October 12th, 2024, at 12:00 AM UTC, the `/investigate` command will be renamed to `/bda-investigate` to make way for new features. The command will still work as expected, but you may want to inform your players of this change.
 
 Saving the most important of the `/bullet-config` commands for last, to take a look at all of your configration settings for BDA investigations, you can use `/bullet-config info`:
 

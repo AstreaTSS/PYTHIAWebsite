@@ -52,16 +52,13 @@ You could investigate the rest of the suspicious things in the same way. Things 
 
 ### Alternate Investigation Method
 
-As a solution matching a certain other bot, if you don't wish to send a whole message, you can use `/investigate` with the *exact trigger* (case insentiive) to trigger a Truth Bullet. For example, `/investigate ink` would trigger the same Truth Bullet as the examples above.
-
-!!! warning "`/investigate` rename"
-    Around Saturday, October 12th, 2024, at 12:00 AM UTC, the `/investigate` command will be renamed to `/bda-investigate` to make way for new features. The command will still work as expected, however.
+As a solution matching a certain other bot, if you don't wish to send a whole message, you can use `/bda-investigate` with the *exact trigger* (case insentiive) to trigger a Truth Bullet. For example, `/bda-investigate ink` would trigger the same Truth Bullet as the examples above.
 
 Some servers may require only this method, so it's good to know about it.
 
 ### Hidden Truth Bullets
 
-Some Truth Bullets may be marked as hidden - this means that only you, the finder of the Truth Bullet, will see it. The bot will DM you if you sent a message with the trigger, or send a response only visible to you if you use `/investigate`, to show you the Truth Bullet. The staff will likely want you to keep them secret until a certain point, so be careful with them!
+Some Truth Bullets may be marked as hidden - this means that only you, the finder of the Truth Bullet, will see it. The bot will DM you if you sent a message with the trigger, or send a response only visible to you if you use `/bda-investigate`, to show you the Truth Bullet. The staff will likely want you to keep them secret until a certain point, so be careful with them!
 
 This does require DMs with the bot to be enabled. Hopefully, the staff will warn you ahead of time if they're planning on using hidden Truth Bullets.
 
