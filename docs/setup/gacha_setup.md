@@ -74,7 +74,7 @@ Editing an item is as simple as using `/gacha-manage edit-item` and specifying t
 
 As you can see, it already has the old fields populated in it - you'll be able to edit any property you want (including the name!). When you press submit, the item will be edited with the new properties.
 
-To remove an item, it's as simple as using `/bullet-manage remove-item` with the name of the item you want to delete. Notably, this removes it from all player's item lists, so be careful!
+To remove an item, it's as simple as using `/gacha-manage remove-item` with the name of the item you want to delete. Notably, this removes it from all player's item lists, so be careful!
 
 ### Adding Items To/Removing Items From Players
 
