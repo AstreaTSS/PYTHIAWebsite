@@ -20,6 +20,7 @@ All configuration commands for the system can be found under the `/message-confi
 You can get a pretty good idea of what options are available to you just from this alone, but to change them:
 - `/message-config toggle` turns the messaging system on or off. If the messaging system is turned off, players will not be able to send messages through the bot. By default, it is off.
 - `/message-config anonymous-messaging` allows you to toggle whether or not users can send messages anonymously (IE a player can send a message without the receiver knowing who sent it). By default, they cannot.
+- `/message-config ping-on-message` allows you to toggle whether or not the bot will ping the receiver when they receive a message. By default, it is *off*.
 
 And that's all for this part!
 
