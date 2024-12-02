@@ -11,7 +11,7 @@ comments: true
 
 # Update Post - Early December 2024
 
-Since the last update post, there have been a few changes to the bot, including new configuration setting. Let's get into it!
+Since the last update post, there have been a few changes to the bot, including new configuration settings. Let's get into it!
 
 <!-- more -->
 
