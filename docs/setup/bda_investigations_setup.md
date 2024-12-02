@@ -19,6 +19,7 @@ To use the BDA investigations feature, you need to establish a Truth Bullets (or
 And you're technically ready! However, there are other commands worth noting:
 
 * `/bullet-config best-finder` can be used to set a roll given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most, though as of right now, a message for who sent the most is still sent.
+* `/bullet-config announce-best-finders` toggles whether or not the bot will announce who found the most Truth Bullets at the end of an investigation. This is on by default.
 * `/bullet-config mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/bda-investigate`, but you can change this so that only `/bda-investigate` works.
 * `/bullet-config names` allows you to change how Truth Bullets (and the Best Finder) are named in *public-facing* messages. 
 * `/bullet-config toggle` turns on or off triggering Truth Bullets. This'll be important later.
@@ -39,6 +40,11 @@ Let's get started by adding Truth Bullets - use `/bullet-manage add` and select 
 <figure markdown>
   ![An example of said button.](add_bullets_button.png){ loading="lazy" }
 </figure>
+
+???+ tip "Hate Using the Button?"
+    If you don't like using the button and would prefer if the command directly opened the pop-up below, you can specify the `send_button` option for `/bullet-manage add` to say "no" instead of the (default) "yes". This will send the prompt directly to you, bypassing the button.
+
+    Do give the button a try, though - you might find it more convenient when you're adding a lot of Truth Bullets!
 
 Once you click that button, a little pop-up will appear, asking you the trigger, if to make this Truth Bullet hidden, and a description (supports Discord markdown!) for the Truth Bullet you're adding.
 

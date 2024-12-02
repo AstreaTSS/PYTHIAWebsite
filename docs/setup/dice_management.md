@@ -17,18 +17,21 @@ As per usual, all configuration commands for the dice system can be found under 
   ![An example of a dice configuration.](dice_config.png)
 </figure>
 
-Noticably, there is only one option here: `/dice-config visibility`. This command allows you to toggle whether or not the results of dice rolls are visible to everyone in the server. By default, they are not and only shown to the person who used the roll command.
+Noticably, there is only one option here: `/dice-config visibility`. This command allows you to toggle whether or not the results of dice rolls are visible to everyone in the server. By default, they are visible to everyone in the channel the roll was made in.
 
-=== "Hidden (Default)"
+!!! note "Old Visibility Setting"
+    Before December 2nd, 2024, the visibility defaulted to "hidden" instead of "public". As such, servers that had PYTHIA before this date will have the visibility set to "hidden" unless it was changed.
 
-    <figure markdown>
-      ![An example of rolling dice while visibility is set to hidden.](dice_roll_hidden.png)
-    </figure>
-
-=== "Public"
+=== "Public (Default)"
 
     <figure markdown>
       ![An example of rolling dice while visibility is set to public.](dice_roll.png)
+    </figure>
+
+=== "Hidden"
+
+    <figure markdown>
+      ![An example of rolling dice while visibility is set to hidden.](dice_roll_hidden.png)
     </figure>
 
 This does mean the dice system *cannot be disabled through the bot* - this is purposeful, because at worst, the system will not create messages in the server proper anyways. That being said, you can disable the `/dice` command through [Discord's application command permissions](https://web.archive.org/web/20240519053816/https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) (links to archive.org as page has been deleted).

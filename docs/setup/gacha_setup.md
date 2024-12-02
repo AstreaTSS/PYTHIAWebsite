@@ -26,20 +26,22 @@ Finally `/gacha-config toggle` turns on or off the gacha system. Players cannot 
 
 ### Adding Items
 
-A gacha system isn't a gacha system without items! To add items, you can use the `/gacha-manage add-item` command. This should send you a prompt to fill out:
+A gacha system isn't a gacha system without items! To add items, you can use the `/gacha-manage add-item` command. This will pop out a little button that can be used _at any time to add gacha items._
+
+<figure markdown>
+  ![An example of the button for adding gacha items.](add_gacha_button.png)
+</figure>
+
+???+ tip "Hate Using the Button?"
+    If you don't like using the button and would prefer if the command directly opened the prompt below, you can specify the `send_button` option for `/gacha-manage add-item` to say "no" instead of the (default) "yes". This will send the prompt directly to you, bypassing the button.
+
+    Do give the button a try, though - you might find it more convenient when you're adding a lot of items!
+
+Once you click that button, a little prompt will appear to fill out the details of the item you want to add:
 
 <figure markdown>
   ![An example of the prompt to add an item.](add_gacha_item_modal.png)
 </figure>
-
-???+ note "Is Using Slash Commands Repeatedly Too Slow?"
-    If you find that using slash commands is too slow for you while adding items, you can use the `send_button` option for `/gacha-manage add-item` to send a button. The button, every time it's clicked, will send the (above) prompt to add an item. While this may seem unorthodox, it can really help, so try it!
-
-    <figure markdown>
-      ![An example of the button for adding gacha items.](add_gacha_button.png)
-    </figure>
-
-    At some point in the future, this may be made the default behavior for adding items.
 
 You get a number of customization options here:
 - The name and description are, well, exactly what you expect. Names must be unique across different items. Both of these fields are required.

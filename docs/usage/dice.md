@@ -23,7 +23,7 @@ To roll dice, you can use `/dice roll` followed by the dice notation you want to
 </figure>
 
 !!! note "Visibility"
-    By default for most servers, the results of dice rolls are only visible to you. You can ask the staff to [change this setting](dice_management.md#configuration) if you want the results to be visible to everyone.
+    For some servers, the results of dice rolls are only visible to you. You can ask the staff to [change this setting](dice_management.md#configuration) if you want the results to be visible to everyone.
 
 ### Adding/Registering Dice
 
