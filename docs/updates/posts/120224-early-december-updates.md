@@ -21,7 +21,7 @@ Since the last update post, there have been a few changes to the bot, including 
 
 The `/gacha-manage add-item` command now *sends a button by default.* This is to make it easier to add items to the gacha system, as the time to type out the slash command over and over again can add up.
 
-You should give it a try before doing so, but if you don't like using the button and would prefer if the command directly opened the prompt below, you can specify the `send_button` option for `/gacha-manage add-item` to say "no" instead of the (now default) "yes". This will send the prompt directly to you (like before), bypassing the button.
+You should give it a try before doing so, but if you don't like using the button and would prefer if the command directly opened the prompt (like before), you can specify the `send_button` option for `/gacha-manage add-item` to say "no" instead of the (now default) "yes". This will send the prompt directly to you, bypassing the button.
 
 ### Dice Visibility
 
