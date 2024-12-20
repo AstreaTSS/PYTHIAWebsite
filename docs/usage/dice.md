@@ -25,7 +25,7 @@ To roll dice, you can use `/dice roll` followed by the dice notation you want to
 !!! note "Visibility"
     For some servers, the results of dice rolls are only visible to you. You can ask the staff to [change this setting](dice_management.md#configuration) if you want the results to be visible to everyone.
 
-### Adding/Registering Dice
+## Adding/Registering Dice
 
 To register a die for yourself, you can use the `/dice register`:
 
@@ -33,7 +33,7 @@ To register a die for yourself, you can use the `/dice register`:
   ![An example of registering a die for yourself.](dice_register.png)
 </figure>
 
-### Listing/Removing Dice
+## Listing/Removing Dice
 
 To see what die are currently registered, you can use `/dice list`:
 
@@ -45,7 +45,7 @@ To remove a registered die, you can use `/dice remove`.
 
 To remove all registered dice, you can use `/dice clear`.
 
-### Rolling Registered Die
+## Rolling Registered Die
 
 To roll a registered dice, you can use `/dice roll-registered`:
 

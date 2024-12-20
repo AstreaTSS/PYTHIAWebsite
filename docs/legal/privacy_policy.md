@@ -21,6 +21,8 @@ Certain data is collected whenever a user or staff uses a command/feature. This 
 - Information of a user's Gacha profile, including their currency amount and the items they own. This is set both through `/gacha-manage` and when a user pulls an item through `/gacha roll/draw/pull`.
 - Information of a user and their respective messaging channel, including the user's ID and the channel ID. This is set through `/message-manage`.
 - Information about a user's registered die, including the die's name, the user's ID, and the die's value. This is set through `/dice-manage` and `/dice`.
+- Information about a server's and channel's items, including the item's name, description, and the channel it is placed in. This is set through `/item-manage`.
+  - Information about a user's items, including the item's name, description, and the user's ID. This is set through `/inventory-manage` and when a user takes an item through `/items take`.
 - Information about the various names/renamings that the staff set for certain features - mainly, those set through `/X-config names`, with `X` being the feature.
 
 A technical specification of data collected by each command/feature can be found in the [schema file used by the bot](https://raw.githubusercontent.com/AstreaTSS/PYTHIA/refs/heads/main/schema.prisma).

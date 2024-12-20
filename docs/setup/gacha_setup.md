@@ -26,6 +26,9 @@ Finally `/gacha-config toggle` turns on or off the gacha system. Players cannot 
 
 ### Adding Items
 
+???+ note
+    A gacha item is different from [item system](items_setup.md) items - it can only be interacted with through gacha commands and gotten through `/gacha roll/draw/pull`.
+
 A gacha system isn't a gacha system without items! To add items, you can use the `/gacha-manage add-item` command. This will pop out a little button that can be used _at any time to add gacha items._
 
 <figure markdown>

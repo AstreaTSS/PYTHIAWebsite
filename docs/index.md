@@ -59,6 +59,18 @@ Guides:
 - [Dice as a User](dice.md)
 - [Dice Management](dice_management.md)
 
+## Items
+
+PYTHIA has an items system, allowing you to create items, place them in channels, and have players find and take them (and even let them drop the items again). You can function this system as a simple item management system, or use it as a general-purpose investigation system, or more.
+
+<figure markdown>
+  ![An example of finding an item.](items_here.png)
+</figure>
+
+Guides:
+- [Items as a User](usage/items.md)
+- [Setting Up Items](setup/items_setup.md)
+
 ## Messaging
 
 PYTHIA supports a messaging system, where users can send messages to each other through the bot.
