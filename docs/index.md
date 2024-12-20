@@ -35,18 +35,6 @@ Guides:
 - [BDA Investigations as a User](usage/bda_investigations.md)
 - [Setting Up BDA Investigations](setup/bda_investigations_setup.md)
 
-## Gacha
-
-PYTHIA supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
-
-<figure markdown>
-  ![Example of a user drawing an item from the gacha.](gacha_draw.png)
-</figure>
-
-Guides:
-- [Gacha as a User](usage/gacha.md)
-- [Setting Up Gacha](setup/gacha_setup.md)
-
 ## Dice
 
 PYTHIA supports using and managing dice through the bot (for both players and staff), allowing for convenient dice rolling and management. The system supports standard dice notation.
@@ -58,6 +46,18 @@ PYTHIA supports using and managing dice through the bot (for both players and st
 Guides:
 - [Dice as a User](dice.md)
 - [Dice Management](dice_management.md)
+
+## Gacha
+
+PYTHIA supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
+
+<figure markdown>
+  ![Example of a user drawing an item from the gacha.](gacha_draw.png)
+</figure>
+
+Guides:
+- [Gacha as a User](usage/gacha.md)
+- [Setting Up Gacha](setup/gacha_setup.md)
 
 ## Items
 
