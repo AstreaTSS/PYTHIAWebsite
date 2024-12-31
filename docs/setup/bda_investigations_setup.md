@@ -108,6 +108,8 @@ Removing _all_ Truth Bullets is as simple as running `/bullet-manage clear`. _Th
 
 * To add an alias (an alternative trigger to trigger the same Truth Bullet), simply use the `/bullet-manage add-alias` command with the channel, trigger of the Truth Bullet, and the alias you wish to add to the Bullet. As you can imagine, `/bullet-manage remove-alias` follows a similar process.
 * `/bullet-manage override` and `/bullet-manage unfind` are more useful _during_ investigations, as you can imagine, but they simply allow you to either re-define who found a Truth Bullet or un-discover it so its trigger can be triggered once again.
+* `/bullet-manage manual-trigger` allows you to manually trigger a Truth Bullet in the current channel, even allowing you to specify a finder if needed.
+  * This can be used even when triggering Truth Bullets are *off*. If you prefer your players to discover Truth Bullets in a different way than what the bot allows but still would like some organization, this may be for you!
 * `/help` is your friend! Use it to find more commands that could be useful to you!
 
 ## Starting a BDA Investigation
