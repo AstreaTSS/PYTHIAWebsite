@@ -46,7 +46,7 @@ Let's get started by adding Truth Bullets - use `/bullet-manage add` and select 
 
     Do give the button a try, though - you might find it more convenient when you're adding a lot of Truth Bullets!
 
-Once you click that button, a little pop-up will appear, asking you the trigger, if to make this Truth Bullet hidden, and a description (supports Discord markdown!) for the Truth Bullet you're adding.
+Once you click that button, a little pop-up will appear, asking you the trigger, a description (supports Discord markdown!), an optional image, and if you want to make the Truth Bullet you're adding hidden.
 
 <figure markdown>
   ![The pop-up that appears while adding Truth Bullets.](add_bullet_modal.png){ loading="lazy" }
@@ -58,6 +58,9 @@ Once you click that button, a little pop-up will appear, asking you the trigger,
     - Triggers are case-insensitive in terms of how they're triggered, so "oven" and "Oven" will act the same.
     - Trigger detection is _not_ word-bound, so "book" trigger will trigger on messages containing "*book*", "*book*s", "*book*shelf", "*book*!", etc., since they all have "book" in them.
     - If you need multiple triggers, look at aliases, described later.
+
+??? note "Note about Images"
+    Images, unlike in other systems, will be displayed at their full size in the Truth Bullet embed.
 
 ???+ tip "Hiding Truth Bullets"
     If you want to hide a Truth Bullet, you can do so by making the second question a "yes" instead of a no. This makes it so only the finder of the Truth Bullet sees it, instead of the Truth Bullet being published to a public channel. This is useful for secrets or other things you don't want everyone to know about.
@@ -94,7 +97,7 @@ Editing a Truth Bullet is as simple as using `/bullet-manage edit` and specifyin
   ![The pop-up that appears while editing Truth Bullets.](edit_bullet_modal.png){ loading="lazy" }
 </figure>
 
-As you can see, it already has the old trigger and description in it - you'll be able to edit them from there (though you may want to temporarily move the contents to a proper text editor to edit things better). When you press submit, the Truth Bullet will be edited with the new trigger and description.
+As you can see, it already has the Truth Bullet details - you'll be able to edit them from there (though you may want to temporarily move the contents to a proper text editor to edit things better). When you press submit, the Truth Bullet will be edited with the new trigger and description.
 
 To remove a Truth Bullet, it's as simple as using `/bullet-manage remove` with the channel and trigger of the Truth Bullet you want to delete:
 

@@ -59,8 +59,9 @@ All configuration commands for the items systen can be found under the `/items-c
   ![An example of an items system configuration.](items_config.png)
 </figure>
 
-As you can see, the only option available right now is:
+The options available are:
 - `/items-config toggle` turns on or off the items system. Players cannot use any of the items commands (as discussed on the [items usage page](items.md)) if the items system is turned off.
+- `/items-config auto-suggest` allows configuring, when players use `/items here/take`, if the bot should automatically suggest the items currently in the room. If not, they'll have to guess it themselves.
 
 ## Items
 
