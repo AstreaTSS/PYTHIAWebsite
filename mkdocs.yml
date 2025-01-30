@@ -97,10 +97,6 @@ plugins:
   - custom-privacy:
       assets_exclude:
         - https://giscus.app/*
-  - custom-cards:
-      cards_layout_options:
-        background_color: "#000000"
-        logo: assets/pythia_icon.jpg
   - autorefs
   - autolinks
   - awesome-pages
@@ -127,6 +123,14 @@ plugins:
         "using_the_bot.md": "usage/index.md"
         "usage/investigations.md": "usage/bda_investigations.md"
         "setup/investigations_setup.md": "setup/bda_investigations_setup.md"
+
+  - group:
+      enabled: !ENV [ CARDS, True ]
+      plugins:
+        - custom-cards:
+            cards_layout_options:
+              background_color: "#000000"
+              logo: assets/pythia_icon.jpg
 
 markdown_extensions:
   - admonition
