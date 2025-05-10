@@ -98,6 +98,28 @@ To remove an item from a player, you can use `/gacha-manage remove-item-from` an
     - `remove_amount_from_gacha` for `/gacha-manage add-item-to`.
     - `replenish_gacha` for `/gacha-manage remove-item-from`.
 
+
+### Exporting/Importing Items
+
+If you wish to transfer items to another server, or just wish to create a shareable list of items in general, the process is simple.
+
+To *export* items, you can use `/gacha-manage export-items`. This should give you a file ending in `.json`; this is a [JSON file](https://en.wikipedia.org/wiki/JSON), and it can be shared around freely. No private information is stored on these other than basic information about the items themselves.
+
+You can also edit it directly if you wish; this should not be necessary, but can be done for advanced usecases. If you choose to do so, please expand the below note.
+
+??? note "Notes for Editing JSON"
+    While editing the JSON file, please keep in mind some limitations:
+
+    - **You are generally expected to know how JSON files work. There will be no support given for editing JSON files.**
+    - Keep the version number the same! The version number is used to indicate the format of the items, which makes sure JSON files work even in the future. Changing it can lead to unexpected side effects.
+    - Stay to the format that your JSON file has. Any deviations will likely not be tolerated.
+    - When `amount` is `-1`, that means it is unlimited.
+    - The bot enforces the same limitations as making items through the bot itself.
+
+Regardless, you may import exported items through `/gacha-manage import-items` and giving your JSON file. This may be done from other servers other than the server where the file was exported from.
+
+The bot, by default, will error out if there are any items in the export that overlap with items already in the server. To get around this, you can use the `override` option in `/gacha-manage import-items` to replace those items.
+
 ## Currency
 
 Everything about currency is managed by you through bot commands. To clarify: *there are no ways for players to earn currency on their own, so you must give it to them manually.*
