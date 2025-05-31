@@ -91,6 +91,10 @@ You can! Using [the source code](https://github.com/AstreaTSS/PYTHIA), you can s
 
     If you run into issues, I will only give limited support on my [support server](https://discord.gg/NSdetwGjpK), and will expect you to have a reasonable understanding of Python, Discord, Git, and potentially Docker. I am not tech support.
 
+!!! danger "This Guide Is Outdated"
+    The self-hosting instructions below are outdated, also the process is mostly the same. They will be updated in the future, but for now, note:
+    - Instead of using `prisma`, the bot now uses `tortoise-orm` and `aerich`. `aerich init-db` and `aerich upgrade` are your friends; you can find more information on the [aerich README](https://github.com/tortoise/aerich).
+
 #### Recommended Process (Docker)
 
 That being said, the recommended process is:

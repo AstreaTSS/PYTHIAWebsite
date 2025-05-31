@@ -21,20 +21,19 @@ Currency, of course, is your way of being able to roll in the gacha system. *Sta
 
 ## Rolling/Pulling/Drawing
 
-The main event! To roll from the gacha, you can use `/gacha roll`. This will give you a random item from the gacha pool, and it'll be added to your gacha item inventory. Here's an example of what that looks like:
+The main event! To use the gacha, you can use `/gacha roll`, `/gacha draw`, or `/gacha pull`. This will give you a random item from the gacha pool, and it'll be added to your gacha item inventory. Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of /gacha roll.](gacha_draw.png)
+  ![An example of /gacha pull.](gacha_draw.png)
 </figure>
 
-!!! note "Aliases"
-    You can also use `/gacha draw` or `/gacha pull` as aliases for `/gacha roll`.
+A gacha item's rarity determines how likely it is to be drawn. The rarer the item, the less likely it is to be drawn. The rarities are usually defined by the staff, but they can include things like "common", "uncommon", "rare", "epic", and "legendary". Note that some servers may not use rarities at all - the item's rarity will not be displayed if that is the case.
 
-Each roll costs a certain amount of currency (dependent on the staff - the bot will tell you how much each roll costs if you do not have enough), so be sure to check how much you have before you draw!
+Finally, each use costs a certain amount of currency (dependent on the staff - the bot will tell you how much each use costs if you do not have enough), so be sure to check how much you have before you draw!
 
 ## Viewing an Item
 
-Now, `/gacha profile`, as mentioned earlier, can be used to view all of your items. But if you want to see more information about a single item, you can use `/gacha view-item` and specify the name of the item you want to see. This will give you a more detailed view of the item, including its description, and image (if it has one).
+Now, `/gacha profile`, as mentioned earlier, can be used to view all of your items. But if you want to see more information about a single item, you can use `/gacha view-item` and specify the name of the item you want to see. This will give you a more detailed view of the item, including its description, rarity (if the server uses rarities), and image (if it has one).
 
 <figure markdown>
   ![An example of /gacha view-item.](view_gacha_item_player.png)
@@ -51,5 +50,5 @@ Feeling generous? You can give currency to another player using `/gacha give-cur
 ## Notes
 
 - Items are made by the staff of your server. PYTHIA does not take responsibility for the items in the gacha system.
-- Each item has an equal chance of being rolled, at least for right now. You may or may not be able to draw items you already own - that's, once again, dependent on staff.
+- You may or may not be able to draw items you already own - that's, once again, dependent on staff.
 - As implied earlier, the staff decide if they wish to use the gacha at all. It's a good idea to defer to them for any questions about the gacha system in your server.

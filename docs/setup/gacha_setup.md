@@ -15,12 +15,49 @@ All configuration commands for the gacha can be found under the `/gacha-config` 
   ![An example of a gacha configuration.](gacha_config.png)
 </figure>
 
-You can get a pretty good idea of what options are available to you just from this alone, but to change them:
-- `/gacha-config names` allows you to change how the gacha system names things in most messages.
+Some basic options include:
+- `/gacha-config names` allows you to change how the gacha system publicly displays the names of things like the currency and gacha rarities.
 - `/gacha-config cost` sets the cost of each roll. By default, it costs 1 currency to roll, and users will need at least that amount to do so - you can adjust it how you like, though.
 - `/gacha-config draw-duplicates` allows you to toggle whether or not users can draw items they already own from the gacha. By default, they can.
+- Finally `/gacha-config toggle` turns on or off the gacha system. Players cannot use any of the gacha commands (as discussed on the [gacha usage page](gacha.md)) if the gacha system is turned off. It's suggested that you add your items before turning the gacha system on.
 
-Finally `/gacha-config toggle` turns on or off the gacha system. Players cannot use any of the gacha commands (as discussed on the [gacha usage page](gacha.md)) if the gacha system is turned off. It's suggested that you add your items before turning the gacha system on.
+### Rarities
+
+Rarities are a way to indicate how likely an item is to be drawn from the gacha. The rarer the item, the less likely it is to be drawn. The defaults for rarities are shown in the above configuration image, but you can change the fields you want to with `/gacha-config rarities`.
+
+#### Rarity Colors
+
+Editing rarity colors will determine the color of the embed (the color to the side of them) for items with a particular rarity.
+
+<figure markdown>
+  ![An example of editing rarity colors.](gacha_rarity_color.png)
+</figure>
+
+!!! note "Values for Rarity Colors"
+    The values for rarity colors are in hexadecimal format, which is the same format used for colors in HTML and CSS. You can use a color picker to find the color you want, or you can use a website like [this one from Google](https://g.co/kgs/TxT34xV) to find the hex code for the color you want. The # is optional, and shortened hex codes (like #f00 for red) are *not* supported.
+
+#### Rarity Odds
+
+Editing rarity odds will determine how likely an item of that rarity is to be drawn from the gacha.
+
+!!! note "Odds and Rolling Items"
+    When a user rolls/draws/pulls an item, the bot will randomly select a rarity based on the odds you set. It will then randomly select an item from that rarity to give to the user.
+
+    However, if there are no items of that rarity, the bot will *first* try to find an item of a lower rarity in descending rarity order, and if that fails, *then* it will try to find an item of a higher rarity in ascending rarity order. This means that even if you set the odds to 0% for a rarity, it may still be possible to get an item of that rarity if the bot has to do this search.
+
+The odds are represented as a percentage, and the sum of all odds must equal 100%.
+
+<figure markdown>
+  ![An example of editing rarity odds.](gacha_rarity_odds.png)
+</figure>
+
+!!! note "Values for Rarity Odds"
+    - If you wish, you can also use raw decimal values for the odds, such as 0.1. In that case, all values must add up to 1.0.
+    - For percentage values, the max decimal precision is 2, so you can use values like 10.01%, for example. For raw decimal values, the max precision is 4, so you can use values like 0.1001.
+
+#### Rarity Names
+
+Rarity names can be changed through `/gacha-config names`. Do note that even if you change the names, when adding/editing items, you will still need to use the default rarity names (common, uncommon, rare, epic, legendary) in order to assign rarities to items.
 
 ## Items
 
@@ -47,8 +84,11 @@ Once you click that button, a little prompt will appear to fill out the details 
 </figure>
 
 You get a number of customization options here:
-- The name and description are, well, exactly what you expect. Names must be unique across different items. Both of these fields are required.
-- The quantity is, well, how many of this item you want to add to the gacha system. By default, there will be infinite amounts of this item - otherwise, for each time someone draws the item, its quantity decreases until it reaches 0 and can no longer be drawn for.
+- The name and description are exactly what you expect. Names must be unique across different items. Both of these fields are required.
+- The rarity is the rarity of the item, which will determine how likely it is to be drawn from the gacha. By default, items get created with a common rarity, but you can choose one of: common, uncommon, rare, epic, or legendary.
+  - If you have changed the rarity names in the gacha configuration, those will *not* be reflected here.
+  - Rarities are discussed more in the [rarities section](#rarities) above.
+- The quantity is how many of this item you want to add to the gacha system. By default, there will be infinite amounts of this item - otherwise, for each time someone draws the item, its quantity decreases until it reaches 0 and can no longer be drawn for.
 - The image is optional, but if you provide a URL to an image, it'll be displayed when a player draws the item (as a thumbnail in an embed). This can be useful for showing off what the item looks like.
 
 Once you fill out the prompt, you should get a message about how the item was added successfully!
@@ -113,6 +153,7 @@ You can also edit it directly if you wish; this should not be necessary, but can
     - **You are generally expected to know how JSON files work. There will be no support given for editing JSON files.**
     - Keep the version number the same! The version number is used to indicate the format of the items, which makes sure JSON files work even in the future. Changing it can lead to unexpected side effects.
     - Stay to the format that your JSON file has. Any deviations will likely not be tolerated.
+    - `rarity` can range from 1-5, and represent (in order) common, uncommon, rare, epic, and legendary.
     - When `amount` is `-1`, that means it is unlimited.
     - The bot enforces the same limitations as making items through the bot itself.
 
