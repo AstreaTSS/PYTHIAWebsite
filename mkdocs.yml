@@ -94,9 +94,9 @@ extra:
 plugins:
   - search
   - offline
-  - custom-privacy:
-      assets_exclude:
-        - https://giscus.app/*
+  - privacy:
+      assets_exclude: 
+        - giscus.app/*
   - autorefs
   - autolinks
   - awesome-pages
@@ -127,10 +127,10 @@ plugins:
   - group:
       enabled: !ENV [ CARDS, True ]
       plugins:
-        - custom-cards:
+        - social:
             cards_layout_options:
               background_color: "#000000"
-              logo: assets/pythia_icon.jpg
+              logo: docs/assets/pythia_icon.jpg
 
 markdown_extensions:
   - admonition
