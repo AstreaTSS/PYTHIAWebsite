@@ -11,13 +11,68 @@ The gacha system is a fun way of getting items in your roleplay server. If the s
 
 ## Profile and Currency
 
-Before drawing, you'll probably want to know how much coins/currency you have. To see that *and what items you've drawn*, you can use `/gacha profile`:
+Before drawing, you'll probably want to know how much coins/currency you have. To see that *and what items you've drawn*, you can use `/gacha profile` or `/gacha inventory`:
 
 <figure markdown>
-  ![An example of /gacha profile.](gacha_profile.png)
+  ![An example of /gacha profile.](gacha_profile.png){ width="400" }
 </figure>
 
 Currency, of course, is your way of being able to roll in the gacha system. *Staff* will give you currency to use, usually depending on a number of situations in the game, so please refer to them for the ways you can gain currency.
+
+`/gacha profile` has a few options to discuss. For example, you can sort the list by name, rarity, or time first gotten using `sort_by`:
+
+=== "Name (Default)"
+
+    <figure markdown>
+      ![An example of /gacha profile when sorting by name.](gacha_profile.png){ width="400" }
+    </figure>
+
+=== "Rarity"
+
+    !!! note
+        When sorting by rarity, items will be sorted in ascending order of rarity (common -> legendary). Within the same rarity, items will be sorted by name.
+
+    <figure markdown>
+      ![An example of /gacha profile when sorting by rarity.](gacha_profile_rarity.png){ width="400" }
+    </figure>
+
+=== "Time First Gotten"
+
+    <figure markdown>
+      ![An example of /gacha profile when sorting by the time the item was first gotten.](gacha_profile_time_first_gotten.png){ width="400" }
+    </figure>
+
+And you can adjust the display mode using `mode`:
+
+??? note "Using An Old Discord Mobile Version?"
+    Users using old Discord mobile versions (older than December 2024) will not be able to use either of the modes with "Modern" in it. This is a technical limitation, as these new modes use new Discord features. Please manually select `Cozy` or `Compact` for `mode` when you use this command instead.
+
+=== "Modern (Default)"
+
+    <figure markdown>
+      ![An example of /gacha profile in modern mode.](gacha_profile.png){ width="400" }
+    </figure>
+
+=== "Spacious (Modern)"
+
+    ???+ note
+        Spacious mode exchanges the number of items that can be displayed on a single page for an extra "View" button that acts as a convenient way to view item details. The details are identical to [`/gacha view-item`](#viewing-an-item).
+
+    <figure markdown>
+      ![An example of /gacha profile in spacious mode.](gacha_profile_spacious.png){ width="400" }
+    </figure>
+
+=== "Cozy"
+
+    <figure markdown>
+      ![An example of /gacha profile in cozy mode.](gacha_profile_cozy.png){ width="400" }
+    </figure>
+
+=== "Compact"
+
+    <figure markdown>
+      ![An example of /gacha profile in compact mode.](gacha_profile_compact.png){ width="400" }
+    </figure>
 
 ## Rolling/Pulling/Drawing
 

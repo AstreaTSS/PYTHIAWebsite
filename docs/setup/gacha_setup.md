@@ -95,11 +95,66 @@ Once you fill out the prompt, you should get a message about how the item was ad
 
 ### Listing Current Items
 
-To see what items are currently in the gacha system, you can use `/gacha-manage list-items`. This will give you a list of all items in the gacha system, a shortened view of their description, and their quantity (if they have one that isn't infinite).
+To see what items are currently in the gacha system, you can use `/gacha-manage list-items`. This will give you a list of all items in the gacha system, a shortened view of their description, their rarity, and their quantity (if they have one that isn't infinite).
 
 <figure markdown>
-  ![An example of /gacha-manage list-items.](list_gacha_items.png){ loading="lazy" }
+  ![An example of /gacha-manage list-items.](list_gacha_items.png){ width="400" }
 </figure>
+
+You can sort the list by name, rarity, or time created using `sort_by`:
+
+=== "Name (Default)"
+
+    <figure markdown>
+      ![An example of /gacha-manage list-items when sorting by name.](list_gacha_items.png){ width="400" }
+    </figure>
+
+=== "Rarity"
+
+    !!! note
+        When sorting by rarity, items will be sorted in ascending order of rarity (common -> legendary). Within the same rarity, items will be sorted by name.
+
+    <figure markdown>
+      ![An example of /gacha-manage list-items when sorting by rarity.](list_gacha_items_rarity.png){ width="400" }
+    </figure>
+
+=== "Time Created"
+
+    <figure markdown>
+      ![An example of /gacha-manage list-items when sorting by time created.](list_gacha_items_time_created.png){ width="400" }
+    </figure>
+
+And you can adjust the display mode using `mode`:
+
+??? note "Using An Old Discord Mobile Version?"
+    Users using old Discord mobile versions (older than December 2024) will not be able to use either of the modes with "Modern" in it. This is a technical limitation, as these new modes use new Discord features. Please manually select `Cozy` or `Compact` for `mode` when you use this command instead.
+
+=== "Modern (Default)"
+
+    <figure markdown>
+      ![An example of /gacha-manage list-items in modern mode.](list_gacha_items.png){ width="400" }
+    </figure>
+
+=== "Spacious (Modern)"
+
+    ???+ note
+        Spacious mode exchanges the number of items that can be displayed on a single page for an extra "View" button that acts as a convenient way to view item details. The details are identical to [`/gacha-manage view-item`](#viewing-item).
+
+    <figure markdown>
+      ![An example of /gacha-manage list-items in spacious mode.](list_gacha_items_spacious.png){ width="400" }
+    </figure>
+
+=== "Cozy"
+
+    <figure markdown>
+      ![An example of /gacha-manage list-items in cozy mode.](list_gacha_items_cozy.png){ width="400" }
+    </figure>
+
+=== "Compact"
+
+    <figure markdown>
+      ![An example of /gacha-manage list-items in compact mode.](list_gacha_items_compact.png){  width="400" }
+    </figure>
 
 ### Viewing Item
 
@@ -195,11 +250,16 @@ To see how much currency every player has, you can use `/gacha-manage list-curre
 
 ## View Profile
 
-To view the items and currency a user has, you can use the `/gacha-manage user-profile` commands:
+To view the items and currency a user has, you can use the `/gacha-manage user-profile` command:
 
 <figure markdown>
-  ![An example of /gacha-manage user-profile.](user_profile_gacha.png)
+  ![An example of /gacha-manage user-profile.](user_profile_gacha.png){ width="400" }
 </figure>
+
+This command is otherwise identical to `/gacha profile`, which players can use to view their own profiles. See [the gacha usage guide](gacha.md#profile-and-currency) for information about the functionality of this command, including its various options.
+
+??? note "Using An Old Discord Mobile Version?"
+    Users using old Discord mobile versions (older than December 2024) will not be able to use either of the modes with "Modern" in it. This is a technical limitation, as these new modes use new Discord features. Please manually select `Cozy` or `Compact` for `mode` when you use this command instead.
 
 ## Resetting and Clearing
 

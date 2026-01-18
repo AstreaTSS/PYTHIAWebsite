@@ -103,9 +103,19 @@ Once you fill out the prompt, you should get a message about how the item was cr
 
 To see what items you've created so far, you can use `/items-manage list-items`. This will give you a list of all items in the items system and a shortened view of their description.
 
-<figure markdown>
-  ![An example of /items-manage list-items.](list_items.png)
-</figure>
+This command has a `mode` option to adjust how the items are displayed:
+
+=== "Cozy (Default)"
+
+    <figure markdown>
+      ![An example of /items-manage list-items in cozy mode.](list_items.png)
+    </figure>
+
+=== "Compact"
+
+    <figure markdown>
+      ![An example of /items-manage list-items in compact mode.](list_items_compact.png)
+    </figure>
 
 ### Viewing Items
 
@@ -163,9 +173,19 @@ To list *all* items placed in the server's channels, you can use `/items-manage 
 
 To see what items are in a *specific channel*, you can use `/items-manage list-items-in-channel` and specify the channel you want to see. This will give you a list of all items in the channel, a shortened version of their description, and their quantity.
 
-<figure markdown>
-  ![An example of /items-manage list-items-in-channel.](manage_list_items_in_channel.png)
-</figure>
+This command has a `mode` option to adjust how the items are displayed:
+
+=== "Cozy (Default)"
+
+    <figure markdown>
+      ![An example of /items-manage list-items-in-channel in cozy mode.](manage_list_items_in_channel.png)
+    </figure>
+
+=== "Compact"
+
+    <figure markdown>
+      ![An example of /items-manage list-items-in-channel in compact mode.](manage_list_items_in_channel_compact.png)
+    </figure>
 
 ### Remove Item From Channel
 
@@ -189,8 +209,10 @@ To see what items a player has in their inventory, you can use `/inventory-manag
     Note that this is *not* using `/items-manage` anymore. In general, inventory management is done through `/inventory-manage` instead of `/items-manage`.
 
 <figure markdown>
-  ![An example of /items-manage user-inventory.](manage_view_inventory.png)
+  ![An example of /inventory-manage user-inventory.](manage_view_inventory.png)
 </figure>
+
+This command is otherwise identical to `/items view-inventory`, which players can use to view their own inventory. See [the items usage guide](items.md#viewing-inventory) for information about the functionality of this command, including its various options.
 
 ### Put Item In Inventory
 

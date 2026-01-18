@@ -37,9 +37,19 @@ To see what items you have in your inventory, you can use `/items view-inventory
 ???+ note "Alias"
     As an alias, you can use `/inventory view`.
 
-<figure markdown>
-  ![An example of /items view-inventory.](view_inventory.png)
-</figure>
+This command has a `mode` option to adjust how the inventory is displayed:
+
+=== "Cozy (Default)"
+
+    <figure markdown>
+      ![An example of /items view-inventory in cozy mode.](view_inventory.png)
+    </figure>
+
+=== "Compact"
+
+    <figure markdown>
+      ![An example of /items view-inventory in compact mode.](view_inventory_compact.png)
+    </figure>
 
 ## Viewing Item In Inventory
 

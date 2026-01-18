@@ -21,6 +21,7 @@ And you're technically ready! However, there are other commands worth noting:
 * `/bullet-config best-finder` can be used to set a roll given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most, though as of right now, a message for who sent the most is still sent.
 * `/bullet-config announce-best-finders` toggles whether or not the bot will announce who found the most Truth Bullets at the end of an investigation. This is on by default.
 * `/bullet-config mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/bda-investigate`, but you can change this so that only `/bda-investigate` works.
+* `/bullet-config thread-behavior` adjusts how threads are handled during investigations. By default, threads are treated as separate channels, but you can change this so that they inherit the parent channel's Truth Bullets.
 * `/bullet-config names` allows you to change how Truth Bullets (and the Best Finder) are named in *public-facing* messages. 
 * `/bullet-config toggle` turns on or off triggering Truth Bullets. This'll be important later.
 
@@ -38,7 +39,7 @@ Saving the most important of the `/bullet-config` commands for last, to take a l
 Let's get started by adding Truth Bullets - use `/bullet-manage add` and select a channel to, well, add a Truth Bullet to a specific channel. This'll pop out a little button that can be used _at any time to add Truth Bullets to that channel._
 
 <figure markdown>
-  ![An example of said button.](add_bullets_button.png){ loading="lazy" }
+  ![An example of said button.](add_bullets_button.png)
 </figure>
 
 ???+ tip "Hate Using the Button?"
@@ -49,7 +50,7 @@ Let's get started by adding Truth Bullets - use `/bullet-manage add` and select 
 Once you click that button, a little pop-up will appear, asking you the trigger, a description (supports Discord markdown!), an optional image, and if you want to make the Truth Bullet you're adding hidden.
 
 <figure markdown>
-  ![The pop-up that appears while adding Truth Bullets.](add_bullet_modal.png){ loading="lazy" }
+  ![The pop-up that appears while adding Truth Bullets.](add_bullet_modal.png)
 </figure>
 
 ???+ tip "Flexibility with Triggers"
@@ -76,7 +77,7 @@ Truth Bullets are unique _by their trigger by channel_, so while *multiple* chan
 After adding Truth Bullets, you probably want to get a good overview of them. Let's use `/bullet-manage list` to list out the ones we've made so far:
 
 <figure markdown>
-  ![An example of /bullet-manage list.](list_bullets.png){ loading="lazy" }
+  ![An example of /bullet-manage list.](list_bullets.png)
 </figure>
 
 As you can see, it already has a Truth Bullet in it. This command will list out Truth Bullets for every single channel and if they were found - this is a useful reference to have as you make Truth Bullets or even watch over an investigation (Truth Bullets that have been found will be marked as such).
@@ -84,7 +85,7 @@ As you can see, it already has a Truth Bullet in it. This command will list out 
 To see a specific Truth Bullet's information, you can use `/bullet-manage info` with the channel and trigger of the Truth Bullet you want to see:
 
 <figure markdown>
-  ![An example of /bullet-manage info.](bullet_info.png){ loading="lazy" }
+  ![An example of /bullet-manage info.](bullet_info.png)
 </figure>
 
 As you can see, it's pretty basic, but it does list everything you would need to know. Most of these fields are empty (as expected), but we can always reference these later.
@@ -94,7 +95,7 @@ As you can see, it's pretty basic, but it does list everything you would need to
 Editing a Truth Bullet is as simple as using `/bullet-manage edit` and specifying the channel and trigger of the Truth Bullet you wish to edit. A little pop-up will appear:
 
 <figure markdown>
-  ![The pop-up that appears while editing Truth Bullets.](edit_bullet_modal.png){ loading="lazy" }
+  ![The pop-up that appears while editing Truth Bullets.](edit_bullet_modal.png)
 </figure>
 
 As you can see, it already has the Truth Bullet details - you'll be able to edit them from there (though you may want to temporarily move the contents to a proper text editor to edit things better). When you press submit, the Truth Bullet will be edited with the new trigger and description.
@@ -102,7 +103,7 @@ As you can see, it already has the Truth Bullet details - you'll be able to edit
 To remove a Truth Bullet, it's as simple as using `/bullet-manage remove` with the channel and trigger of the Truth Bullet you want to delete:
 
 <figure markdown>
-  ![An example of removing a Truth Bullet.](remove_bullet.png){ loading="lazy" }
+  ![An example of removing a Truth Bullet.](remove_bullet.png)
 </figure>
 
 Removing _all_ Truth Bullets is as simple as running `/bullet-manage clear`. _This action is irreversible!_
