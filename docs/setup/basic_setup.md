@@ -8,7 +8,7 @@ Setting up PYTHIA is a simple affair. Let's break it down by steps:
 
 ### Invite the Bot
 
-This is the simplest step. Simply use [this invite link](https://discord.com/api/oauth2/authorize?client_id=843994199187914753&permissions=532576332864&scope=bot%20applications.commands) or use the "Invite Bot" option to the side to do so.
+This is the simplest step. Simply use [this invite link](https://discord.com/api/oauth2/authorize?client_id=843994199187914753) or use the "Invite Bot" option to the side to do so.
 
 ### Setting Up the Config
 
