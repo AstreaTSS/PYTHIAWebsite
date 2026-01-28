@@ -14,11 +14,11 @@ description: How to set up BDA investigations with PYTHIA.
 
 ## Setting Up the Config
 
-To use the BDA investigations feature, you need to establish a Truth Bullets (or whatever your RP calls them) channel, so that the bot knows where to send publicly discoverable Truth Bullets. To do that, select the `/bullet-config channel` command, _use the channel option_, and select the channel you want Truth Bullets to go in.
+To use the BDA investigations feature, you need to establish a Truth Bullets (or whatever your RP calls them) channel, so that the bot knows where to send publicly discoverable Truth Bullets. To do that, select the `/bullet-config channel set` command and select the channel you want Truth Bullets to go in.
 
 And you're technically ready! However, there are other commands worth noting:
 
-* `/bullet-config best-finder` can be used to set a roll given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most, though as of right now, a message for who sent the most is still sent.
+* `/bullet-config best-finder` can be used to set a role given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most.
 * `/bullet-config announce-best-finders` toggles whether or not the bot will announce who found the most Truth Bullets at the end of an investigation. This is on by default.
 * `/bullet-config mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/bda-investigate`, but you can change this so that only `/bda-investigate` works.
 * `/bullet-config thread-behavior` adjusts how threads are handled during investigations. By default, threads are treated as separate channels, but you can change this so that they inherit the parent channel's Truth Bullets.
