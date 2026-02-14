@@ -57,7 +57,8 @@ Once you click that button, a little pop-up will appear, asking you the trigger,
     The trigger is designed to be flexible, so here are a few notes about what you can get away with:
     - You can use multiple words or a single word as a trigger.
     - Triggers are case-insensitive in terms of how they're triggered, so "oven" and "Oven" will act the same.
-    - Trigger detection is _not_ word-bound, so "book" trigger will trigger on messages containing "*book*", "*book*s", "*book*shelf", "*book*!", etc., since they all have "book" in them.
+    - Trigger detection is _not_ word-bound, so a "book" trigger will trigger on messages containing "*book*", "*book*s", "*book*shelf", "*book*!", etc., since they all have "book" in them.
+      - However, **trigger detection does not do partial matches**, so a "ink stain" trigger will not trigger on messages with just "ink" or "stain". [Please use aliases](#aliases) to make "ink" or "stain" aliases if this is a desired behavior.
     - If you need multiple triggers, look at aliases, described later.
 
 ??? note "Note about Images"
@@ -108,9 +109,16 @@ To remove a Truth Bullet, it's as simple as using `/bullet-manage remove` with t
 
 Removing _all_ Truth Bullets is as simple as running `/bullet-manage clear`. _This action is irreversible!_
 
+### Aliases
+
+Many times, there may be multiple ways to refer to the same thing, and you may want to have multiple triggers for the same Truth Bullet. For example, a trash can may be referred to as a "trash can", "garbage bin", "wastebasket", "dust bin", etc. There may also be times where you want "partial matching" of sorts; you may want "ink stain" to be a main trigger but to have "ink" or "stain" also trigger the Truth Bullet.
+
+This is where aliases come in. They allow you to have multiple triggers for the same Truth Bullet - the main trigger will be the one displayed, but aliases can also trigger the Truth Bullet to appear.
+
+To add an alias (an alternative trigger to trigger the same Truth Bullet), simply use the `/bullet-manage add-alias` command with the channel, trigger of the Truth Bullet, and the alias you wish to add to the Bullet. As you can imagine, `/bullet-manage remove-alias` follows a similar process.
+
 ### Other Commands
 
-* To add an alias (an alternative trigger to trigger the same Truth Bullet), simply use the `/bullet-manage add-alias` command with the channel, trigger of the Truth Bullet, and the alias you wish to add to the Bullet. As you can imagine, `/bullet-manage remove-alias` follows a similar process.
 * `/bullet-manage override-finder` and `/bullet-manage unfind` are more useful _during_ investigations, as you can imagine, but they simply allow you to either re-define who found a Truth Bullet or un-discover it so its trigger can be triggered once again.
 * `/bullet-manage manual-trigger` allows you to manually trigger a Truth Bullet in the current channel, even allowing you to specify a finder if needed.
   * This can be used even when triggering Truth Bullets are *off*. If you prefer your players to discover Truth Bullets in a different way than what the bot allows but still would like some organization, this may be for you!
