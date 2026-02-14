@@ -21,7 +21,7 @@ And you're technically ready! However, there are other commands worth noting:
 * `/bullet-config best-finder` can be used to set a role given to the people who find the most Truth Bullets. If this is not given, no role will be handed out to those who find the most.
 * `/bullet-config announce-best-finders` toggles whether or not the bot will announce who found the most Truth Bullets at the end of an investigation. This is on by default.
 * `/bullet-config mode` allows you to change how Truth Bullets can be discovered. By default, they can be discovered through sending messages and through `/bda-investigate`, but you can change this so that only `/bda-investigate` works.
-* `/bullet-config thread-behavior` adjusts how threads are handled during investigations. By default, threads are treated as separate channels, but you can change this so that they inherit the parent channel's Truth Bullets.
+* `/bullet-config thread-behavior` adjusts how threads are handled during investigations. **By default, threads are treated as separate channels, so messages in threads cannot trigger their main channel's Truth Bullets,** but you can change this so that they inherit the parent channel's Truth Bullets.
 * `/bullet-config names` allows you to change how Truth Bullets (and the Best Finder) are named in *public-facing* messages. 
 * `/bullet-config toggle` turns on or off triggering Truth Bullets. This'll be important later.
 
