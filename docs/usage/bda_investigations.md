@@ -4,8 +4,6 @@ description: How to use BDA investigations with PYTHIA as a user.
 
 # BDA Investigations 
 
-## Introduction
-
 !!! warning "Content Warning"
     This guide will mention standard Danganronpa/Killing Game topics, like gore and blood. These are very frequent in the series, and as such, are frequent in roleplays based on it. If you're not comfortable with these topics, it's best to avoid roleplays based on Danganronpa.
 

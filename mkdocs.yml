@@ -23,7 +23,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       primary: deep purple
       accent: deep purple
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -41,11 +41,11 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.preview
-    - navigation.sections
-    - navigation.expand
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - navigation.tabs
+    - navigation.path
     - search.highlight
     - search.share
     - toc.follow
@@ -79,10 +79,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/AstreaTSS/PYTHIAWebsite
       name: Website Source
-    
+
   consent:
     title: Cookie consent
-    description: >- 
+    description: >-
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
@@ -96,7 +96,7 @@ plugins:
   - search
   - offline
   - privacy:
-      assets_exclude: 
+      assets_exclude:
         - giscus.app/*
   - autorefs
   - autolinks
@@ -112,7 +112,7 @@ plugins:
         remove_comments: true
   - blog:
       blog_dir: updates
-      archive: false
+      archive: true
       categories: false
       draft_if_future_date: true
       post_slugify: !!python/object/apply:pymdownx.slugs.slugify

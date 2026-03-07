@@ -1,13 +1,9 @@
 nav:
   - Home: index.md
-  - Using the Bot: usage
+  - Usage Guides: usage
   - Server Setup Guides: setup
   - Other:
     - faq.md
     - Update Posts: updates
   - Legal: legal
-  - External Links:
-    - Support Server: https://discord.gg/NSdetwGjpK
-    - Ko-Fi Link: https://ko-fi.com/astreatss
-    - Bot Source Code: https://github.com/AstreaTSS/PYTHIA
-    - Website Source Code: https://github.com/AstreaTSS/PYTHIAWebsite
+  - Links: links.md

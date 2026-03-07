@@ -9,8 +9,8 @@ description: How to set up BDA investigations with PYTHIA.
 
 !!! warning
     The BDA investigation system present in PYTHIA is *vastly different* from the investigation system present in Ultimate Assistant - this system is meant more for murder investigations. It is suggested you read the respective ["Using the Bot" guide](bda_investigations.md) to understand the flow of this system compared to Ultimate Assistant.
-
-    A general purpose investigation system is planned but may not come for a while; for now, you may want to check out [Chiaki Nanami](https://discord.com/application-directory/781034602533879838) (not affiliated), which has some (but not all) investigation features.
+    
+    For general purpose investigations, you should look at the [items system](items_setup.md) instead, which is more similar to Ultimate Assistant's investigation system.
 
 ## Setting Up the Config
 
