@@ -2,10 +2,16 @@ site_name: PYTHIA
 site_description: "A Discord bot meant to assist with Danganronpa/Killing Game RPs."
 site_url: https://pythia.astrea.cc
 theme:
-  name: material
+  name: materialx
   custom_dir: overrides
   logo: assets/pythia_head_white.png
   favicon: assets/pythia_favicon.ico
+
+  topbar_style: primary
+
+  font:
+    text: Inter
+    code: JetBrains Mono
 
   icon:
     repo: fontawesome/brands/github
@@ -101,9 +107,13 @@ plugins:
   - autorefs
   - autolinks
   - awesome-pages
-  - git-revision-date-localized:
-      enable_creation_date: true
-      fallback_to_build_date: true
+  - document-dates:
+      position: bottom
+      type: date
+      date_format: '%B %-d, %Y'
+      show_author: false
+      exclude:
+        - updates/*-
   - minify:
       minify_html: true
       minify_js: true

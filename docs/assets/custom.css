@@ -1,11 +1,3 @@
 [data-md-color-primary=deep-purple] {
-    --md-primary-fg-color: #723fb0;
-    --md-primary-fg-color--light: #723fb0;
-    --md-primary-fg-color--dark: #723fb0;
-    --md-primary-bg-color: #fff;
-    --md-primary-bg-color--light: hsla(0, 0%, 100%, .7);
-}
-
-.md-typeset figure img {
-  display: inline;
+    --mx-topbar-bg: #723fb0ff;
 }
