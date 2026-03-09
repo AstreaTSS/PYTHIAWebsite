@@ -112,8 +112,6 @@ plugins:
       type: date
       date_format: '%B %-d, %Y'
       show_author: false
-      exclude:
-        - updates/*-
   - minify:
       minify_html: true
       minify_js: true
