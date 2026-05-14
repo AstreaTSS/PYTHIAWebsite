@@ -4,7 +4,7 @@ aptPkgs = ["...", "git"]
 [phases.build]
 cmds = [
     "git init -b main",
-    "git remote add origin https://github.com/AstreaTSS/RealmsPlayerlistWebsite.git",
+    "git remote add origin https://github.com/AstreaTSS/PYTHIAWebsite.git",
     "git fetch",
     "git reset --hard $SOURCE_COMMIT",
     "mkdocs build"
