@@ -107,12 +107,11 @@ plugins:
   - autorefs
   - autolinks
   - awesome-pages
-  # - document-dates: TODO: fix updated dates on hosting instance
-  #     position: bottom
-  #     type: date
-  #     date_format: '%B %-d, %Y'
-  #     show_author: false
-  #     show_updated: false
+  - document-dates:
+      position: bottom
+      type: date
+      date_format: '%B %-d, %Y'
+      show_author: false
   - minify:
       minify_html: true
       minify_js: true

@@ -1,0 +1,11 @@
+[phases.install]
+aptPkgs = ["...", "git"]
+
+[phases.build]
+cmds = [
+    "git init",
+    "git remote add origin https://github.com/AstreaTSS/RealmsPlayerlistWebsite.git",
+    "git fetch",
+    "git reset --hard $SOURCE_COMMIT",
+    "mkdocs build"
+]
