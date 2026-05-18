@@ -44,9 +44,6 @@ Currency, of course, is your way of being able to roll in the gacha system. *Sta
 
 And you can adjust the display mode using `mode`:
 
-??? note "Using An Old Discord Mobile Version?"
-    Users using old Discord mobile versions (older than December 2024) will not be able to use either of the modes with "Modern" in it. This is a technical limitation, as these new modes use new Discord features. Please manually select `Cozy` or `Compact` for `mode` when you use this command instead.
-
 === "Modern (Default)"
 
     <figure markdown>
@@ -79,7 +76,7 @@ And you can adjust the display mode using `mode`:
 The main event! To use the gacha, you can use `/gacha roll`, `/gacha draw`, or `/gacha pull`. This will give you a random item from the gacha pool, and it'll be added to your gacha item inventory. Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of /gacha pull.](gacha_draw.png)
+  ![An example of /gacha pull.](gacha_roll_jan2626.png)
 </figure>
 
 A gacha item's rarity determines how likely it is to be drawn. The rarer the item, the less likely it is to be drawn. The rarities are usually defined by the staff, but they can include things like "common", "uncommon", "rare", "epic", and "legendary". Note that some servers may not use rarities at all - the item's rarity will not be displayed if that is the case.

@@ -133,11 +133,11 @@ Right now, though, they grant access to (visual) improvements like this:
 === "Add Gacha Item"
 
     <figure markdown>
-      ![An example of the beta "add gacha item" interface.](add_truth_bullet_jan2626.png)
+      ![An example of the beta "add gacha item" interface.](add_gacha_item_jan2626.png)
     </figure>
 
 === "Add Truth Bullet"
 
     <figure markdown>
-      ![An example of the beta "add truth bullet" interface.](add_gacha_item_jan2626.png)
+      ![An example of the beta "add truth bullet" interface.](add_truth_bullet_jan2626.png)
     </figure>

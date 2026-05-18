@@ -50,7 +50,7 @@ Let's get started by adding Truth Bullets - use `/bullet-manage add` and select 
 Once you click that button, a little pop-up will appear, asking you the trigger, a description (supports Discord markdown!), an optional image, and if you want to make the Truth Bullet you're adding hidden.
 
 <figure markdown>
-  ![The pop-up that appears while adding Truth Bullets.](add_bullet_modal.png)
+  ![The pop-up that appears while adding Truth Bullets.](add_truth_bullet_jan2626.png)
 </figure>
 
 ???+ tip "Flexibility with Triggers"

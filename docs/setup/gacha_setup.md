@@ -80,7 +80,7 @@ A gacha system isn't a gacha system without items! To add items, you can use the
 Once you click that button, a little prompt will appear to fill out the details of the item you want to add:
 
 <figure markdown>
-  ![An example of the prompt to add an item.](add_gacha_item_modal.png)
+  ![An example of the prompt to add an item.](add_gacha_item_jan2626.png)
 </figure>
 
 You get a number of customization options here:
@@ -125,9 +125,6 @@ You can sort the list by name, rarity, or time created using `sort_by`:
     </figure>
 
 And you can adjust the display mode using `mode`:
-
-??? note "Using An Old Discord Mobile Version?"
-    Users using old Discord mobile versions (older than December 2024) will not be able to use either of the modes with "Modern" in it. This is a technical limitation, as these new modes use new Discord features. Please manually select `Cozy` or `Compact` for `mode` when you use this command instead.
 
 === "Modern (Default)"
 
@@ -257,9 +254,6 @@ To view the items and currency a user has, you can use the `/gacha-manage user-p
 </figure>
 
 This command is otherwise identical to `/gacha profile`, which players can use to view their own profiles. See [the gacha usage guide](gacha.md#profile-and-currency) for information about the functionality of this command, including its various options.
-
-??? note "Using An Old Discord Mobile Version?"
-    Users using old Discord mobile versions (older than December 2024) will not be able to use either of the modes with "Modern" in it. This is a technical limitation, as these new modes use new Discord features. Please manually select `Cozy` or `Compact` for `mode` when you use this command instead.
 
 ## Resetting and Clearing
 
