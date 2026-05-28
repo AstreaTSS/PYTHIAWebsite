@@ -10,4 +10,5 @@ Below are a handful of guides to teach you how to use features of PYTHIA. It's s
 - [BDA Investigations](bda_investigations.md)
 - [Dice](dice.md)
 - [Gacha](gacha.md)
+- [Items](items.md)
 - [Messaging](messaging.md)
