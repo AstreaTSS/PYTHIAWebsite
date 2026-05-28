@@ -80,7 +80,7 @@ A gacha system isn't a gacha system without items! To add items, you can use the
 Once you click that button, a little prompt will appear to fill out the details of the item you want to add:
 
 <figure markdown>
-  ![An example of the prompt to add an item.](add_gacha_item_jan2626.png)
+  ![An example of the prompt to add an item.](add_gacha_item_modal.png)
 </figure>
 
 You get a number of customization options here:
@@ -132,19 +132,13 @@ And you can adjust the display mode using `mode`:
       ![An example of /gacha-manage list-items in modern mode.](list_gacha_items.png){ width="400" }
     </figure>
 
-=== "Spacious (Modern)"
+=== "Spacious"
 
     ???+ note
         Spacious mode exchanges the number of items that can be displayed on a single page for an extra "View" button that acts as a convenient way to view item details. The details are identical to [`/gacha-manage view-item`](#viewing-item).
 
     <figure markdown>
       ![An example of /gacha-manage list-items in spacious mode.](list_gacha_items_spacious.png){ width="400" }
-    </figure>
-
-=== "Cozy"
-
-    <figure markdown>
-      ![An example of /gacha-manage list-items in cozy mode.](list_gacha_items_cozy.png){ width="400" }
     </figure>
 
 === "Compact"
@@ -226,6 +220,8 @@ Adding currency to a single player is easy. Simply use `/gacha-manage add-curren
 </figure>
 
 However, this may take a while when you want to add currency to every player. PYTHIA includes a shortcut in the form of `/gacha-manage add-currency-players`, which will add the currency given to all members with the players role. This may take a while!
+
+`/gacha-manage add-currency-role` is a more flexible version of this command, allowing you to specify any role you want instead of just the players role.
 
 ### Removing Currency
 

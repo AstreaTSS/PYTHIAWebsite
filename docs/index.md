@@ -29,7 +29,7 @@ PYTHIA is a Discord bot meant to assist with various parts of running Danganronp
 PYTHIA supports a unique system for discovering Truth Bullets, where by saying a specific phrase/trigger in a channel, a Truth Bullet gets triggered.
 <figure markdown>
   ![Example of a message triggering a Truth Bullet.](trigger_example_clean.png)
-  <figcaption>Notice how the trigger is "oven", as represented by the red underline.</figcaption>
+  <figcaption>Notice how the trigger is "bleach", as represented by the red underline.</figcaption>
 </figure>
 
 This servers to automate the usual flow for Truth Bullets in many KGs. 

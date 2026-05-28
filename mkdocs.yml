@@ -107,10 +107,11 @@ plugins:
   - autorefs
   - autolinks
   - awesome-pages
+  - glightbox
   - document-dates:
       position: bottom
       type: date
-      date_format: '%B %-d, %Y'
+      date_format: '%B d, %Y'
       show_author: false
   - minify:
       minify_html: true

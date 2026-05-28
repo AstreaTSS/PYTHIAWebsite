@@ -46,9 +46,7 @@ There are a *lot* of changes to the gacha system, so let's break them down:
 
 === "Cozy"
 
-    <figure markdown>
-      ![An example of /gacha profile in cozy mode.](gacha_profile_cozy.png){ width="400" }
-    </figure>
+    Note from the future: this mode has been removed from PYTHIA.
 
 === "Compact"
 

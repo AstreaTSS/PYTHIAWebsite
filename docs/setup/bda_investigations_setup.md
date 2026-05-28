@@ -50,7 +50,7 @@ Let's get started by adding Truth Bullets - use `/bullet-manage add` and select 
 Once you click that button, a little pop-up will appear, asking you the trigger, a description (supports Discord markdown!), an optional image, and if you want to make the Truth Bullet you're adding hidden.
 
 <figure markdown>
-  ![The pop-up that appears while adding Truth Bullets.](add_truth_bullet_jan2626.png)
+  ![The pop-up that appears while adding Truth Bullets.](add_bullet_modal.png)
 </figure>
 
 ???+ tip "Flexibility with Triggers"
@@ -122,7 +122,6 @@ To add an alias (an alternative trigger to trigger the same Truth Bullet), simpl
 * `/bullet-manage override-finder` and `/bullet-manage unfind` are more useful _during_ investigations, as you can imagine, but they simply allow you to either re-define who found a Truth Bullet or un-discover it so its trigger can be triggered once again.
 * `/bullet-manage manual-trigger` allows you to manually trigger a Truth Bullet in the current channel, even allowing you to specify a finder if needed.
   * This can be used even when triggering Truth Bullets are *off*. If you prefer your players to discover Truth Bullets in a different way than what the bot allows but still would like some organization, this may be for you!
-* `/help` is your friend! Use it to find more commands that could be useful to you!
 
 ## Starting a BDA Investigation
 

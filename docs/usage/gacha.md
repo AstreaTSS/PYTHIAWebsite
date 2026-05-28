@@ -50,19 +50,13 @@ And you can adjust the display mode using `mode`:
       ![An example of /gacha profile in modern mode.](gacha_profile.png){ width="400" }
     </figure>
 
-=== "Spacious (Modern)"
+=== "Spacious"
 
     ???+ note
         Spacious mode exchanges the number of items that can be displayed on a single page for an extra "View" button that acts as a convenient way to view item details. The details are identical to [`/gacha view-item`](#viewing-an-item).
 
     <figure markdown>
       ![An example of /gacha profile in spacious mode.](gacha_profile_spacious.png){ width="400" }
-    </figure>
-
-=== "Cozy"
-
-    <figure markdown>
-      ![An example of /gacha profile in cozy mode.](gacha_profile_cozy.png){ width="400" }
     </figure>
 
 === "Compact"
@@ -76,7 +70,7 @@ And you can adjust the display mode using `mode`:
 The main event! To use the gacha, you can use `/gacha roll`, `/gacha draw`, or `/gacha pull`. This will give you a random item from the gacha pool, and it'll be added to your gacha item inventory. Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of /gacha pull.](gacha_roll_jan2626.png)
+  ![An example of /gacha draw.](gacha_draw.png)
 </figure>
 
 A gacha item's rarity determines how likely it is to be drawn. The rarer the item, the less likely it is to be drawn. The rarities are usually defined by the staff, but they can include things like "common", "uncommon", "rare", "epic", and "legendary". Note that some servers may not use rarities at all - the item's rarity will not be displayed if that is the case.
