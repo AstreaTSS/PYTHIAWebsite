@@ -7,5 +7,5 @@ cmds = [
     "git remote add origin https://github.com/AstreaTSS/PYTHIAWebsite.git",
     "git fetch",
     "git reset --hard origin/main",
-    "mkdocs build"
+    "properdocs build -f mkdocs.yml"
 ]
