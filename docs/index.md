@@ -14,10 +14,10 @@ hide:
 </figure>
 
 <p align="center" markdown="1">
-  [![Usage Guides](https://img.shields.io/badge/Usage_Guides-Link-874bd1?style=for-the-badge&logo=wikibooks&logoColor=a474da)](usage/index.md)
-  [![Server Setup Guides](https://img.shields.io/badge/Server_Setup_Guides-Link-313131?style=for-the-badge&logo=bookstack&logoColor=DEDEDE)](setup/index.md)
-  [![Support Server Link](https://img.shields.io/badge/Support_Server-Link-5865F2?style=for-the-badge&logo=discord&logoColor=7e88f8)](https://discord.gg/NSdetwGjpK)
-  [![Donate on Ko-Fi](https://img.shields.io/badge/Donate_on_Ko--Fi-Link-DEDEDE?style=for-the-badge&logo=ko-fi&logoColor=DEDEDE)](https://ko-fi.com/astreatss)
+  [![Usage Guides](https://shieldcn.dev/badge/Usage%20Guides-874bd1.svg?logo=wikibooks)](usage/index.md)
+  [![Server Setup Guides](https://shieldcn.dev/badge/Server%20Setup%20Guides-5e4b8d.svg?logo=bookstack)](setup/index.md)
+  [![Support Server Link](https://shieldcn.dev/badge/Support%20Server-5865F2.svg?logo=discord)](https://discord.gg/NSdetwGjpK)
+  [![Donate on Ko-Fi](https://shieldcn.dev/badge/Ko--Fi-e5e5e5.svg?logo=kofi&logoColor=ff6433)](https://ko-fi.com/astreatss)
 </p>
 
 > "Hello. I am PYTHIA, the Ultimate Robotic Assistant. I look forward to assisting you in whatever tasks you may have."
