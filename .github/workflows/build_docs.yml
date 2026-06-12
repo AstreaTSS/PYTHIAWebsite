@@ -45,7 +45,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Build the documentation
-      run: mkdocs build
+      run: properdocs build -f mkdocs.yml
       env:
         UMAMI_SCRIPT_URL: ${{ vars.UMAMI_SCRIPT_URL }}
         UMAMI_WEBSITE_ID: ${{ vars.UMAMI_WEBSITE_ID }}
