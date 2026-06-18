@@ -184,6 +184,9 @@ To remove an item from a player, you can use `/gacha-manage remove-item-from` an
     - `remove_amount_from_gacha` for `/gacha-manage add-item-to`.
     - `replenish_gacha` for `/gacha-manage remove-item-from`.
 
+### Transferring Items Between Players
+
+To transfer an item from one player to another, you can use `/gacha-manage transfer-item` and specify the from user, the to user, the item, and optionally, the quantity you want to transfer (if not specified, it defaults to 1).
 
 ### Exporting/Importing Items
 
@@ -191,7 +194,7 @@ If you wish to transfer items to another server, or just wish to create a sharea
 
 To *export* items, you can use `/gacha-manage export-items`. This should give you a file ending in `.json`; this is a [JSON file](https://en.wikipedia.org/wiki/JSON), and it can be shared around freely. No private information is stored on these other than basic information about the items themselves.
 
-You can also edit it directly if you wish; this should not be necessary, but can be done for advanced usecases. If you choose to do so, please expand the below note.
+You can also edit it directly if you wish; this should not be necessary, but can be done for advanced use cases. If you choose to do so, please expand the below note.
 
 ??? note "Notes for Editing JSON"
     While editing the JSON file, please keep in mind some limitations:
@@ -201,9 +204,10 @@ You can also edit it directly if you wish; this should not be necessary, but can
     - Stay to the format that your JSON file has. Any deviations will likely not be tolerated.
     - `rarity` can range from 1-5, and represent (in order) common, uncommon, rare, epic, and legendary.
     - When `amount` is `-1`, that means it is unlimited.
+    - `image` must be a valid URL to an image, or it can be left as `null` if the item does not have an image.
     - The bot enforces the same limitations as making items through the bot itself.
 
-Regardless, you may import exported items through `/gacha-manage import-items` and giving your JSON file. This may be done from other servers other than the server where the file was exported from.
+You may import exported items through `/gacha-manage import-items` and giving your JSON file. This may be done from other servers other than the server where the file was exported from.
 
 The bot, by default, will error out if there are any items in the export that overlap with items already in the server. To get around this, you can use the `override` option in `/gacha-manage import-items` to replace those items.
 

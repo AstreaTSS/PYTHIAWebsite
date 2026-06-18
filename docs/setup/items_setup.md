@@ -151,6 +151,27 @@ To delete an item, it's as simple as using `/items-manage delete-item` with the 
 
 If you want to clear all items from the items system, you'll need to run `/items-manage clear-everything`. The command is named as such as deleting all items inherently removes all items from all possessors, effectively clearing everything.
 
+### Exporting/Importing Items
+
+If you wish to transfer items to another server, or just wish to create a shareable list of items in general, the process is simple.
+
+To *export* items, you can use `/items-manage export-items`. This should give you a file ending in `.json`; this is a [JSON file](https://en.wikipedia.org/wiki/JSON), and it can be shared around freely. No private information is stored on these other than basic information about the items themselves.
+
+You can also edit it directly if you wish; this should not be necessary, but can be done for advanced use cases. If you choose to do so, please expand the below note.
+
+??? note "Notes for Editing JSON"
+    While editing the JSON file, please keep in mind some limitations:
+
+    - **You are generally expected to know how JSON files work. There will be no support given for editing JSON files.**
+    - Keep the version number the same! The version number is used to indicate the format of the items, which makes sure JSON files work even in the future. Changing it can lead to unexpected side effects.
+    - Stay to the format that your JSON file has. Any deviations will likely not be tolerated.
+    - `image` must be a valid URL to an image, or it can be left as `null` if the item does not have an image.
+    - The bot enforces the same limitations as making items through the bot itself.
+
+You may import exported items through `/items-manage import-items` and giving your JSON file. This may be done from other servers other than the server where the file was exported from.
+
+The bot, by default, will error out if there are any items in the export that overlap with items already in the server. To get around this, you can use the `override` option in `/items-manage import-items` to replace those items.
+
 ## Channels
 
 ### Place Item In Channel

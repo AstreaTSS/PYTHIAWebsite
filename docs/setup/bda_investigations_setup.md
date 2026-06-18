@@ -117,8 +117,31 @@ This is where aliases come in. They allow you to have multiple triggers for the 
 
 To add an alias (an alternative trigger to trigger the same Truth Bullet), simply use the `/bullet-manage add-alias` command with the channel, trigger of the Truth Bullet, and the alias you wish to add to the Bullet. As you can imagine, `/bullet-manage remove-alias` follows a similar process.
 
+### Exporting/Importing Truth Bullets For A Channel
+
+If you wish to transfer Truth Bullets from a channel to another channel in this server or even to another server, or just wish to create a shareable list of Truth Bullets, you can use the export and import functions for Truth Bullets.
+
+To *export* Truth Bullets for a channel, you can use `/bullet-manage export-channel` with a specified channel. This should give you a file ending in `.json`; this is a [JSON file](https://en.wikipedia.org/wiki/JSON), and it can be shared around freely. No private information is stored on these other than basic information about the items themselves.
+
+You can also edit it directly if you wish; this should not be necessary, but can be done for advanced use cases. If you choose to do so, please expand the below note.
+
+??? note "Notes for Editing JSON"
+    While editing the JSON file, please keep in mind some limitations:
+
+    - **You are generally expected to know how JSON files work. There will be no support given for editing JSON files.**
+    - Keep the version number the same! The version number is used to indicate the format of the items, which makes sure JSON files work even in the future. Changing it can lead to unexpected side effects.
+    - Stay to the format that your JSON file has. Any deviations will likely not be tolerated.
+    - `image` must be a valid URL to an image, or it can be left as `null` if the item does not have an image.
+    - `aliases` must be an array of strings, where each string is an alias for the Truth Bullet.
+    - The bot enforces the same limitations as making items through the bot itself.
+
+You may import exported Truth Bullets for a channel through `/bullet-manage import-channel` and giving your JSON file and the target channel. This may be done from other servers other than the server where the file was exported from.
+
+The bot, by default, will error out if there are any Truth Bullets in the export that overlap with Truth Bullets already in the channel. To get around this, you can use the `override` option in `/bullet-manage import-channel` to replace those Bullets.
+
 ### Other Commands
 
+* `/bullet-manage move` allows you to move a Truth Bullet from one channel to another.
 * `/bullet-manage override-finder` and `/bullet-manage unfind` are more useful _during_ investigations, as you can imagine, but they simply allow you to either re-define who found a Truth Bullet or un-discover it so its trigger can be triggered once again.
 * `/bullet-manage manual-trigger` allows you to manually trigger a Truth Bullet in the current channel, even allowing you to specify a finder if needed.
   * This can be used even when triggering Truth Bullets are *off*. If you prefer your players to discover Truth Bullets in a different way than what the bot allows but still would like some organization, this may be for you!

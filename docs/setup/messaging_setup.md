@@ -19,10 +19,35 @@ All configuration commands for the system can be found under the `/message-confi
 
 You can get a pretty good idea of what options are available to you just from this alone, but to change them:
 - `/message-config toggle` turns the messaging system on or off. If the messaging system is turned off, players will not be able to send messages through the bot. By default, it is off.
+- `/message-config mode` changes the mode of the messaging system, which changes how messages are sent to users. See the [Modes](#modes) section below for more information on the different modes.
 - `/message-config anonymous-messaging` allows you to toggle whether or not users can send messages anonymously (IE a player can send a message without the receiver knowing who sent it). By default, they cannot.
 - `/message-config ping-on-message` allows you to toggle whether or not the bot will ping the receiver when they receive a message. By default, it is *off*.
 
-And that's all for this part!
+### Modes
+
+`/message-config mode` allows you to change the mode of the messaging system. The mode changes how messages are sent to users.
+
+By default, the mode is *"Public Thread Per User"*, which means that when a message is sent to a user, the bot will look for a public thread in the linked channel that matches the user.
+If it finds one, it will send the message there; if it doesn't, it will create one and then send the message there.
+
+Here's an example of what that looks like when `@astrea.tss` sends a message to `@hecatetss`:
+
+<figure markdown>
+  ![An example of AstreaTSS sending a message to HecateTSS.](message_mode_threads.png)
+</figure>
+
+There are two other modes available as well:
+
+- *"Private Thread Per User"* is the same as "Public Thread Per User", except the bot will create private threads instead of public threads. This is only recommended if the linked channel is a public channel.
+- *"Classic (All Messages In One Channel)"* is a more classic way of doing messaging systems, where all messages to users are sent in the linked channel directly, without using threads. This replicates the behavior of Ultimate Assistant.
+
+<figure markdown>
+  ![An example of the classic messaging mode.](message_mode_classic.png)
+  <figcaption>An example of the classic messaging mode when @astrea.tss sends a message to @hecatetss.</figcaption>
+</figure>
+
+!!! note "Old Mode Setting"
+    Before June 18th, 2026, the messaging mode defaulted to "Classic" instead of "Public Thread Per User". As such, servers that had PYTHIA before this date and used the messaging system will have the mode set to "Classic" unless it was changed.
 
 ## Links
 
@@ -52,6 +77,41 @@ To see what links are currently in the system, you can use `/message-manage list
 ### Removing and Clearing Link
 
 To remove a link, you can use `/message-manage remove-link` and specify the user to remove the link from. If you want to remove all links, you can use `/message-manage clear-links`.
+
+### Threads
+
+!!! warning
+    - **These commands only work for messaging modes that use threads** (IE "Public Thread Per User" and "Private Thread Per User").
+    - **These commands are only meant for power users!** By default, PYTHIA will automatically create and manage threads for users as needed.
+
+If you are using a messaging mode that uses threads, then PYTHIA will automatically create threads for users when it needs to send them a message.
+However, if you want to manage these threads yourself, you can use the `/message-manage threads` commands.
+
+#### View For User
+
+To view the thread for a user, you can use `/message-manage threads view-for` and specify the user. This will give you a list of the thread(s) for that user.
+
+<figure markdown>
+  ![An example of viewing threads for a user.](message_threads_view_for.png)
+  <figcaption>In this example, we can see anonymous messages meant for Hecate are sent to one threads, and messages sent by Astrea to Hecate are sent to another thread.</figcaption>
+</figure>
+
+#### Set Thread
+
+To set a thread for a user, you can use `/message-manage threads set`:
+- `user` specifies the user to set the thread for.
+- `other_user` specifies the other user in the conversation. For example, if `user` is @Hecate and `other_user` is @Astrea, this would set the thread for messages between Hecate and Astrea *for Hecate*.
+- `thread` specifies the thread to set.
+
+<figure markdown>
+  ![An example of setting a thread for a user.](message_threads_set.png)
+</figure>
+
+To set a thread for anonymous messages, you can use the same `/message-manage threads set-anonymous` command, which has the same options except `other_user`.
+
+#### Unset Thread
+
+`/message-manage threads unset` and `/message-manage threads unset-anonymous` work the same way as the set variants, except they unset the thread instead of setting it.
 
 ## Finally...
 
