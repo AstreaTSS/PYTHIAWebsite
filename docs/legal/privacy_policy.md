@@ -4,7 +4,7 @@ description: The privacy policy for PYTHIA.
 
 # Privacy Policy
 
-*Last updated: 2024-09-30 (YYYY-MM-DD).*
+*Last updated: 2026-08-22 (YYYY-MM-DD).*
 
 This document contains the privacy policy and agreement you accept when adding PYTHIA (PYTHIA#3565, ID 843994199187914753) to a server, or use the bot as a member of a server. This document does not supersede any of the terms laid out by Discord.
 
@@ -25,7 +25,7 @@ Certain data is collected whenever a user or staff uses a command/feature. This 
   - Information about a user's items, including the item's name, description, and the user's ID. This is set through `/inventory-manage` and when a user takes an item through `/items take`.
 - Information about the various names/renamings that the staff set for certain features - mainly, those set through `/X-config names`, with `X` being the feature.
 
-A technical specification of data collected by each command/feature can be found in the [schema file used by the bot](https://raw.githubusercontent.com/AstreaTSS/PYTHIA/refs/heads/main/schema.prisma).
+A technical specification of data collected by each command/feature can be found by searching through [the models that the bot uses](https://github.com/AstreaTSS/PYTHIA/tree/main/common/models).
 
 #### Automatically Collected
 
@@ -33,7 +33,23 @@ Some data is automatically collected by the bot. This includes:
 - Any data needed for the standard operation of the bot. This typically includes channel data and roles.
   - Notably, this includes messages, message content, and members. However, this is only in the context of the bot's operation - this data is quickly processed and is not permanently stored.
   - Most data of this type will be stored in the bot's cache, which is cleared when the bot is restarted. Before then, some data may get cleared out to make room for new data.
+- Command usage, including commands used and options specified for the command. This data does not contain any personal information and is used to help improve the bot.
 - Data resulting from unhandled errors, such as the error message and the stack trace. This data does not contain any personal information and is used to help improve the bot.
+
+#### Collected on Website
+
+This website optionally uses Umami Analytics to collect data about the usage of the website. The data collected includes:
+- The general location of the visitor.
+- The browser and operating system of the visitor.
+- The pages visited by the visitor.
+- The time spent on each page.
+- The referrer of the visitor.
+
+This information is completely anonymous and cannot be used to identify any individual.
+
+To opt-out of this data collection, you can turn off "Umami Analytics" on the "Manage Settings" page of the consent pop-up, found by either clicking the cookie icon in the footer of any page, or by [clicking here](#__consent).
+
+This website also uses GitHub, but only to the extent of providing accurate statistics about the stars and forks of the repository for this Bot. No personal data is collected by this website, and it can be turned off at the same area.
 
 ## Why We Collect Data
 
@@ -45,7 +61,7 @@ We do not share data with any 3rd party for any reason whatsoever, unless requir
 
 ## How Your Data is Stored
 
-All data is stored on protected infrastructure operated by trusted SaaS/VPS solutions (IE Neon, Hetzner). While storage methods may vary, most data will be stored within enterprise-standard databases such as [PostgreSQL](https://www.postgresql.org/). Please keep in mind that even with the highest standard of protection, no data can ever be 100% secure. While we strive to keep data secure and private at all times, absolute security cannot be guaranteed.
+All data is stored on protected infrastructure operated by trusted VPS solutions. While storage methods may vary, most data will be stored within enterprise-standard databases such as [PostgreSQL](https://www.postgresql.org/). Please keep in mind that even with the highest standard of protection, no data can ever be 100% secure. While we strive to keep data secure and private at all times, absolute security cannot be guaranteed.
 
 ## How Long Your Data is Retained
 
