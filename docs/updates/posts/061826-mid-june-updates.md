@@ -35,14 +35,14 @@ Confusing? Here's an example of what the difference is between "Classic" and "Pu
 -   **Classic**
 
     <figure markdown>
-        ![An example of the classic messaging mode.](message_mode_classic.png)
+        ![An example of the classic messaging mode.](../../assets/messaging/message_mode_classic.png)
     </figure>
     
 
 -   **Public Thread Per User**
 
     <figure markdown>
-        ![An example of the public thread messaging mode.](message_mode_threads.png)
+        ![An example of the public thread messaging mode.](../../assets/messaging/message_mode_threads.png)
     </figure>
 
 </div>
