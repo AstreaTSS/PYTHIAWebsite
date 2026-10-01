@@ -4,6 +4,8 @@
 {% block htmltitle %}
 {% if page.is_homepage %}
   <title>{{ config.site_name }}</title>
+{% elif page.meta and page.meta.title and config.site_name == page.meta.title %}
+  <title>{{ config.site_name }}</title>
 {% elif page.meta and page.meta.title %}
   <title>{{ page.meta.title }} - {{ config.site_name }}</title>
 {% elif page.title and not page.is_homepage %}

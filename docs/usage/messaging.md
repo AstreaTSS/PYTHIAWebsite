@@ -14,7 +14,7 @@ The messaging system is a way for you to send messages to other players through 
 To send a message, you can use `/message send` followed by the user you want to send a message to. A pop-up will then appear, where you can type your message and/or add a image/video to the message. Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of the message pop-up.](message_send_modal.png)
+  ![An example of the message pop-up.](../assets/messaging/message_send_modal.png)
 </figure>
 
 ???+ tip "Don't Want to Use the Pop-Up?"
@@ -24,8 +24,8 @@ To send a message, you can use `/message send` followed by the user you want to 
 Once you send the message, it will be sent to the user's channel (or a thread in their channel), and a copy of the message will be sent to your channel (or a thread in your channel). Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of the message that appears in your channel.](message_receipt.png)
-  ![An example of the message that appears in the user's channel.](message_to_user.png)
+  ![An example of the message that appears in your channel.](../assets/messaging/message_receipt.png)
+  ![An example of the message that appears in the user's channel.](../assets/messaging/message_to_user.png)
 </figure>
 
 ### Multiple Files In A Message
@@ -34,7 +34,7 @@ You may have noticed that the pop-up only allows you to add one file to a messag
 However, you can actually add multiple files to a message by using the text/prefixed variant of the command, `@BOTMENTION message send @USER <message>`, and attaching multiple files to that message. Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of a multi-file message using a text command.](message_send_prefixed.png)
+  ![An example of a multi-file message using a text command.](../assets/messaging/message_send_prefixed.png)
 </figure>
 
 This is also convienent for sending messages quickly, though try not to spam the bot with too many messages at once!
@@ -53,7 +53,7 @@ This is also convienent for sending messages quickly, though try not to spam the
 The receiving user will then receive a message that will not show who sent it. Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of an anonymous message.](message_anon.png)
+  ![An example of an anonymous message.](../assets/messaging/message_anon.png)
 </figure>
 
 !!! note

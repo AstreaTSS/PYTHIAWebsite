@@ -20,7 +20,7 @@ The core of the items system, is, well, items. To start off doing anything with 
 For example, in the below diagram, we create a "Pineapple" item for the system.
 
 <figure markdown>
-  ![A diagram showing what happens when you create an item.](create_item_diagram.png)
+  ![A diagram showing what happens when you create an item.](../assets/items/create_item_diagram.png)
 </figure>
 
 *After* we create an item, **we can place down items in a channel/room**. For example, the below shows what happens when we want to place down two pineapples in a channel called "Kitchen."
@@ -29,19 +29,19 @@ For example, in the below diagram, we create a "Pineapple" item for the system.
     When items are placed in either a channel or (as discussed later) put in a player's inventory, the channel/user is said to be **possessing** the item. This terminology is used in a few commands and messages.
 
 <figure markdown>
-  ![A diagram showing what happens when you place items.](place_items_diagram.png)
+  ![A diagram showing what happens when you place items.](../assets/items/place_items_diagram.png)
 </figure>
 
 Once we've placed down items in a channel, **players/users can then look for items in the channel**. For example, in the below diagram, a player finds one of the pineapples we placed down while in the kitchen.
 
 <figure markdown>
-  ![A diagram showing a user looking for items in a channel.](items_here_diagram.png)
+  ![A diagram showing a user looking for items in a channel.](../assets/items/items_here_diagram.png)
 </figure>
 
 Finally, if the item is takeable, **the player can then take the item**. Here, the player takes one of the pineapples, putting one in their inventory while leaving the other in the kitchen.
 
 <figure markdown>
-  ![A diagram showing a user take an item.](items_take_diagram.png)
+  ![A diagram showing a user take an item.](../assets/items/items_take_diagram.png)
 </figure>
 
 Essentially, in the system:
@@ -56,11 +56,11 @@ Essentially, in the system:
 All configuration commands for the items systen can be found under the `/items-config` command. To take a look at your current items system configuration, you can use `/items-config info`:
 
 <figure markdown>
-  ![An example of an items system configuration.](items_config.png)
+  ![An example of an items system configuration.](../assets/items/items_config.png)
 </figure>
 
 The options available are:
-- `/items-config toggle` turns on or off the items system. Players cannot use any of the items commands (as discussed on the [items usage page](items.md)) if the items system is turned off.
+- `/items-config toggle` turns on or off the items system. Players cannot use any of the items commands (as discussed on the [items usage page](../usage/items.md)) if the items system is turned off.
 - `/items-config auto-suggest` allows configuring, when players use `/items here/take`, if the bot should automatically suggest the items currently in the room. If not, they'll have to guess it themselves.
 
 ## Items
@@ -70,7 +70,7 @@ The options available are:
 To create items, you can use the `/items-manage create-item` command. This will pop out a little button that can be used _at any time to create items._
 
 <figure markdown>
-  ![An example of the button for creating items.](create_item_button.png)
+  ![An example of the button for creating items.](../assets/items/create_item_button.png)
 </figure>
 
 ???+ tip "Hate Using the Button?"
@@ -81,7 +81,7 @@ To create items, you can use the `/items-manage create-item` command. This will 
 Once you click that button, a little prompt will appear to fill out the details of the item you want to create:
 
 <figure markdown>
-  ![An example of the prompt to create an item.](create_item_modal.png)
+  ![An example of the prompt to create an item.](../assets/items/create_item_modal.png)
 </figure>
 
 You get a number of customization options here:
@@ -108,13 +108,13 @@ This command has a `mode` option to adjust how the items are displayed:
 === "Cozy (Default)"
 
     <figure markdown>
-      ![An example of /items-manage list-items in cozy mode.](list_items.png)
+      ![An example of /items-manage list-items in cozy mode.](../assets/items/list_items.png)
     </figure>
 
 === "Compact"
 
     <figure markdown>
-      ![An example of /items-manage list-items in compact mode.](list_items_compact.png)
+      ![An example of /items-manage list-items in compact mode.](../assets/items/list_items_compact.png)
     </figure>
 
 ### Viewing Items
@@ -124,13 +124,13 @@ If you want to see more information about a single item, you can use `/items-man
 By default, the command will give you the item's name, description, image (if it has one), and takeable status.
 
 <figure markdown>
-  ![An example of /items-manage view-item.](manage_view_item.png)
+  ![An example of /items-manage view-item.](../assets/items/manage_view_item.png)
 </figure>
 
 If you specify `view_possessors`, however, you'll also be able to see which channels or players currently possess the item.
 
 <figure markdown>
-  ![An example of /items-manage view-item with view_possessors.](view_item_possessors.png)
+  ![An example of /items-manage view-item with view_possessors.](../assets/items/view_item_possessors.png)
 </figure>
 
 ### Editing Items
@@ -138,7 +138,7 @@ If you specify `view_possessors`, however, you'll also be able to see which chan
 Editing an item is as simple as using `/items-manage edit-item` and specifying the item's name. A little prompt will appear:
 
 <figure markdown>
-  ![An example of the prompt to edit an item.](edit_item.png)
+  ![An example of the prompt to edit an item.](../assets/items/edit_item.png)
 </figure>
 
 As you can see, it already has the old fields populated in it - you'll be able to edit any property you want (including the name!). When you press submit, the item will be edited with the new properties.
@@ -179,7 +179,7 @@ The bot, by default, will error out if there are any items in the export that ov
 To place an item in a channel, you can run `/items-manage place-item-in-channel` and specify the item you want to place and the channel you want to place it in (and optionally the amount, which defaults to 1).
 
 <figure markdown>
-  ![An example of /items-manage place-item-in-channel.](place_items_in_channel.png)
+  ![An example of /items-manage place-item-in-channel.](../assets/items/place_items_in_channel.png)
 </figure>
 
 ### List Placed Items
@@ -187,7 +187,7 @@ To place an item in a channel, you can run `/items-manage place-item-in-channel`
 To list *all* items placed in the server's channels, you can use `/items-manage list-placed-items`. This will give you a list of all items in all channels and their quantity.
 
 <figure markdown>
-  ![An example of /items-manage list-placed-items.](list_placed_items.png)
+  ![An example of /items-manage list-placed-items.](../assets/items/list_placed_items.png)
 </figure>
 
 ### List Items In Channel
@@ -199,13 +199,13 @@ This command has a `mode` option to adjust how the items are displayed:
 === "Cozy (Default)"
 
     <figure markdown>
-      ![An example of /items-manage list-items-in-channel in cozy mode.](manage_list_items_in_channel.png)
+      ![An example of /items-manage list-items-in-channel in cozy mode.](../assets/items/manage_list_items_in_channel.png)
     </figure>
 
 === "Compact"
 
     <figure markdown>
-      ![An example of /items-manage list-items-in-channel in compact mode.](manage_list_items_in_channel_compact.png)
+      ![An example of /items-manage list-items-in-channel in compact mode.](../assets/items/manage_list_items_in_channel_compact.png)
     </figure>
 
 ### Remove Item From Channel
@@ -213,7 +213,7 @@ This command has a `mode` option to adjust how the items are displayed:
 To remove an item from a channel, you can use `/items-manage remove-item-from-channel` and specify the item you want to remove and the channel you want to remove it from.
 
 <figure markdown>
-  ![An example of /items-manage remove-item-from-channel.](remove_item_from_channel.png)
+  ![An example of /items-manage remove-item-from-channel.](../assets/items/remove_item_from_channel.png)
 </figure>
 
 ### Clear All Items In Channel
@@ -230,17 +230,17 @@ To see what items a player has in their inventory, you can use `/inventory-manag
     Note that this is *not* using `/items-manage` anymore. In general, inventory management is done through `/inventory-manage` instead of `/items-manage`.
 
 <figure markdown>
-  ![An example of /inventory-manage user-inventory.](manage_view_inventory.png)
+  ![An example of /inventory-manage user-inventory.](../assets/items/manage_view_inventory.png)
 </figure>
 
-This command is otherwise identical to `/items view-inventory`, which players can use to view their own inventory. See [the items usage guide](items.md#viewing-inventory) for information about the functionality of this command, including its various options.
+This command is otherwise identical to `/items view-inventory`, which players can use to view their own inventory. See [the items usage guide](../usage/items.md#viewing-inventory) for information about the functionality of this command, including its various options.
 
 ### Put Item In Inventory
 
 To put an item in a player's inventory, you can use `/inventory-manage put-in-inventory` and specify the user you want to give the item to, the item you want to give, and optionally the quantity you want to give (if not specified, it defaults to 1).
 
 <figure markdown>
-  ![An example of /items-manage put-in-inventory.](put_in_inventory.png)
+  ![An example of /items-manage put-in-inventory.](../assets/items/put_in_inventory.png)
 </figure>
 
 ### Remove Item From Inventory
@@ -248,7 +248,7 @@ To put an item in a player's inventory, you can use `/inventory-manage put-in-in
 To remove an item from a player's inventory, you can use `/inventory-manage remove-from-inventory` and specify the user you want to remove the item from, the item you want to remove, and optionally the quantity you want to remove (if not specified, it defaults to *1*).
 
 <figure markdown>
-  ![An example of /items-manage remove-from-inventory.](remove_from_inventory.png)
+  ![An example of /items-manage remove-from-inventory.](../assets/items/remove_from_inventory.png)
 </figure>
 
 ### Drop Item From Inventory
@@ -256,7 +256,7 @@ To remove an item from a player's inventory, you can use `/inventory-manage remo
 To *drop* an item from a player's inventory into a specified channel, you can use `/inventory-manage drop-from-inventory` and specify the user you want to drop the item from, the item you want to drop, the channel you wish to drop the item into, and optionally the quantity you want to drop (if not specified, it defaults to 1).
 
 <figure markdown>
-  ![An example of /items-manage drop-from-inventory.](drop_from_inventory.png)
+  ![An example of /items-manage drop-from-inventory.](../assets/items/drop_from_inventory.png)
 </figure>
 
 ### Clear Inventory

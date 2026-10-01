@@ -18,17 +18,17 @@ PYTHIA now supports an item system, where users can find, take, and manage items
 Here are some snippets of the items system in action:
 
 <div class="grid cards" markdown>
-- ![An example of creating an item.](create_item_modal.png)
-- ![An example of a user viewing their inventory.](view_inventory.png)
-- ![An example of finding an item.](items_here.png)
-- ![An example of viewing placed items.](list_placed_items.png)
+- ![An example of creating an item.](../../assets/items/create_item_modal.png)
+- ![An example of a user viewing their inventory.](../../assets/items/view_inventory.png)
+- ![An example of finding an item.](../../assets/items/items_here.png)
+- ![An example of viewing placed items.](../../assets/items/list_placed_items.png)
 </div>
 
 As usual, there's new guides to go along with this new feature. Check them out below!
-- [Items as a User](items.md)
-- [Setting Up Items](items_setup.md)
+- [Items as a User](../../usage/items.md)
+- [Setting Up Items](../../setup/items_setup.md)
 
 ## Privacy Policy
 
 The privacy policy has been updated to reflect the new feature. You can view the updated version here:
-- [Privacy Policy](privacy_policy.md)
+- [Privacy Policy](../../legal/privacy_policy.md)

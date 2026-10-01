@@ -16,7 +16,7 @@ To find items in a channel, you can use `/items here` while in a channel. The au
     For `/items here` and the upcoming `/items take`, you can use the `hidden` option to make it so the response is only visible to you. This is useful if you want to keep the item a secret from other players.
 
 <figure markdown>
-  ![An example of /items here.](items_here.png)
+  ![An example of /items here.](../assets/items/items_here.png)
 </figure>
 
 ## Taking Items
@@ -27,7 +27,7 @@ If an item is available to take (double check the footer of `/items here`), you 
     As an alias, you can use `/investigate take`.
 
 <figure markdown>
-  ![An example of /items take.](items_take.png)
+  ![An example of /items take.](../assets/items/items_take.png)
 </figure>
 
 ## Viewing Inventory
@@ -42,13 +42,13 @@ This command has a `mode` option to adjust how the inventory is displayed:
 === "Cozy (Default)"
 
     <figure markdown>
-      ![An example of /items view-inventory in cozy mode.](view_inventory.png)
+      ![An example of /items view-inventory in cozy mode.](../assets/items/view_inventory.png)
     </figure>
 
 === "Compact"
 
     <figure markdown>
-      ![An example of /items view-inventory in compact mode.](view_inventory_compact.png)
+      ![An example of /items view-inventory in compact mode.](../assets/items/view_inventory_compact.png)
     </figure>
 
 ## Viewing Item In Inventory
@@ -59,7 +59,7 @@ If you want to see more information about a single item in your inventory, you c
     As an alias, you can use `/inventory view-item`.
 
 <figure markdown>
-  ![An example of /items view-item.](view_item.png)
+  ![An example of /items view-item.](../assets/items/view_item.png)
 </figure>
 
 ## Dropping Items
@@ -70,5 +70,5 @@ If you want to drop an item from your inventory, you can use `/items drop` and s
     As an alias, you can use `/inventory drop`.
 
 <figure markdown>
-  ![An example of /items drop.](items_drop.png)
+  ![An example of /items drop.](../assets/items/items_drop.png)
 </figure>

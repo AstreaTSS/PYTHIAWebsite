@@ -1,14 +1,1 @@
-wheel
-properdocs
-mkdocs-materialx
-pillow
-cairosvg
-mkdocs-document-dates
-mkdocs-autorefs
-mkdocs-autolinks-plugin
-mkdocs-minify-plugin
-mdx-breakless-lists
-mdx_truly_sane_lists
-mkdocs-awesome-pages-plugin
-mkdocs-redirects
-mkdocs-glightbox
+zensical

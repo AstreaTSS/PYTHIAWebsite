@@ -22,7 +22,7 @@ A new feature has been added to the gacha system: the ability to manually add or
 To add an item to a player, you can use `/gacha-manage add-item-to` and specify the user, the item, and optionally, the quantity you want to add (if not specified, it defaults to 1):
 
 <figure markdown>
-  ![An example of /gacha-manage add-item-to.](gacha_add_item_to.png)
+  ![An example of /gacha-manage add-item-to.](../../assets/gacha/gacha_add_item_to.png)
 </figure>
 
 To remove an item from a player, you can use `/gacha-manage remove-item-from` and specify similar properties. For quantity, if not specified, it defaults to *however many of the item the player has*.
@@ -37,7 +37,7 @@ To remove an item from a player, you can use `/gacha-manage remove-item-from` an
 Ever found adding items to the gacha system a bit tedious? Well, now you can add multiple items at once! Just use `/gacha-manage add-item` with the `send_button` to send a button. The button, every time it's clicked, will send the (above) prompt to add an item. While this may seem unorthodox, it can really help, so try it!
 
 <figure markdown>
-  ![An example of the button for adding gacha items.](add_gacha_button.png)
+  ![An example of the button for adding gacha items.](../../assets/gacha/add_gacha_button.png)
 </figure>
 
 At some point in the future, this may be made the default behavior for adding items.

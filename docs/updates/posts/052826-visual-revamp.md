@@ -34,7 +34,7 @@ Hello! You may have already noticed it, but: *almost every single command in the
 -   **After**
 
     <figure markdown>
-      ![An example of the new /gacha draw.](gacha_draw.png)
+      ![An example of the new /gacha draw.](../../assets/gacha/gacha_draw.png)
     </figure>
 
 </div>
@@ -53,7 +53,7 @@ Hello! You may have already noticed it, but: *almost every single command in the
 -   **After**
 
     <figure markdown>
-      ![The new trigger example.](trigger_example.png)
+      ![The new trigger example.](../../assets/investigations/trigger_example.png)
     </figure>
 
 </div>
@@ -72,7 +72,7 @@ Hello! You may have already noticed it, but: *almost every single command in the
 -   **After**
 
     <figure markdown>
-      ![The new create item popup for the items system.](create_item_modal.png)
+      ![The new create item popup for the items system.](../../assets/items/create_item_modal.png)
     </figure>
 
 </div>
@@ -91,7 +91,7 @@ Hello! You may have already noticed it, but: *almost every single command in the
 -   **After**
 
     <figure markdown>
-      ![An example of a message after the revamp.](message_to_user.png)
+      ![An example of a message after the revamp.](../../assets/messaging/message_to_user.png)
     </figure>
 
 </div>
@@ -110,7 +110,7 @@ Hello! You may have already noticed it, but: *almost every single command in the
 -   **After**
 
     <figure markdown>
-      ![An example of listing dice after the revamp.](dice_list.png)
+      ![An example of listing dice after the revamp.](../../assets/dice/dice_list.png)
     </figure>
 
 </div>

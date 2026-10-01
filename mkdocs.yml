@@ -2,16 +2,10 @@ site_name: PYTHIA
 site_description: "A Discord bot meant to assist with Danganronpa/Killing Game RPs."
 site_url: https://pythia.astrea.cc
 theme:
-  name: materialx
+  name: material
   custom_dir: overrides
   logo: assets/pythia_head_white.png
   favicon: assets/pythia_favicon.ico
-
-  topbar_style: primary
-
-  font:
-    text: Inter
-    code: JetBrains Mono
 
   icon:
     repo: fontawesome/brands/github
@@ -99,26 +93,8 @@ extra:
     property: !ENV UMAMI_WEBSITE_ID
 
 plugins:
-  - search
-  - offline
-  - privacy:
-      assets_exclude:
-        - giscus.app/*
   - autorefs
-  - autolinks
-  - awesome-pages
-  - glightbox
-  - document-dates:
-      position: bottom
-      type: date
-      date_format: '%B d, %Y'
-      show_author: false
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      htmlmin_opts:
-        remove_comments: true
+  - awesome-nav
   - blog:
       blog_dir: updates
       archive: true
@@ -127,20 +103,33 @@ plugins:
       post_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - glightbox
+  - meta
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - offline
+  - optimize
+  - privacy:
+      assets_exclude:
+        - giscus.app/*
   - redirects:
       redirect_maps:
         "server_setup.md": "setup/index.md"
         "using_the_bot.md": "usage/index.md"
         "usage/investigations.md": "usage/bda_investigations.md"
         "setup/investigations_setup.md": "setup/bda_investigations_setup.md"
-
-  - group:
-      enabled: !ENV [ CARDS, True ]
-      plugins:
-        - social:
-            cards_layout_options:
-              background_color: "#000000"
-              logo: docs/assets/pythia_icon.jpg
+  - search
+  - social:
+      cards_layout_options:
+        background_color: "#000000"
+        logo: docs/assets/pythia_icon.jpg
 
 markdown_extensions:
   - admonition

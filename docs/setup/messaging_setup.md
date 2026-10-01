@@ -14,7 +14,7 @@ description: How to set up the messaging system with PYTHIA.
 All configuration commands for the system can be found under the `/message-config` command. To take a look at your current gacha configuration, you can use `/message-config info`:
 
 <figure markdown>
-  ![An example of a messaging system configuration.](message_config.png)
+  ![An example of a messaging system configuration.](../assets/messaging/message_config.png)
 </figure>
 
 You can get a pretty good idea of what options are available to you just from this alone, but to change them:
@@ -33,7 +33,7 @@ If it finds one, it will send the message there; if it doesn't, it will create o
 Here's an example of what that looks like when `@astrea.tss` sends a message to `@hecatetss`:
 
 <figure markdown>
-  ![An example of AstreaTSS sending a message to HecateTSS.](message_mode_threads.png)
+  ![An example of AstreaTSS sending a message to HecateTSS.](../assets/messaging/message_mode_threads.png)
 </figure>
 
 There are two other modes available as well:
@@ -42,7 +42,7 @@ There are two other modes available as well:
 - *"Classic (All Messages In One Channel)"* is a more classic way of doing messaging systems, where all messages to users are sent in the linked channel directly, without using threads. This replicates the behavior of Ultimate Assistant.
 
 <figure markdown>
-  ![An example of the classic messaging mode.](message_mode_classic.png)
+  ![An example of the classic messaging mode.](../assets/messaging/message_mode_classic.png)
   <figcaption>An example of the classic messaging mode when @astrea.tss sends a message to @hecatetss.</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Configuration of these links is largely done through `/message-manage`.
 To add or update a link, you can use the `/message-manage link` command, specifying the user to link and the channel to link them to. If all goes well, you should get a message back saying the link was added successfully:
 
 <figure markdown>
-  ![An example of adding a link.](message_link.png)
+  ![An example of adding a link.](../assets/messaging/message_link.png)
 </figure>
 
 !!! note
@@ -71,7 +71,7 @@ To add or update a link, you can use the `/message-manage link` command, specify
 To see what links are currently in the system, you can use `/message-manage list-links`. This will give you a list of all links in the system, showing the user and the channel they are linked to.
 
 <figure markdown>
-  ![An example of /message-manage list-links.](message_list_links.png)
+  ![An example of /message-manage list-links.](../assets/messaging/message_list_links.png)
 </figure>
 
 ### Removing and Clearing Link
@@ -92,7 +92,7 @@ However, if you want to manage these threads yourself, you can use the `/message
 To view the thread for a user, you can use `/message-manage threads view-for` and specify the user. This will give you a list of the thread(s) for that user.
 
 <figure markdown>
-  ![An example of viewing threads for a user.](message_threads_view_for.png)
+  ![An example of viewing threads for a user.](../assets/messaging/message_threads_view_for.png)
   <figcaption>In this example, we can see anonymous messages meant for Hecate are sent to one threads, and messages sent by Astrea to Hecate are sent to another thread.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ To set a thread for a user, you can use `/message-manage threads set`:
 - `thread` specifies the thread to set.
 
 <figure markdown>
-  ![An example of setting a thread for a user.](message_threads_set.png)
+  ![An example of setting a thread for a user.](../assets/messaging/message_threads_set.png)
 </figure>
 
 To set a thread for anonymous messages, you can use the same `/message-manage threads set-anonymous` command, which has the same options except `other_user`.
@@ -115,4 +115,4 @@ To set a thread for anonymous messages, you can use the same `/message-manage th
 
 ## Finally...
 
-That's all! You should now have a fully functional messaging system set up with PYTHIA. You can now refer to the [messaging usage page](messaging.md) to see how players can use the messaging system.
+That's all! You should now have a fully functional messaging system set up with PYTHIA. You can now refer to the [messaging usage page](../usage/messaging.md) to see how players can use the messaging system.

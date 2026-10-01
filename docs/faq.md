@@ -12,7 +12,7 @@ PYTHIA is a Discord bot meant to assist with various parts of running Danganronp
 
 ### How do I set up PYTHIA?
 
-You can find a list of setup guides on the [setup page](./setup/index.md). The [basic setup guide](basic_setup.md) is a good place to start.
+You can find a list of setup guides on the [setup page](./setup/index.md). The [basic setup guide](./setup/basic_setup.md) is a good place to start.
 
 ### A server I'm in is using PYTHIA. How do I use it?
 
@@ -22,7 +22,7 @@ You can find a list of usage guides on the [usage page](./usage/index.md).
 
 Short answer: kind of.
 
-This bot was initially created just for its [BDA investigation system](bda_investigations.md) under the name of Ultimate Investigator. Knowing that Ultimate Assistant existed, the bot didn't expand out to other features because there was no point in doing so. However, once I got the news that Ultimate Assistant was going to be deprecated, I decided to expand the bot to include features previously only found in Ultimate Assistant.
+This bot was initially created just for its [BDA investigation system](./usage/bda_investigations.md) under the name of Ultimate Investigator. Knowing that Ultimate Assistant existed, the bot didn't expand out to other features because there was no point in doing so. However, once I got the news that Ultimate Assistant was going to be deprecated, I decided to expand the bot to include features previously only found in Ultimate Assistant.
 
 However, PYTHIA's new systems are *not* an exact copy of Ultimate Assistant's systems. While Ultimate Assistant's command names and arguments/options were sometimes referenced, the systems themselves were built from scratch. I didn't hestitate on making changes to the systems if I felt it was necessary.
 

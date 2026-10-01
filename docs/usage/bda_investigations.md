@@ -31,7 +31,7 @@ All you need to do is send a message with the word "bleach" (case-insensitive) s
 Usually, a staff member would step in to show a Truth Bullet related to the bleach, but in this case, the bot will reply instead with something like this in both the channel you're in and your Truth Bullets channel:
 
 <figure markdown>
-  ![Example of a message triggering a Truth Bullet.](trigger_example.png)
+  ![Example of a message triggering a Truth Bullet.](../assets/investigations/trigger_example.png)
   <figcaption>The message that triggered the Bullet, in this case.</figcaption>
 </figure>
 

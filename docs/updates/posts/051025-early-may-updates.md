@@ -19,7 +19,7 @@ Still, let's get into it!
 
 ## Gacha System Updates
 
-- You can now import and export gacha items between servers! You can check out how to do that [in this part of the gacha setup guide](gacha_setup.md#exportingimporting-items).
+- You can now import and export gacha items between servers! You can check out how to do that [in this part of the gacha setup guide](../../setup/gacha_setup.md#exportingimporting-items).
 - `/gacha inventory` now exists as an alias for `/gacha profile`.
 - `/gacha roll/pull/draw` now takes into account the specific alias you are using for error messages.
 - `/gacha-manage delete-item` now exists, serving as an alias for `/gacha-manage remove-item`.

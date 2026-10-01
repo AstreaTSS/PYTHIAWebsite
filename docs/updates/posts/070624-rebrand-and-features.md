@@ -23,7 +23,7 @@ Hello! The rebrand from Ultimate Investigator to **PYTHIA** is here! This means 
 In case you're wondering about the new look... well, I'm sure you've already seen it around this website. But here's a reminder!
 
 <figure markdown>
-  ![PYTHIA's Banner](pythia_banner.jpg)
+  ![PYTHIA's Banner](../../assets/pythia_banner.jpg)
 </figure>
 
 The idea was to keep a somewhat similar look to the old one, but with PYTHIA instead of a generic search icon. I hope you like it!
@@ -42,15 +42,15 @@ As promised, there are a lot of new features. We'll break this down into two sec
 Gacha is here! This system is entirely staff-controlled, allowing as much flexibility as needed. Users can spend currency to get items, and the system is entirely customizable.
 
 <figure markdown>
-  ![Example of a user drawing an item from the gacha.](gacha_draw.png)
+  ![Example of a user drawing an item from the gacha.](../../assets/gacha/gacha_draw.png)
 </figure>
 
 Of course, there's new guides to go along with this new feature. Check them out below!
-- [Gacha as a User](gacha.md)
-- [Setting Up Gacha](gacha_setup.md)
+- [Gacha as a User](../../usage/gacha.md)
+- [Setting Up Gacha](../../setup/gacha_setup.md)
 
 ## Privacy Policy/ToS Update
 
 The privacy policy and the ToS have been updated to reflect the new name and icon, as well to note how new features are stored. You can view the updated documents here:
-- [Privacy Policy](privacy_policy.md)
-- [Terms of Service](tos.md)
+- [Privacy Policy](../../legal/privacy_policy.md)
+- [Terms of Service](../../legal/tos.md)

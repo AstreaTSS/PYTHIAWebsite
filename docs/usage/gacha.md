@@ -14,7 +14,7 @@ The gacha system is a fun way of getting items in your roleplay server. If the s
 Before drawing, you'll probably want to know how much coins/currency you have. To see that *and what items you've drawn*, you can use `/gacha profile` or `/gacha inventory`:
 
 <figure markdown>
-  ![An example of /gacha profile.](gacha_profile.png){ width="400" }
+  ![An example of /gacha profile.](../assets/gacha/gacha_profile.png){ width="400" }
 </figure>
 
 Currency, of course, is your way of being able to roll in the gacha system. *Staff* will give you currency to use, usually depending on a number of situations in the game, so please refer to them for the ways you can gain currency.
@@ -24,7 +24,7 @@ Currency, of course, is your way of being able to roll in the gacha system. *Sta
 === "Name (Default)"
 
     <figure markdown>
-      ![An example of /gacha profile when sorting by name.](gacha_profile.png){ width="400" }
+      ![An example of /gacha profile when sorting by name.](../assets/gacha/gacha_profile.png){ width="400" }
     </figure>
 
 === "Rarity"
@@ -33,13 +33,13 @@ Currency, of course, is your way of being able to roll in the gacha system. *Sta
         When sorting by rarity, items will be sorted in ascending order of rarity (common -> legendary). Within the same rarity, items will be sorted by name.
 
     <figure markdown>
-      ![An example of /gacha profile when sorting by rarity.](gacha_profile_rarity.png){ width="400" }
+      ![An example of /gacha profile when sorting by rarity.](../assets/gacha/gacha_profile_rarity.png){ width="400" }
     </figure>
 
 === "Time First Gotten"
 
     <figure markdown>
-      ![An example of /gacha profile when sorting by the time the item was first gotten.](gacha_profile_time_first_gotten.png){ width="400" }
+      ![An example of /gacha profile when sorting by the time the item was first gotten.](../assets/gacha/gacha_profile_time_first_gotten.png){ width="400" }
     </figure>
 
 And you can adjust the display mode using `mode`:
@@ -47,7 +47,7 @@ And you can adjust the display mode using `mode`:
 === "Modern (Default)"
 
     <figure markdown>
-      ![An example of /gacha profile in modern mode.](gacha_profile.png){ width="400" }
+      ![An example of /gacha profile in modern mode.](../assets/gacha/gacha_profile.png){ width="400" }
     </figure>
 
 === "Spacious"
@@ -56,13 +56,13 @@ And you can adjust the display mode using `mode`:
         Spacious mode exchanges the number of items that can be displayed on a single page for an extra "View" button that acts as a convenient way to view item details. The details are identical to [`/gacha view-item`](#viewing-an-item).
 
     <figure markdown>
-      ![An example of /gacha profile in spacious mode.](gacha_profile_spacious.png){ width="400" }
+      ![An example of /gacha profile in spacious mode.](../assets/gacha/gacha_profile_spacious.png){ width="400" }
     </figure>
 
 === "Compact"
 
     <figure markdown>
-      ![An example of /gacha profile in compact mode.](gacha_profile_compact.png){ width="400" }
+      ![An example of /gacha profile in compact mode.](../assets/gacha/gacha_profile_compact.png){ width="400" }
     </figure>
 
 ## Rolling/Pulling/Drawing
@@ -70,7 +70,7 @@ And you can adjust the display mode using `mode`:
 The main event! To use the gacha, you can use `/gacha roll`, `/gacha draw`, or `/gacha pull`. This will give you a random item from the gacha pool, and it'll be added to your gacha item inventory. Here's an example of what that looks like:
 
 <figure markdown>
-  ![An example of /gacha draw.](gacha_draw.png)
+  ![An example of /gacha draw.](../assets/gacha/gacha_draw.png)
 </figure>
 
 A gacha item's rarity determines how likely it is to be drawn. The rarer the item, the less likely it is to be drawn. The rarities are usually defined by the staff, but they can include things like "common", "uncommon", "rare", "epic", and "legendary". Note that some servers may not use rarities at all - the item's rarity will not be displayed if that is the case.
@@ -82,7 +82,7 @@ Finally, each use costs a certain amount of currency (dependent on the staff - t
 Now, `/gacha profile`, as mentioned earlier, can be used to view all of your items. But if you want to see more information about a single item, you can use `/gacha view-item` and specify the name of the item you want to see. This will give you a more detailed view of the item, including its description, rarity (if the server uses rarities), and image (if it has one).
 
 <figure markdown>
-  ![An example of /gacha view-item.](view_gacha_item_player.png)
+  ![An example of /gacha view-item.](../assets/gacha/view_gacha_item_player.png)
 </figure>
 
 ## Giving Currency To Another Player
@@ -90,7 +90,7 @@ Now, `/gacha profile`, as mentioned earlier, can be used to view all of your ite
 Feeling generous? You can give currency to another player using `/gacha give-currency`. This will give the specified amount of currency to the mentioned user. Here's an example of how that looks:
 
 <figure markdown>
-  ![An example of /gacha give-currency.](give_currency_gacha.png)
+  ![An example of /gacha give-currency.](../assets/gacha/give_currency_gacha.png)
 </figure>
 
 ## Notes

@@ -47,7 +47,7 @@ Confusing? Here's an example of what the difference is between "Classic" and "Pu
 
 </div>
 
-More information can be found in the [modes section of the Messaging Setup Guide](messaging_setup.md#modes).
+More information can be found in the [modes section of the Messaging Setup Guide](../../setup/messaging_setup.md#modes).
 
 !!! note "Default Mode Setting"
     For servers that had PYTHIA before June 18th, 2026 and used the messaging system, the mode will be set to "Classic" by default unless it is changed.
@@ -60,7 +60,7 @@ Users can now send images and videos through the messaging system!
 When sending a message, a pop-up will appear allowing you to type your message and add an image or video to the message.
 
 <figure markdown>
-  ![An example of the message pop-up.](message_send_modal.png)
+  ![An example of the message pop-up.](../../assets/messaging/message_send_modal.png)
 </figure>
 
 ???+ tip "Don't Want to Use the Pop-Up?"
@@ -68,18 +68,18 @@ When sending a message, a pop-up will appear allowing you to type your message a
 
 The text/prefixed variant of the command, `@BOTMENTION message send @USER <message>`, also allows you to attach multiple files to a message, which the pop-up does not support.
 
-More information can be found in the [Messaging Guide](messaging.md#sending-a-message).
+More information can be found in the [Messaging Guide](../../usage/messaging.md#sending-a-message).
 
 ## Exporting/Importing Items for More Systems
 
 More systems now support exporting and importing items! This includes:
-- [The Items System](items_setup.md#exportingimporting-items)
-- Staff for the [Dice System](dice_management.md#exportingimporting-registered-dice-for-a-user)
-- Channels for the [Truth Bullet System](bda_investigations_setup.md#exportingimporting-truth-bullets-for-a-channel)
+- [The Items System](../../setup/items_setup.md#exportingimporting-items)
+- Staff for the [Dice System](../../setup/dice_management.md#exportingimporting-registered-dice-for-a-user)
+- Channels for the [Truth Bullet System](../../setup/bda_investigations_setup.md#exportingimporting-truth-bullets-for-a-channel)
 
 This expands upon the existing exporting the importing functionality that already existed for:
-- [The Gacha System](gacha_setup.md#exportingimporting-items)
-- Normal users for the [Dice System](dice.md#exportingimporting-registered-die)
+- [The Gacha System](../../setup/gacha_setup.md#exportingimporting-items)
+- Normal users for the [Dice System](../../usage/dice.md#exportingimporting-registered-die)
 
 ## Other Changes
 

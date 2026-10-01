@@ -14,7 +14,7 @@ description: How to manage the dice system with PYTHIA.
 As per usual, all configuration commands for the dice system can be found under the `/dice-config` command. To take a look at your current dice configuration, you can use `/dice-config info`:
 
 <figure markdown>
-  ![An example of a dice configuration.](dice_config.png)
+  ![An example of a dice configuration.](../assets/dice/dice_config.png)
 </figure>
 
 Noticably, there is only one option here: `/dice-config visibility`. This command allows you to toggle whether or not the results of dice rolls are visible to everyone in the server. By default, they are visible to everyone in the channel the roll was made in.
@@ -25,13 +25,13 @@ Noticably, there is only one option here: `/dice-config visibility`. This comman
 === "Public (Default)"
 
     <figure markdown>
-      ![An example of rolling dice while visibility is set to public.](dice_roll.png)
+      ![An example of rolling dice while visibility is set to public.](../assets/dice/dice_roll.png)
     </figure>
 
 === "Hidden"
 
     <figure markdown>
-      ![An example of rolling dice while visibility is set to hidden.](dice_roll_hidden.png)
+      ![An example of rolling dice while visibility is set to hidden.](../assets/dice/dice_roll_hidden.png)
     </figure>
 
 This does mean the dice system *cannot be disabled through the bot* - this is purposeful, because at worst, the system will not create messages in the server proper anyways. That being said, you can disable the `/dice` command through [Discord's application command permissions](https://web.archive.org/web/20240519053816/https://support.discord.com/hc/en-us/articles/4644915651095-Command-Permissions) (links to archive.org as page has been deleted).
@@ -40,7 +40,7 @@ This does mean the dice system *cannot be disabled through the bot* - this is pu
 
 Also per usual, all management commands for the dice system can be found through `/dice-manage`.
 
-Notably, *users can manage their set of die through the `/dice` commands* (as seen in the [dice usage guide](dice.md)). These commands allow you to manage their dice too though, so this may be useful for roleplays where stat systems are used.
+Notably, *users can manage their set of die through the `/dice` commands* (as seen in the [dice usage guide](../usage/dice.md)). These commands allow you to manage their dice too though, so this may be useful for roleplays where stat systems are used.
 
 ### Adding/Registering Dice for Users
 
@@ -52,17 +52,17 @@ To register a die for a user, you can use the `/dice-manage register-for`:
     For a detailed list of the syntax supported by this bot, you can check [the notation parser's page](https://github.com/AstreaTSS/apollo-d20?tab=readme-ov-file#dice-syntax).
 
 <figure markdown>
-  ![An example of registering a die for a user.](dice_register_for.png)
+  ![An example of registering a die for a user.](../assets/dice/dice_register_for.png)
 </figure>
 
-From there, the user would be able to use this die [through `/dice roll-registered`](dice.md#rolling-registered-die).
+From there, the user would be able to use this die [through `/dice roll-registered`](../usage/dice.md#rolling-registered-die).
 
 ### Listing/Removing Users' Registered Dice
 
 To see what dice are currently registered for a user, you can use `/dice-manage list-for`:
 
 <figure markdown>
-  ![An example of listing die for a user.](dice_list_for.png)
+  ![An example of listing die for a user.](../assets/dice/dice_list_for.png)
 </figure>
 
 To remove a die from a user, you can use `/dice-manage remove-from`. This will remove the die from the user's set of die.
@@ -74,7 +74,7 @@ To clear all registered dice for a user, you can use `/dice-manage clear-for`. T
 To roll a user's die, you can use `/dice-manage roll-registered-for`:
 
 <figure markdown>
-  ![An example of rolling a registered die of the user.](dice_roll_registered_for.png)
+  ![An example of rolling a registered die of the user.](../assets/dice/dice_roll_registered_for.png)
 </figure>
 
 This command, by default, makes the message visible to all. If you do not want this, you can use the `hidden` option to make the message only visible to you.

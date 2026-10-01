@@ -20,7 +20,7 @@ PYTHIA now supports gacha rarities! This allows for more complex gacha systems, 
 Gacha rarities are a way to categorize items in the gacha system based on their rarity. This categorization affects how likely an item is to be drawn when a user rolls/draws/pull in the gacha system. For example, a "common" item might have a higher chance of being drawn than a "legendary" item.
 
 <figure markdown>
-  ![An example of /gacha pull pulling a common item.](gacha_draw.png)
+  ![An example of /gacha pull pulling a common item.](../../assets/gacha/gacha_draw.png)
 </figure>
 
 By default, the rarities are:
@@ -43,7 +43,7 @@ Note that if all items in the gacha system are set to the same rarity, the bot i
 To edit the rarity of an item, you can use `/gacha-manage edit-item` as per usual:
 
 <figure markdown>
-  ![An example of the prompt to edit an item.](edit_gacha_item_modal.png)
+  ![An example of the prompt to edit an item.](../../assets/gacha/edit_gacha_item_modal.png)
 </figure>
 
 A new rarity field has been added, and it can be set to one of the following: common, uncommon, rare, epic, or legendary. Note that even if you change the names of the rarities, these names will still be used in the item rarity field.
@@ -54,4 +54,4 @@ Adding a new item will also prompt you to set the rarity of the item, so you can
 
 By default, rarities can be used right away, but you can customize them to fit your needs. To do so, you can use `/gacha-config rarities` to edit rarity colors and their odds, while `/gacha-config names` can be used to edit the names of the rarities.
 
-More information on how to do this can be found in the [rarities section](gacha_setup.md#rarities) of the gacha setup guide.
+More information on how to do this can be found in the [rarities section](../../setup/gacha_setup.md#rarities) of the gacha setup guide.

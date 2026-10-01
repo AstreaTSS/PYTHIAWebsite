@@ -15,7 +15,7 @@ This is the simplest step. Simply use [this invite link](https://discord.com/api
 It's worth running `/config info` first when you set up the bot. This gives you a pretty good idea about what options there are to use for the configuration (admittedly, not many):
 
 <figure markdown>
-  ![An example of /config info.](config_info.png)
+  ![An example of /config info.](../assets/config_info.png)
 </figure>
 
 Your priority should be _setting up the player role._ This can be done pretty easily: select the `/config player set` command and use the role you wish to be able to use the various features of PYTHIA. It's worth noting that _no other role will be able to use features, not even staff_ (though staff will still be able to set up and manage features).

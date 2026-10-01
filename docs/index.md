@@ -10,7 +10,7 @@ hide:
 # PYTHIA
 
 <figure markdown>
-  ![PYTHIA's Banner](pythia_banner.jpg)
+  ![PYTHIA's Banner](assets/pythia_banner.jpg)
 </figure>
 
 <p align="center" markdown="1">
@@ -28,7 +28,7 @@ PYTHIA is a Discord bot meant to assist with various parts of running Danganronp
 
 PYTHIA supports a unique system for discovering Truth Bullets, where by saying a specific phrase/trigger in a channel, a Truth Bullet gets triggered.
 <figure markdown>
-  ![Example of a message triggering a Truth Bullet.](trigger_example_clean.png)
+  ![Example of a message triggering a Truth Bullet.](assets/investigations/trigger_example_clean.png)
   <figcaption>Notice how the trigger is "bleach", as represented by the red underline.</figcaption>
 </figure>
 
@@ -43,19 +43,19 @@ Guides:
 PYTHIA supports using and managing dice through the bot (for both players and staff), allowing for convenient dice rolling and management. The system supports standard dice notation.
 
 <figure markdown>
-  ![An example of a dice roll.](dice_roll.png)
+  ![An example of a dice roll.](assets/dice/dice_roll.png)
 </figure>
 
 Guides:
-- [Dice as a User](dice.md)
-- [Dice Management](dice_management.md)
+- [Dice as a User](usage/dice.md)
+- [Dice Management](setup/dice_management.md)
 
 ## Gacha
 
 PYTHIA supports the setup and management of a gacha system, where users can spend currency to get items. This system is entirety staff controlled, allowing as much flexibility as needed.
 
 <figure markdown>
-  ![Example of a user drawing an item from the gacha.](gacha_draw.png)
+  ![Example of a user drawing an item from the gacha.](assets/gacha/gacha_draw.png)
 </figure>
 
 Guides:
@@ -67,7 +67,7 @@ Guides:
 PYTHIA has an items system, allowing you to create items, place them in channels, and have players find and take them (and even let them drop the items again). You can function this system as a simple item management system, or use it as a general-purpose investigation system, or more.
 
 <figure markdown>
-  ![An example of finding an item.](items_here.png)
+  ![An example of finding an item.](assets/items/items_here.png)
 </figure>
 
 Guides:
@@ -79,7 +79,7 @@ Guides:
 PYTHIA supports a messaging system, where users can send messages to each other through the bot.
 
 <figure markdown>
-  ![An example of a message.](message_to_user.png)
+  ![An example of a message.](assets/messaging/message_to_user.png)
 </figure>
 
 Guides:

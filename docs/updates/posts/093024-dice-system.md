@@ -18,17 +18,17 @@ PYTHIA now supports a dice system, where users can roll and manage dice using st
 Here are some snippets of the dice system in action:
 
 <div class="grid cards" markdown>
-- ![An example of a dice roll.](dice_roll.png)
-- ![An example of using a registered dice](dice_roll_registered.png)
-- ![An example of registering a die for a user.](dice_register_for.png)
-- ![An example of a list of registered dice](dice_list.png)
+- ![An example of a dice roll.](../../assets/dice/dice_roll.png)
+- ![An example of using a registered dice](../../assets/dice/dice_roll_registered.png)
+- ![An example of registering a die for a user.](../../assets/dice/dice_register_for.png)
+- ![An example of a list of registered dice](../../assets/dice/dice_list.png)
 </div>
 
 Of course, there's new guides to go along with this new feature. Check them out below!
-- [Dice as a User](dice.md)
-- [Dice Management](dice_management.md)
+- [Dice as a User](../../usage/dice.md)
+- [Dice Management](../../setup/dice_management.md)
 
 ## Privacy Policy
 
 The privacy policy has been updated to reflect the new feature, and was rewriten to be clearer in language. You can view the updated version here:
-- [Privacy Policy](privacy_policy.md)
+- [Privacy Policy](../../legal/privacy_policy.md)

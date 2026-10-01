@@ -32,7 +32,7 @@ There are a *lot* of changes to the gacha system, so let's break them down:
 === "Modern (Default)"
 
     <figure markdown>
-      ![An example of /gacha profile in modern mode.](gacha_profile.png){ width="400" }
+      ![An example of /gacha profile in modern mode.](../../assets/gacha/gacha_profile.png){ width="400" }
     </figure>
 
 === "Spacious (Modern)"
@@ -41,7 +41,7 @@ There are a *lot* of changes to the gacha system, so let's break them down:
         Spacious mode exchanges the number of items that can be displayed on a single page for an extra "View" button that acts as a convenient way to view item details.
 
     <figure markdown>
-      ![An example of /gacha profile in spacious mode.](gacha_profile_spacious.png){ width="400" }
+      ![An example of /gacha profile in spacious mode.](../../assets/gacha/gacha_profile_spacious.png){ width="400" }
     </figure>
 
 === "Cozy"
@@ -51,7 +51,7 @@ There are a *lot* of changes to the gacha system, so let's break them down:
 === "Compact"
 
     <figure markdown>
-      ![An example of /gacha profile in compact mode.](gacha_profile_compact.png){ width="400" }
+      ![An example of /gacha profile in compact mode.](../../assets/gacha/gacha_profile_compact.png){ width="400" }
     </figure>
 
 Also, **both commands now support sorting by item attributes!** You can use `sort_by` to sort by attributes such as `name`, `rarity`, `times_gotten`, and more. Here are examples of `/gacha profile` with different sorting options:
@@ -59,7 +59,7 @@ Also, **both commands now support sorting by item attributes!** You can use `sor
 === "Name (Default)"
 
     <figure markdown>
-      ![An example of /gacha profile when sorting by name.](gacha_profile.png){ width="400" }
+      ![An example of /gacha profile when sorting by name.](../../assets/gacha/gacha_profile.png){ width="400" }
     </figure>
 
 === "Rarity"
@@ -68,13 +68,13 @@ Also, **both commands now support sorting by item attributes!** You can use `sor
         When sorting by rarity, items will be sorted in ascending order of rarity (common -> legendary). Within the same rarity, items will be sorted by name.
 
     <figure markdown>
-      ![An example of /gacha profile when sorting by rarity.](gacha_profile_rarity.png){ width="400" }
+      ![An example of /gacha profile when sorting by rarity.](../../assets/gacha/gacha_profile_rarity.png){ width="400" }
     </figure>
 
 === "Time First Gotten"
 
     <figure markdown>
-      ![An example of /gacha profile when sorting by the time the item was first gotten.](gacha_profile_time_first_gotten.png){ width="400" }
+      ![An example of /gacha profile when sorting by the time the item was first gotten.](../../assets/gacha/gacha_profile_time_first_gotten.png){ width="400" }
     </figure>
 
 ### "Roll Again" Button
@@ -87,13 +87,13 @@ The dice system has seen a few changes as well:
 
 ### Dice Can Be Used In DMs and Non-Server Contexts
 
-Really like the [dice system in PYTHIA](dice.md)? Want to use it in servers where PYTHIA isn't in, or in DMs? Well, now you can!
+Really like the [dice system in PYTHIA](../../usage/dice.md)? Want to use it in servers where PYTHIA isn't in, or in DMs? Well, now you can!
 
 Simply use [this link](https://discord.com/oauth2/authorize?client_id=843994199187914753) (or `/invite`, or the "Add Bot" option) to add the bot to yourself. Afterwards, you should be able to see the `/dice` commands anywhere.
 
 ### Importing/Exporting Registered Dice
 
-You can now export your registered die to a JSON file using `/dice export`, and import them back using `/dice import-ristered`. This is useful for backing up your registered die or transferring them between servers or contexts. See [the documentation](dice.md#exportingimporting-registered-die) for more information.
+You can now export your registered die to a JSON file using `/dice export`, and import them back using `/dice import-ristered`. This is useful for backing up your registered die or transferring them between servers or contexts. See [the documentation](../../usage/dice.md#exportingimporting-registered-die) for more information.
 
 ## Items System Changes
 
@@ -102,13 +102,13 @@ There's only one notable change to the items system: `/items-manage list-items`,
 === "Cozy (Default)"
 
     <figure markdown>
-      ![An example of /items view-inventory in cozy mode.](view_inventory.png)
+      ![An example of /items view-inventory in cozy mode.](../../assets/items/view_inventory.png)
     </figure>
 
 === "Compact"
 
     <figure markdown>
-      ![An example of /items view-inventory in compact mode.](view_inventory_compact.png)
+      ![An example of /items view-inventory in compact mode.](../../assets/items/view_inventory_compact.png)
     </figure>
 
 ## Beta Testing Opportunities
@@ -125,17 +125,17 @@ Right now, though, they grant access to (visual) improvements like this:
 === "Gacha Roll"
 
     <figure markdown>
-      ![An example of the beta gacha roll interface.](gacha_roll_jan2626.png)
+      ![An example of the beta gacha roll interface.](../../assets/beta/gacha_roll_jan2626.png)
     </figure>
 
 === "Add Gacha Item"
 
     <figure markdown>
-      ![An example of the beta "add gacha item" interface.](add_gacha_item_jan2626.png)
+      ![An example of the beta "add gacha item" interface.](../../assets/beta/add_gacha_item_jan2626.png)
     </figure>
 
 === "Add Truth Bullet"
 
     <figure markdown>
-      ![An example of the beta "add truth bullet" interface.](add_truth_bullet_jan2626.png)
+      ![An example of the beta "add truth bullet" interface.](../../assets/beta/add_truth_bullet_jan2626.png)
     </figure>

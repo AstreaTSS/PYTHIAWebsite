@@ -8,7 +8,7 @@ description: How to set up BDA investigations with PYTHIA.
     You must invite the bot and set up the basic settings before enabling BDA investigations - check [the basic setup page](basic_setup.md) for more information.
 
 !!! warning
-    The BDA investigation system present in PYTHIA is *vastly different* from the investigation system present in Ultimate Assistant - this system is meant more for murder investigations. It is suggested you read the respective ["Using the Bot" guide](bda_investigations.md) to understand the flow of this system compared to Ultimate Assistant.
+    The BDA investigation system present in PYTHIA is *vastly different* from the investigation system present in Ultimate Assistant - this system is meant more for murder investigations. It is suggested you read the respective ["Using the Bot" guide](../usage/bda_investigations.md) to understand the flow of this system compared to Ultimate Assistant.
     
     For general purpose investigations, you should look at the [items system](items_setup.md) instead, which is more similar to Ultimate Assistant's investigation system.
 
@@ -28,7 +28,7 @@ And you're technically ready! However, there are other commands worth noting:
 Saving the most important of the `/bullet-config` commands for last, to take a look at all of your configration settings for BDA investigations, you can use `/bullet-config info`:
 
 <figure markdown>
-  ![An example of a BDA investigation configuration.](bullet_config.png)
+  ![An example of a BDA investigation configuration.](../assets/investigations/bullet_config.png)
 </figure>
 
 
@@ -39,7 +39,7 @@ Saving the most important of the `/bullet-config` commands for last, to take a l
 Let's get started by adding Truth Bullets - use `/bullet-manage add` and select a channel to, well, add a Truth Bullet to a specific channel. This'll pop out a little button that can be used _at any time to add Truth Bullets to that channel._
 
 <figure markdown>
-  ![An example of said button.](add_bullets_button.png)
+  ![An example of said button.](../assets/investigations/add_bullets_button.png)
 </figure>
 
 ???+ tip "Hate Using the Button?"
@@ -50,7 +50,7 @@ Let's get started by adding Truth Bullets - use `/bullet-manage add` and select 
 Once you click that button, a little pop-up will appear, asking you the trigger, a description (supports Discord markdown!), an optional image, and if you want to make the Truth Bullet you're adding hidden.
 
 <figure markdown>
-  ![The pop-up that appears while adding Truth Bullets.](add_bullet_modal.png)
+  ![The pop-up that appears while adding Truth Bullets.](../assets/investigations/add_bullet_modal.png)
 </figure>
 
 ???+ tip "Flexibility with Triggers"
@@ -78,7 +78,7 @@ Truth Bullets are unique _by their trigger by channel_, so while *multiple* chan
 After adding Truth Bullets, you probably want to get a good overview of them. Let's use `/bullet-manage list` to list out the ones we've made so far:
 
 <figure markdown>
-  ![An example of /bullet-manage list.](list_bullets.png)
+  ![An example of /bullet-manage list.](../assets/investigations/list_bullets.png)
 </figure>
 
 As you can see, it already has a Truth Bullet in it. This command will list out Truth Bullets for every single channel and if they were found - this is a useful reference to have as you make Truth Bullets or even watch over an investigation (Truth Bullets that have been found will be marked as such).
@@ -86,7 +86,7 @@ As you can see, it already has a Truth Bullet in it. This command will list out 
 To see a specific Truth Bullet's information, you can use `/bullet-manage info` with the channel and trigger of the Truth Bullet you want to see:
 
 <figure markdown>
-  ![An example of /bullet-manage info.](bullet_info.png)
+  ![An example of /bullet-manage info.](../assets/investigations/bullet_info.png)
 </figure>
 
 As you can see, it's pretty basic, but it does list everything you would need to know. Most of these fields are empty (as expected), but we can always reference these later.
@@ -96,7 +96,7 @@ As you can see, it's pretty basic, but it does list everything you would need to
 Editing a Truth Bullet is as simple as using `/bullet-manage edit` and specifying the channel and trigger of the Truth Bullet you wish to edit. A little pop-up will appear:
 
 <figure markdown>
-  ![The pop-up that appears while editing Truth Bullets.](edit_bullet_modal.png)
+  ![The pop-up that appears while editing Truth Bullets.](../assets/investigations/edit_bullet_modal.png)
 </figure>
 
 As you can see, it already has the Truth Bullet details - you'll be able to edit them from there (though you may want to temporarily move the contents to a proper text editor to edit things better). When you press submit, the Truth Bullet will be edited with the new trigger and description.
@@ -104,7 +104,7 @@ As you can see, it already has the Truth Bullet details - you'll be able to edit
 To remove a Truth Bullet, it's as simple as using `/bullet-manage remove` with the channel and trigger of the Truth Bullet you want to delete:
 
 <figure markdown>
-  ![An example of removing a Truth Bullet.](remove_bullet.png)
+  ![An example of removing a Truth Bullet.](../assets/investigations/remove_bullet.png)
 </figure>
 
 Removing _all_ Truth Bullets is as simple as running `/bullet-manage clear`. _This action is irreversible!_
@@ -148,7 +148,7 @@ The bot, by default, will error out if there are any Truth Bullets in the export
 
 ## Starting a BDA Investigation
 
-To start off a BDA investigation with all your Truth Bullets, simply run `/bullet-config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them, as seen in the [BDA investigations usage guide](bda_investigations.md). It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
+To start off a BDA investigation with all your Truth Bullets, simply run `/bullet-config toggle` and enable triggering Truth Bullets! Your players will now be able to discover any Truth Bullets you laid out for them, as seen in the [BDA investigations usage guide](../usage/bda_investigations.md). It's suggested that you do this once you get in your first BDA message with the initial hints in, though the bot gives you freedom on how to really do that.
 
 A BDA investigation ends when _all Truth Bullets currently defined has been found_. Till then, keep an eye on your player's progress through `/bullet-manage list` and give hints as needed. Once all have been found, _the bot will automatically disable triggering bullets._ You'll need to turn on `/bullet-config toggle` again if you add a Truth Bullet for people to find them.
 

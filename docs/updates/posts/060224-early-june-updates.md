@@ -24,7 +24,7 @@ Staff now have the ability to mark Truth Bullets as "hidden." This means that on
 To do so, just add/edit a Truth Bullet and make the new second option a "yes":
 
 <figure markdown>
-  ![The pop-up that appears while adding Truth Bullets.](add_bullet_modal.png){ loading="lazy" }
+  ![The pop-up that appears while adding Truth Bullets.](../../assets/investigations/add_bullet_modal.png){ loading="lazy" }
 </figure>
 
 !!! warning "Hidden Truth Bullets Usage"

@@ -1,5 +1,8 @@
 <!--
-  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+  Copyright (c) 2025-2026 Zensical and contributors
+
+  SPDX-License-Identifier: MIT
+  Third-party contributions licensed under DCO
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to
@@ -20,8 +23,16 @@
   IN THE SOFTWARE.
 -->
 
+{% import "partials/language.html" as lang with context %}
+
+<!-- Determine title -->
+{% set title = lang.t("toc") %}
+{% if config.mdx_configs.toc and config.mdx_configs.toc.title %}
+  {% set title = config.mdx_configs.toc.title %}
+{% endif %}
+
 <!-- Table of contents -->
-<nav class="md-nav md-nav--secondary" aria-label="{{ title }}">
+<nav class="md-nav md-nav--secondary" aria-label="{{ title | e }}">
   {% set toc = page.toc %}
 
   <!--

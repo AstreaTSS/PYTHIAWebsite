@@ -18,12 +18,12 @@ PYTHIA now supports a messaging system, where users can send messages to each ot
 Here are some snippets of the messaging system in action:
 
 <div class="grid cards" markdown>
-- ![An example of a message.](message_to_user.png)
-- ![An example of a multi-line message using a text command.](message_send_prefixed.png)
-- ![An example of a messaging system configuration.](message_config.png)
-- ![An example of /message-manage list-links.](message_list_links.png)
+- ![An example of a message.](../../assets/messaging/message_to_user.png)
+- ![An example of a multi-line message using a text command.](../../assets/messaging/message_send_prefixed.png)
+- ![An example of a messaging system configuration.](../../assets/messaging/message_config.png)
+- ![An example of /message-manage list-links.](../../assets/messaging/message_list_links.png)
 </div>
 
 Of course, there's new guides to go along with this new feature. Check them out below!
-- [Messaging as a User](messaging.md)
-- [Setting Up Messaging](messaging_setup.md)
+- [Messaging as a User](../../usage/messaging.md)
+- [Setting Up Messaging](../../setup/messaging_setup.md)

@@ -25,11 +25,11 @@ To roll dice, you can use `/dice roll` followed by the dice notation you want to
     For a detailed list of the syntax supported by this bot, you can check [the notation parser's page](https://github.com/AstreaTSS/apollo-d20?tab=readme-ov-file#dice-syntax).
 
 <figure markdown>
-  ![An example of rolling dice.](dice_roll.png)
+  ![An example of rolling dice.](../assets/dice/dice_roll.png)
 </figure>
 
 !!! note "Visibility"
-    For some servers, the results of dice rolls are only visible to you. You can ask the staff to [change this setting](dice_management.md#configuration) if you want the results to be visible to everyone.
+    For some servers, the results of dice rolls are only visible to you. You can ask the staff to [change this setting](../setup/dice_management.md#configuration) if you want the results to be visible to everyone.
 
 ## Adding/Registering Dice
 
@@ -39,7 +39,7 @@ To register a die for yourself, you can use the `/dice register`:
     Dice are registered per-server, or if used in servers where PYTHIA is not in or in DMs, they are registered globally for you.
 
 <figure markdown>
-  ![An example of registering a die for yourself.](dice_register.png)
+  ![An example of registering a die for yourself.](../assets/dice/dice_register.png)
 </figure>
 
 ## Listing/Removing Dice
@@ -47,7 +47,7 @@ To register a die for yourself, you can use the `/dice register`:
 To see what die are currently registered, you can use `/dice list`:
 
 <figure markdown>
-  ![An example of listing die.](dice_list.png)
+  ![An example of listing die.](../assets/dice/dice_list.png)
 </figure>
 
 To remove a registered die, you can use `/dice remove`.
@@ -59,7 +59,7 @@ To remove all registered dice, you can use `/dice clear`.
 To roll a registered dice, you can use `/dice roll-registered`:
 
 <figure markdown>
-  ![An example of rolling a registered die.](dice_roll_registered.png)
+  ![An example of rolling a registered die.](../assets/dice/dice_roll_registered.png)
 </figure>
 
 ## Exporting/Importing Registered Die
