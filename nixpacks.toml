@@ -1,5 +1,5 @@
 [phases.install]
-aptPkgs = ["...", "git"]
+aptPkgs = ["...", "git", "pngquant"]
 
 [phases.build]
 cmds = [
